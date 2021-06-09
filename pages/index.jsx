@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/HomeScreen';
+import Introduction from '../components/Introduction';
+import AboutMe from '../components/AboutMe';
 
 export default function Home() {
   return (
@@ -14,10 +16,10 @@ export default function Home() {
         <HomeScreen />
       </section>
       <section className={styles.introduction}>
-        Introduction
+        <Introduction />
       </section>
       <section className={styles.aboutMe}>
-        About Me
+        <AboutMe />
       </section>
       <section className={styles.route}>
         Route

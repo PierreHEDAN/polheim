@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background: linear-gradient(to bottom, #BDDFF4 0%, #FFFFFF 30%);
+  .content {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    .badge {
+      max-width: 500px;
+      max-height: 500px;
+      margin: auto 50px;
+    }
+    .paragraph {
+      .title {
+        margin-bottom: 15px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
