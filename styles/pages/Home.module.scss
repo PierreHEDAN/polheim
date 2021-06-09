@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  .homeScreen {
+    height: 100vh;
+  }
+  .introduction {
+    display: flex;
+  }
+  .aboutMe {
+    display: flex;
+  }
+  .route {
+    display: flex;
+  }
+  .news {
+    display: flex;
+  }
+  .sponsors {
+    display: flex;
+  }
+  .partners {
+    display: flex;
+  }
+}
