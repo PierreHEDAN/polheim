@@ -1,8 +1,14 @@
 import Head from 'next/head';
 import styles from '../styles/pages/Home.module.scss';
-import HomeScreen from '../components/HomeScreen';
-import Introduction from '../components/Introduction';
-import AboutMe from '../components/AboutMe';
+import HomeScreen from '../components/homeScreen';
+import Introduction from '../components/introduction';
+import AboutMe from '../components/aboutMe';
+import Route from '../components/route';
+import News from '../components/news';
+import Sponsors from '../components/sponsors';
+import Partners from '../components/partners';
+import Photos from '../components/photos';
+import Newsletter from '../components/newsletter';
 
 export default function Home() {
   return (
@@ -22,22 +28,22 @@ export default function Home() {
         <AboutMe />
       </section>
       <section className={styles.route}>
-        Route
+        <Route />
       </section>
       <section className={styles.news}>
-        News
+        <News />
       </section>
       <section className={styles.sponsors}>
-        Sponsors
+        <Sponsors />
       </section>
       <section className={styles.partners}>
-        Partners
+        <Partners />
       </section>
       <section className={styles.photos}>
-        Photos
+        <Photos />
       </section>
       <section className={styles.newsletter}>
-        Newsletter
+        <Newsletter />
       </section>
       <footer>Footer</footer>
     </div>

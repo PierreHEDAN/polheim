@@ -7,16 +7,18 @@
   .content {
     display: flex;
     margin: auto;
-    width: 90%;
+    width: 80%;
     height: 50%;
+    justify-content: space-between;
     .badge {
       max-width: 500px;
       max-height: 500px;
       margin: auto 50px;
     }
     .paragraph {
+      margin: auto 0;
       .title {
-        margin-bottom: 15px;
+        margin-bottom: 50px;
       }
       p {
         text-align: justify;
