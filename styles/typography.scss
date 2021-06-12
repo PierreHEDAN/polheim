@@ -1,3 +1,5 @@
+@import './color.scss';
+
 html {
   font-size: 16px;
 }
@@ -45,9 +47,9 @@ span, p, h1, h2, h3, h4 {
     color: white;
   }
   &.primary {
-    color: #00374B;
+    color: $primary-color;
   }
   &.secondary {
-    color: #DD5239;
+    color: $secondary-color;
   }
 }

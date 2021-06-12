@@ -1,3 +1,5 @@
+@import '../../styles/color.scss';
+
 .container {
   position: relative;
   display: flex;
@@ -25,7 +27,7 @@
       .separator {
         width: 3px;
         height: 40px;
-        background-color: white;
+        background-color: $white-color;
       }
     }
     .subTitle {

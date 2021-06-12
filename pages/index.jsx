@@ -45,7 +45,7 @@ export default function Home() {
       <section className={styles.newsletter}>
         <Newsletter />
       </section>
-      <footer>Footer</footer>
+      <footer />
     </div>
   );
 };
