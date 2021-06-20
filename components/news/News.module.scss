@@ -5,4 +5,16 @@
     padding-top: 50px;
     text-align: center;
   }
+  .newsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 10px auto;
+    .news {
+      width: 350px;
+      height: 380px;
+      margin: 15px;
+    }
+  }
 }

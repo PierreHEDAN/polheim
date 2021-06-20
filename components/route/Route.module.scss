@@ -1,8 +1,16 @@
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   h4 {
     padding-top: 50px;
     text-align: center;
+  }
+  img {
+    width: 600px;
+    align-self: center;
+    margin: auto;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.192));
   }
 }

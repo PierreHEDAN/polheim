@@ -1,0 +1,24 @@
+@import '../../../styles/color.scss';
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+  &.primary {
+    background-color: $primary-light-color;
+    box-shadow: -1px 1px 6px $primary-light-color;
+  }
+  &.secondary {
+    background-color: $secondary-color;
+    box-shadow: -1px 1px 6px $secondary-color;
+  }
+  span {
+    width: 100%;
+    text-align: center;
+    color: $white-color;
+  }
+}
