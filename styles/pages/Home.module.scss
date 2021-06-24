@@ -2,34 +2,34 @@
   display: flex;
   flex-direction: column;
   .homeScreen {
-    height: 100vh;
+    min-height: 100vh;
   }
   .introduction {
-    height: 100vh;
+    min-height: 120vh;
   }
   .aboutMe {
-    height: 100vh;
+    min-height: 120vh;
   }
   .route {
-    height: 100vh;
+    min-height: 120vh;
   }
   .news {
-    height: 100vh;
+    min-height: 120vh;
   }
   .sponsors {
-    height: 50vh;
+    min-height: 70vh;
   }
   .partners {
-    height: 100vh;
+    min-height: 120vh;
   }
   .photos {
-    height: 100vh;
+    min-height: 120vh;
   }
   .newsletter {
-    height: 50vh;
+    min-height: 50vh;
   }
   footer {
-    height: 50vh;
-    background-image: url('../../public/assets/images/footer-background.png');
+    min-height: 70vh;
+    background: url('../../public/assets/images/footer-background.png') no-repeat bottom;
   }
 }

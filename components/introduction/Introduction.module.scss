@@ -1,27 +1,45 @@
+@import '../../styles/display.scss';
+
 .container {
   display: flex;
   width: 100%;
   height: 100%;
+  min-height: inherit;
   align-items: center;
   background: linear-gradient(to bottom, #BDDFF4 0%, #FFFFFF 30%);
   .content {
     display: flex;
-    margin: auto;
-    width: 80%;
-    height: 50%;
-    justify-content: space-between;
-    .badge {
-      max-width: 500px;
-      max-height: 500px;
-      margin: auto 50px;
-    }
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 50px;
     .paragraph {
-      margin: auto 0;
+      max-width: 500px;
+      min-width: 300px;
       .title {
         margin-bottom: 50px;
       }
       p {
         text-align: justify;
+      }
+    }
+    @media screen and (min-width: $tablet-breakpoint) {
+      flex-direction: row;
+      margin: 20px;
+      .badge {
+        margin-right: 50px;
+      }
+    }
+    @media screen and (max-width: $tablet-breakpoint) {
+      flex-direction: column;
+      .badge {
+        margin-bottom: 50px;
+      }
+      .paragraph {
+        .title {
+          text-align: center;
+        }
       }
     }
   }

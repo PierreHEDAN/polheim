@@ -9,9 +9,5 @@
   box-shadow: -1px 1px 6px #8b8b8b75;
   .content {
     padding: 20px;
-    &:hover {
-      transition: 1s ease;
-      transform: rotate(360deg);
-    }
   }
 }

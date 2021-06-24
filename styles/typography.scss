@@ -1,7 +1,13 @@
 @import './color.scss';
+@import './display.scss';
 
 html {
-  font-size: 16px;
+  @media screen and (min-width: $mobile-breakpoint) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: 12px;
+  }
 }
 
 span, input {

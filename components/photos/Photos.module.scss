@@ -1,31 +1,45 @@
+@import '../../styles/display.scss';
+
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
-  h4 {
-    padding-top: 50px;
-    text-align: center;
-  }
-  .photos {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1160px;
-    margin: 30px auto;
-    .photo {
-      width: 250px;
-      height: 250px;
-      margin: 20px;
-      box-shadow: -1px 1px 6px #8b8b8b75;
-      overflow: hidden;
-      cursor: pointer;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        &:hover {
-          transition: 1s ease;
-          transform: scale(1.5);
-          filter: opacity(70%);
+  min-height: inherit;
+  .content {
+    width: 100%;
+    margin: auto;
+    h4 {
+      text-align: center;
+    }
+    .photos {
+      display: grid;
+      align-items: center;
+      margin: 50px;
+      gap: 20px;
+      .photo {
+        max-width: 250px;
+        min-width: 150px;
+        margin: auto;
+        box-shadow: -1px 1px 6px #8b8b8b75;
+        overflow: hidden;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          &:hover {
+            transition: 1s ease;
+            transform: scale(1.5);
+            filter: opacity(70%);
+          }
         }
+      }
+      @media screen and (min-width: $tablet-breakpoint) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media screen and (max-width: $tablet-breakpoint) {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   }
