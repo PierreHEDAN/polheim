@@ -10,8 +10,10 @@ const Introduction = () => (
           <span className="secondary uppercase"><b>De Pierre Hedan</b></span>
         </div>
         <p className="primary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Vel cumque aspernatur doloribus amet inventore dignissimos in eligendi quam commodi fugiat.
+          « L’entreprise d’une aventure folle, l’atteinte du Pôle Sud, seul, sans assistance et en totale autonomie depuis les côtes de l’Antarctique. »
+          Une expédition retraçant le parcours de Roald Amundsen, le premier Homme à avoir atteint le pôle en 1911. Un périple en solitaire de quarante jours mis à disposition de la science et de l’éducation.
+          <br />
+          Le but : promouvoir et informer sur ce continent méconnu qu’est l’Antarctique en le rendant accessible aux yeux de tous.
         </p>
       </div>
     </div>

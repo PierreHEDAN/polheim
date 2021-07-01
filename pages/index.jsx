@@ -9,6 +9,7 @@ import Sponsors from '../components/sponsors';
 import Partners from '../components/partners';
 import Photos from '../components/photos';
 import Newsletter from '../components/newsletter';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -45,7 +46,9 @@ export default function Home() {
       <section className={styles.newsletter}>
         <Newsletter />
       </section>
-      <footer />
+      <section className={styles.footer}>
+        <Footer />
+      </section>
     </div>
   );
 };
