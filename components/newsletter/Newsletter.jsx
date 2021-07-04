@@ -10,9 +10,9 @@ const Newsletter = () => {
       <h4 className="secondary">Newsletter</h4>
       <h4 className="primary">Vous voulez voir l'avancée de <b>l’expédition ?</b></h4>
       <form className={styles.form} name="contact" method="POST" data-netlify="true">
-        <div className={styles.input}>
-          <Input type="email" value={email} placeholder="Email" onChange={(value) => setEmail(value.target.value)} />
           <input type="hidden" name="form-name" value="contact" />
+        <div className={styles.input}>
+          <Input type="email" name="email" id="email" value={email} placeholder="Email" onChange={(value) => setEmail(value.target.value)} />
         </div>
         <div className={styles.button}>
           <Button type="primary" title="S'inscrire" />
