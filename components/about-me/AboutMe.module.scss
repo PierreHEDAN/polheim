@@ -21,25 +21,45 @@
       min-width: 300px;
       h3 {
         text-align: center;
-        margin-bottom: 10px;
+        margin: 20px 0;
       }
       p {
         text-align: justify;
         margin-bottom: 10px;
       }
+      .tags {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 50px;
+        .tag {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 5px;
+          span {
+            margin-top: 5px;
+          }
+        }
+      }
     }
-    img {
+    .me {
       object-fit: cover;
     }
     @media screen and (min-width: $tablet-breakpoint) {
       flex-direction: row;
-      img {
+      .me {
         margin-left: 50px;
       }
     }
     @media screen and (max-width: $tablet-breakpoint) {
       flex-direction: column;
       .paragraph {
+        margin-bottom: 50px;
+      }
+      .me {
         margin-bottom: 50px;
       }
     }

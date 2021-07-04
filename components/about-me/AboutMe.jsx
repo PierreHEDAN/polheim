@@ -17,8 +17,26 @@ const AboutMe = () => (
         <p className="white bold">
           « Le jour où chaque Homme vivra ses rêves, il m’importe peu d’avoir une vie ordinaire. »
         </p>
+        <div className={styles.tags}>
+          <div className={styles.tag}>
+            <img src="./assets/images/curious.svg" alt="Curious" />
+            <span className="white">Curieux</span>
+          </div>
+          <div className={styles.tag}>
+            <img src="./assets/images/vigorous.svg" alt="Vigorous" />
+            <span className="white">Entreprenant</span>
+          </div>
+          <div className={styles.tag}>
+            <img src="./assets/images/sport.svg" alt="Sport" />
+            <span className="white">Sportif</span>
+          </div>
+          <div className={styles.tag}>
+            <img src="./assets/images/bald.svg" alt="Bald" />
+            <span className="white">De - en - de cheveux</span>
+          </div>
+        </div>
       </div>
-      <img src="./assets/images/pierrehedan.png" alt="Photo of Pierre Hedan" />
+      <img className={styles.me} src="./assets/images/pierrehedan.png" alt="Photo of Pierre Hedan" />
     </div>
   </div>
 );
