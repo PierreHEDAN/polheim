@@ -1,3 +1,5 @@
+@import '../display.scss';
+
 .home {
   display: flex;
   flex-direction: column;
@@ -14,7 +16,12 @@
     min-height: 120vh;
   }
   .news {
-    min-height: 120vh;
+    @media screen and (min-width: $mobile-breakpoint) {
+      min-height: 120vh;
+    }
+    @media screen and (max-width: $mobile-breakpoint) {
+      min-height: 90vh;
+    }
   }
   .sponsors {
     min-height: 70vh;
@@ -23,7 +30,12 @@
     min-height: 70vh;
   }
   .photos {
-    min-height: 120vh;
+    @media screen and (min-width: $mobile-breakpoint) {
+      min-height: 120vh;
+    }
+    @media screen and (max-width: $mobile-breakpoint) {
+      min-height: 90vh;
+    }
   }
   .newsletter {
     min-height: 50vh;
