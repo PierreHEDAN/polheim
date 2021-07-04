@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useState } from 'react';
 import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/home-screen';
 import Introduction from '../components/introduction';
@@ -12,6 +13,19 @@ import Newsletter from '../components/newsletter';
 import Footer from '../components/footer';
 
 export default function Home() {
+  const [openModal, setOpenModal] = useState(false);
+  const [photo, setPhoto] = useState();
+
+  const handleOpenModal = (photo) => {
+    if (photo !== undefined) {
+      setPhoto(photo);
+      setOpenModal(true);
+    } else {
+      setOpenModal(false);
+      setPhoto();
+    }
+  }
+
   return (
     <div className={styles.home}>
       <Head>
@@ -19,6 +33,11 @@ export default function Home() {
         <meta name="description" content="Atartica by Pierre Hedan" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      { openModal && (
+        <div id="modal-root" onClick={() => handleOpenModal()}>
+          <img src={`./assets/images/photos/${photo}.jpeg`} alt="Wide photo" />
+        </div>
+      )}
       <section className={styles.homeScreen}>
         <HomeScreen />
       </section>
@@ -41,7 +60,7 @@ export default function Home() {
         <Partners />
       </section>
       <section className={styles.photos}>
-        <Photos />
+        <Photos onOpenPhoto={(photo) => handleOpenModal(photo)} />
       </section>
       <section className={styles.newsletter}>
         <Newsletter />
