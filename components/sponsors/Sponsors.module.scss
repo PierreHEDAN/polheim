@@ -16,15 +16,16 @@
     }
     .sponsors {
       display: grid;
+      width: fit-content;
       align-items: center;
-      margin: 50px;
-      gap: 50px;
+      margin: 50px auto;
+      padding: 0 10px;
+      gap: 70px;
       @media screen and (min-width: $tablet-breakpoint) {
         grid-template-columns: repeat(4, 1fr);
         .sponsor {
           max-width: 250px;
           min-width: 150px;
-          margin: auto;
         }
       }
       @media screen and (max-width: $tablet-breakpoint) {

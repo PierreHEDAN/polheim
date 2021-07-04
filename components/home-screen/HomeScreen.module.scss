@@ -27,6 +27,7 @@
         flex-direction: column;
         margin: 50px 50px;
         a {
+          transform: rotate(90deg);
           width: 15px;
           object-fit: cover;
           margin-top: 15px;
@@ -43,7 +44,6 @@
         align-items: center;
         margin: 50px 20px;
         a {
-          transform: rotate(-90deg);
           width: 15px;
           object-fit: cover;
           margin-left: 15px;

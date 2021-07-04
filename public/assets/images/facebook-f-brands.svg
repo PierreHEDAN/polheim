@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fab"
+   data-icon="facebook-f"
+   class="svg-inline--fa fa-facebook-f fa-w-10"
+   role="img"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg74"
+   sodipodi:docname="facebook-f-brands.svg"
+   width="100"
+   height="100"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <metadata
+     id="metadata80">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs78" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     id="namedview76"
+     showgrid="false"
+     inkscape:zoom="6.4765625"
+     inkscape:cx="28.165287"
+     inkscape:cy="50.315834"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg74" />
+  <path
+     fill="currentColor"
+     d="M 73.115995,56.208761 75.875014,38.230513 H 58.624358 V 26.563864 c 0,-4.918505 2.409776,-9.712829 10.135802,-9.712829 h 7.842443 V 1.544493 c 0,0 -7.116793,-1.21458261 -13.921206,-1.21458261 -14.206423,0 -23.492402,8.61077101 -23.492402,24.19864961 V 38.230513 H 23.397397 V 56.208761 H 39.188994 V 99.67009 H 58.624358 V 56.208761 Z"
+     id="path72"
+     style="fill:#ffffff;stroke-width:0.194024" />
+</svg>

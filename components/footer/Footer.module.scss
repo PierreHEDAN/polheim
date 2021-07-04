@@ -21,4 +21,46 @@
     bottom: 0;
     object-fit: cover;
   }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+    .topRow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .weather {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .separator {
+      width: 90%;
+      margin: 20px auto;
+      border: 1px solid white;
+    }
+    .bottomRow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      margin-bottom: 20px;
+      .socialMedias {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a {
+          width: 25px;
+          object-fit: cover;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
 }

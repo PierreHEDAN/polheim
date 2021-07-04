@@ -8,15 +8,17 @@
   min-height: inherit;
   .content {
     width: 100%;
-    margin: auto;
+    margin: 100px auto;
     h4 {
       text-align: center;
     }
     .partners {
       display: grid;
+      width: fit-content;
       align-items: center;
-      margin: 50px;
-      gap: 50px;
+      margin: 50px auto;
+      padding: 0 10px;
+      gap: 70px;
       @media screen and (min-width: $tablet-breakpoint) {
         grid-template-columns: repeat(3, 1fr);
         .partner {

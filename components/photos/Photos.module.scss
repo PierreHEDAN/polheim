@@ -8,18 +8,15 @@
   min-height: inherit;
   .content {
     width: 100%;
-    margin: auto;
+    margin: 100px auto;
     h4 {
       text-align: center;
     }
     .photos {
-      display: grid;
-      align-items: center;
-      margin: 10px 20px;
-      gap: 20px;
+      padding-top: 50px;
       .photo {
-        max-width: 250px;
-        min-width: 150px;
+        width: 250px;
+        height: 250px;
         margin: auto;
         box-shadow: -1px 1px 6px #8b8b8b75;
         overflow: hidden;
@@ -36,10 +33,30 @@
         }
       }
       @media screen and (min-width: $tablet-breakpoint) {
-        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        width: fit-content;
+        align-items: center;
+        margin: 10px auto;
+        gap: 50px;
+        grid-template-columns: repeat(4, 250px);
       }
-      @media screen and (max-width: $tablet-breakpoint) {
-        grid-template-columns: repeat(2, 1fr);
+      @media screen and (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
+        display: grid;
+        width: fit-content;
+        align-items: center;
+        margin: 10px auto;
+        gap: 50px;
+        grid-template-columns: repeat(3, 250px);
+      }
+      @media screen and (max-width: $mobile-breakpoint) {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        .photo {
+          margin: 0 10px;
+          display: inline-block;
+        }
       }
     }
   }

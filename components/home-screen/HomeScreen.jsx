@@ -5,13 +5,13 @@ const HomeScreen = () => (
     <div className={styles.content}>
       <div className={styles.socialMedias}>
         <a href="">
-          <img src="./assets/images/facebook.png" alt="Facebook" />
+          <img src="./assets/images/facebook-f-brands.svg" alt="Facebook" />
         </a>
         <a href="">
-          <img src="./assets/images/google.png" alt="Google" />
+          <img src="./assets/images/google-brands.svg" alt="Google" />
         </a>
         <a href="">
-          <img src="./assets/images/instagram.png" alt="Instagram" />
+          <img src="./assets/images/instagram-brands.svg" alt="Instagram" />
         </a>
         <div className={styles.separator} />
       </div>
