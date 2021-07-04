@@ -6,7 +6,10 @@ const Footer = () => (
     <img className={styles.top} src="./assets/images/mountain-top.svg" alt="Mountain Top" />
     <div className={styles.content}>
       <div className={styles.topRow}>
-        <h3 className="white uppercase">Nous Contacter</h3>
+        <div className={styles.contact}>
+          <h3 className="white uppercase">Nous Contacter</h3>
+          <span className="white">pierrehedan@gmail.com</span>
+        </div>
         <div className={styles.weather}>
         </div>
       </div>

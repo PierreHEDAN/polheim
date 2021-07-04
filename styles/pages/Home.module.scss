@@ -20,7 +20,7 @@
       min-height: 120vh;
     }
     @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 90vh;
+      min-height: 60vh;
     }
   }
   .sponsors {
@@ -41,6 +41,11 @@
     min-height: 50vh;
   }
   .footer {
-    height: 40vh;
+    @media screen and (min-width: $mobile-breakpoint) {
+      height: 40vh;
+    }
+    @media screen and (max-width: $mobile-breakpoint) {
+      height: 90vh;
+    }
   }
 }

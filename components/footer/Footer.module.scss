@@ -25,10 +25,19 @@
   .content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     bottom: 0;
     .topRow {
       display: flex;
+      .contact {
+        h3 {
+          margin-bottom: 20px;
+        }
+        span {
+          margin: 0 50px;
+        }
+      }
       .weather {
         display: flex;
         flex-direction: column;
@@ -41,7 +50,6 @@
     }
     .bottomRow {
       display: flex;
-      margin-top: auto;
       margin-bottom: 20px;
       .socialMedias {
         display: flex;
@@ -55,7 +63,7 @@
       }
     }
     @media screen and (min-width: $tablet-breakpoint) {
-      top: 55%;
+      top: 45%;
       left: 50px;
       right: 50px;
       .topRow {
@@ -83,6 +91,9 @@
         align-items: center;
         justify-content: space-between;
         text-align: center;
+        .socialMedias {
+          margin-top: 20px;
+        }
       }
     }
   }
