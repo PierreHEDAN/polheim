@@ -37,6 +37,10 @@
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       margin: 0 auto;
       .news {
         margin: 20px 10px;
