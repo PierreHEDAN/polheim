@@ -12,6 +12,7 @@ const Newsletter = () => {
       <form className={styles.form} name="contact" method="POST" data-netlify="true">
         <div className={styles.input}>
           <Input type="email" value={email} placeholder="Email" onChange={(value) => setEmail(value.target.value)} />
+          <input type="hidden" name="form-name" value="contact" />
         </div>
         <div className={styles.button}>
           <Button type="primary" title="S'inscrire" />
