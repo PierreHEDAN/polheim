@@ -6,9 +6,9 @@ const Photos = ({ onOpenPhoto }) => (
       <h4 className="secondary">Quelques photos</h4>
       <div className={styles.photos}>
         {
-          [...Array(7).keys()].map((key) => (
+          [...Array(8).keys()].map((key) => (
             <div className={styles.photo} key={key} onClick={() => onOpenPhoto(key)}>
-              <img src={`./assets/images/photos/${key}.jpeg`} alt="key" />
+              <img src={`./assets/images/photos/${key}.png`} alt="key" />
             </div>
           ))
         }

@@ -4,7 +4,7 @@ import { Button } from '../../utils';
 const NewsCard = () => (
   <div className={styles.newsCard}>
     <div className={styles.thumbnail}>
-      <img src="./assets/images/photos/1.jpeg" alt="" />
+      <img src="./assets/images/photos/1.png" alt="" />
     </div>
     <div className={styles.description}>
       <span className="bold">Préparation physique</span>

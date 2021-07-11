@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
       { openModal && (
         <div id="modal-root" onClick={() => handleOpenModal()}>
-          <img src={`./assets/images/photos/${photo}.jpeg`} alt="Wide photo" />
+          <img src={`./assets/images/photos/${photo}.png`} alt="Wide photo" />
         </div>
       )}
       <section className={styles.homeScreen}>

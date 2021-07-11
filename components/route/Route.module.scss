@@ -15,7 +15,13 @@
     z-index: 1;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.192));
   }
+  .trip {
+    position: absolute;
+  }
   .expedition {
+    position: absolute;
+  }
+  .clock {
     position: absolute;
   }
   .hygiene {
@@ -31,17 +37,28 @@
     }
     position: absolute;
   }
-  @media screen and (min-width: $tablet-breakpoint) {
+  @media screen and (min-width: $tablet-breakpoint + 1) {
     .desktopContent {
       margin: auto 20px;
       .map {
-        width: 50%;
+        min-width: 55%;
+        max-width: 60%;
         margin: auto;
+      }
+      .trip {
+        width: 25%;
+        right: 50px;
+        top: 15%;
       }
       .expedition {
         width: 25%;
-        right: 10px;
+        right: 50px;
         top: 40%;
+      }
+      .clock {
+        width: 20%;
+        right: 50px;
+        top: 65%;
       }
       .hygiene {
         z-index: -1;
