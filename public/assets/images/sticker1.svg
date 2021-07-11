@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="621.876" height="443.106" viewBox="0 0 621.876 443.106">
+  <defs>
+    <filter id="Rectangle_138" x="39.917" y="40.483" width="557.816" height="378.984" filterUnits="userSpaceOnUse">
+      <feOffset dx="12.84" dy="14.35" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.67" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_140" x="0" y="0" width="170.106" height="170.106" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_141" x="441.703" y="273" width="170.106" height="170.106" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_1743" data-name="Groupe 1743" transform="translate(-1182.786 -3786.334)">
+    <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_138)">
+      <rect id="Rectangle_138-2" data-name="Rectangle 138" width="512.686" height="327.271" transform="matrix(1, 0.03, -0.03, 1, 55.51, 43.14)" fill="#ededed"/>
+    </g>
+    <text id="Mon_expédition" data-name="Mon expédition" transform="translate(1372.042 3880.714) rotate(2)" fill="#00374b" font-size="34" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mon expédition</tspan></text>
+    <g id="Groupe_1738" data-name="Groupe 1738" transform="translate(-2.598 58.504)">
+      <text id="_650_Km_à_parcourir_distance_Paris-Marseille_" data-name="650 Km à parcourir (=distance 
+Paris-Marseille)" transform="translate(1310.896 3969.609) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">650 Km à parcourir </tspan><tspan y="26" font-size="18">(=distance </tspan><tspan font-size="18"><tspan x="0" y="57">Paris-Marseille)</tspan></tspan></text>
+      <path id="Icon_awesome-walking" data-name="Icon awesome-walking" d="M13.691,6.319a3.159,3.159,0,1,0-3.159-3.159A3.16,3.16,0,0,0,13.691,6.319Zm6.22,9.814-1.534-.777-.638-1.935a7.177,7.177,0,0,0-6.727-5c-2.37-.007-3.679.665-6.141,1.659A6.279,6.279,0,0,0,1.6,13.125l-.441.9a2.113,2.113,0,0,0,.935,2.824,2.078,2.078,0,0,0,2.8-.941l.441-.9a2.092,2.092,0,0,1,1.086-1.014l1.764-.711-1,4a4.227,4.227,0,0,0,.981,3.87l3.943,4.3a4.248,4.248,0,0,1,.981,1.823l1.2,4.825a2.106,2.106,0,1,0,4.088-1.02l-1.461-5.858a4.211,4.211,0,0,0-.981-1.823l-2.995-3.271,1.132-4.522.362,1.086a4.2,4.2,0,0,0,2.087,2.435l1.534.777a2.078,2.078,0,0,0,2.8-.941,2.131,2.131,0,0,0-.941-2.83ZM4.845,25.394a4.084,4.084,0,0,1-.935,1.415l-3.291,3.3a2.106,2.106,0,0,0,2.975,2.982l3.91-3.91a4.278,4.278,0,0,0,.935-1.415l.889-2.225C5.687,21.57,6.78,22.788,6.207,22l-1.363,3.39Z" transform="matrix(1, -0.017, 0.017, 1, 1269.484, 3969.978)" fill="#00374b"/>
+    </g>
+    <g id="Groupe_1739" data-name="Groupe 1739" transform="translate(2.473 54.017)">
+      <text id="_100_Kg_de_matériel_à_tirer" data-name="100 Kg de matériel à tirer" transform="translate(1310.896 3913.311) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">100 Kg de matériel à tirer</tspan></text>
+      <path id="Tracé_1920" data-name="Tracé 1920" d="M216.572,704.926a17.639,17.639,0,0,0-3.222-.31s-8.793-.384-11.037-.247a2.144,2.144,0,0,1-2.388-2.843c.169-.754.3-1.516.419-2.28.025-.156.057-.451.119-.724.108-.479.2-.96.288-1.443a3.954,3.954,0,0,0,.115-.474,5.256,5.256,0,0,1,.35-1.8c.182-.413,1.377-1.452,1.619-1.82a10.744,10.744,0,0,1,2.521-2.549c.351-.3,1.391-1.353-.747-1.5a4.549,4.549,0,0,1-1.9-.514c-.717-.4-.733-1.078-1.042-2.251-.166-.629.269-.94.367-1.927a1.3,1.3,0,0,0,.035-.5l0-.01a6.91,6.91,0,0,0,.9-1.413c.935-.815.624-2.663.2-4.1s-2.681-1.819-3.193-1.349a1.652,1.652,0,0,0-.357.511,2.064,2.064,0,0,0-1.009.856,3.266,3.266,0,0,0-.34.567,4.493,4.493,0,0,0-.4,1.3,3.625,3.625,0,0,0-.058,1.419.593.593,0,0,1,.022.107.475.475,0,0,1-.057.286c-.185.245-.767.278-1.024.265a1.745,1.745,0,0,0-1.478,1.054c-.261,1.174-2.733,3.907-1.128,5.191.869.694,1.583.245,1.528.551a2.141,2.141,0,0,1-1.2,1.332c-1.09.635-11.467,9.973-11.734,9.739h0c0-.017.025-1.1-.562-1.5s-1.132-.039-2.556-.6a5.885,5.885,0,0,0-4.3-.305c-1.1.3-2.424.656-3.292.884a1.815,1.815,0,0,0-1.329,1.425,16.36,16.36,0,0,0-.208,1.87c-.174,2.749.519,2.521,1.419,2.637l.821-.014c.345.12.729.231,1.071.332,1.12.331,11.949-.447,14.232-.454s-.269-.978-1.074-1.112a27.216,27.216,0,0,0-3.148-.035,35.933,35.933,0,0,1,2.842-2.406l8.033-6.06.167.141s-1.518,2.482-2.2,3.72a39.339,39.339,0,0,0-2.713,5.668s-.771,1.464.934,1.36c1.491-.09,8.954.674,15.379.523,2.154-.051,4.309-.065,6.463-.078,1.761-.011,3.5-.087,3.637-.338C216.634,705.18,216.741,704.969,216.572,704.926Zm-14.849-14.6s.827-.082,1.149.249.437.439.437.439-.489.661-.577.807a10.626,10.626,0,0,1-.771.906c-.292.237-.908,1.1-1.1.443,0,0,.055-1.441,0-1.582A1.166,1.166,0,0,1,201.723,690.331Zm-12.652,7.8c-.252.075-4.172,3.07-4.177,3.074h0c-.468.6-1.279,1.008-1.718.565s.212-1.055.212-1.055c.292-.337,2.882-2.584,2.882-2.584C187.438,696.739,189.323,698.055,189.071,698.129Zm5.039-3.791c-.943.7-1.86,1.426-2.75,2.191l-.321.276a2.762,2.762,0,0,1-2.341.374l-1.067-.294,7.584-6.134a.806.806,0,0,1,.89-.2s-.074.159-.481,1.757A3.876,3.876,0,0,1,194.11,694.339Zm-3.672,10.113a.025.025,0,0,1-.022-.038l5.453-9.205.4.056a21.164,21.164,0,0,1-.091,4.172,29.6,29.6,0,0,1-1.969,2.943c-.337.377-.954,1.346-1.535,2.073Zm5.043,0h-2.021c.573-.6,1.151-1.392,1.332-1.56a5.934,5.934,0,0,0,1.171-1.664,19.305,19.305,0,0,1-.462,3.217Z" transform="translate(1088.9 3236.635)" fill="#00374b"/>
+    </g>
+    <g id="Groupe_1770" data-name="Groupe 1770" transform="translate(6.471 -6.718)">
+      <text id="_40_jours_d_expédition" data-name="40 jours d’expédition" transform="translate(1310.896 3913.311) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">40 jours d’expédition</tspan></text>
+      <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(1266.438 3912.448) rotate(2)">
+        <path id="Tracé_1883" data-name="Tracé 1883" d="M6.872,6h16.6a2.372,2.372,0,0,1,2.372,2.372v16.6a2.372,2.372,0,0,1-2.372,2.372H6.872A2.372,2.372,0,0,1,4.5,24.976V8.372A2.372,2.372,0,0,1,6.872,6Z" transform="translate(0 -0.628)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1884" data-name="Tracé 1884" d="M24,3V7.744" transform="translate(-4.082)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1885" data-name="Tracé 1885" d="M12,3V7.744" transform="translate(-1.57)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1886" data-name="Tracé 1886" d="M4.5,15H25.848" transform="translate(0 -2.512)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Groupe_1740" data-name="Groupe 1740" transform="translate(-9.346 81.239)">
+      <text id="Du_soleil_24h_24" data-name="Du soleil 24h/24" transform="matrix(0.999, 0.035, -0.035, 0.999, 1308.316, 4024.493)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">Du soleil 24h/24</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_140)">
+      <rect id="Rectangle_140-2" data-name="Rectangle 140" width="47" height="168.11" transform="translate(127.87 6) rotate(45)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_141)">
+      <rect id="Rectangle_141-2" data-name="Rectangle 141" width="47" height="168.11" transform="translate(569.58 279) rotate(45)" fill="#fff"/>
+    </g>
+    <g id="Icon_ionic-ios-sunny" data-name="Icon ionic-ios-sunny" transform="translate(1253.588 4102.357)">
+      <g id="Groupe_1771" data-name="Groupe 1771" transform="translate(3.375 3.375)">
+        <path id="Tracé_1921" data-name="Tracé 1921" d="M18.243,27.211a1.327,1.327,0,0,0-1.326,1.326v3.979a1.326,1.326,0,0,0,2.653,0V28.537A1.327,1.327,0,0,0,18.243,27.211Z" transform="translate(-0.33 1.984)" fill="#00374b"/>
+        <path id="Tracé_1922" data-name="Tracé 1922" d="M18.243,3.375A1.327,1.327,0,0,0,16.917,4.7V8.68a1.326,1.326,0,0,0,2.653,0V4.7A1.327,1.327,0,0,0,18.243,3.375Z" transform="translate(-0.33 -3.375)" fill="#00374b"/>
+        <path id="Tracé_1923" data-name="Tracé 1923" d="M10.006,18.243A1.327,1.327,0,0,0,8.68,16.917H4.7a1.326,1.326,0,0,0,0,2.653H8.68A1.327,1.327,0,0,0,10.006,18.243Z" transform="translate(-3.375 -0.33)" fill="#00374b"/>
+        <path id="Tracé_1924" data-name="Tracé 1924" d="M32.516,16.917H28.537a1.326,1.326,0,0,0,0,2.653h3.979a1.326,1.326,0,0,0,0-2.653Z" transform="translate(1.984 -0.33)" fill="#00374b"/>
+        <path id="Tracé_1925" data-name="Tracé 1925" d="M11.483,24.195a1.323,1.323,0,0,0-.939.388L7.728,27.4a1.328,1.328,0,0,0,1.877,1.877l2.816-2.816a1.326,1.326,0,0,0-.939-2.265Z" transform="translate(-2.483 1.306)" fill="#00374b"/>
+        <path id="Tracé_1926" data-name="Tracé 1926" d="M25.521,12.809a1.323,1.323,0,0,0,.939-.388l2.816-2.816A1.328,1.328,0,0,0,27.4,7.728l-2.816,2.816a1.326,1.326,0,0,0,.939,2.265Z" transform="translate(1.306 -2.483)" fill="#00374b"/>
+        <path id="Tracé_1927" data-name="Tracé 1927" d="M9.606,7.728A1.328,1.328,0,0,0,7.728,9.606l2.816,2.816a1.328,1.328,0,0,0,1.877-1.877Z" transform="translate(-2.483 -2.483)" fill="#00374b"/>
+        <path id="Tracé_1928" data-name="Tracé 1928" d="M26.46,24.582a1.328,1.328,0,0,0-1.877,1.877L27.4,29.276A1.328,1.328,0,0,0,29.276,27.4Z" transform="translate(1.306 1.306)" fill="#00374b"/>
+      </g>
+      <path id="Tracé_1929" data-name="Tracé 1929" d="M19.518,11.25a8.268,8.268,0,1,0,8.268,8.268,8.281,8.281,0,0,0-8.268-8.268Z" transform="translate(1.771 1.771)" fill="#00374b"/>
+    </g>
+  </g>
+</svg>

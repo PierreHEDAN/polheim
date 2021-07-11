@@ -13,14 +13,19 @@
     min-height: 120vh;
   }
   .route {
-    min-height: 120vh;
+    @media screen and (min-width: $tablet-breakpoint) {
+      min-height: 120vh;
+    }
+    @media screen and (max-width: $tablet-breakpoint) {
+      min-height: 60vh;
+    }
   }
   .news {
     @media screen and (min-width: $mobile-breakpoint) {
       min-height: 120vh;
     }
     @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 60vh;
+      min-height: 90vh;
     }
   }
   .sponsors {
@@ -34,7 +39,7 @@
       min-height: 120vh;
     }
     @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 90vh;
+      min-height: 60vh;
     }
   }
   .newsletter {
