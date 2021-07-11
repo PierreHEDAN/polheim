@@ -8,7 +8,7 @@ const Footer = () => (
       <div className={styles.topRow}>
         <div className={styles.contact}>
           <h3 className="white uppercase">Nous Contacter</h3>
-          <span className="white">pierrehedan@gmail.com</span>
+          <span className="white">expeditionpolheim@gmail.com</span>
         </div>
         <div className={styles.weather}>
         </div>

@@ -40,6 +40,9 @@
   @media screen and (min-width: $tablet-breakpoint + 1) {
     .desktopContent {
       margin: auto 20px;
+      img {
+        margin: 30px 0;
+      }
       .map {
         min-width: 55%;
         max-width: 60%;

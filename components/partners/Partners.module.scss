@@ -1,3 +1,4 @@
+@import '../../styles/color.scss';
 @import '../../styles/display.scss';
 
 .container {
@@ -6,10 +7,12 @@
   width: 100%;
   height: 100%;
   min-height: inherit;
+  background-color: $secondary-color;
   .content {
     width: 100%;
-    margin: 100px auto;
+    margin: auto;
     h4 {
+      padding-top: 20px;
       text-align: center;
     }
     .partners {
@@ -20,16 +23,15 @@
       padding: 0 10px;
       gap: 70px;
       @media screen and (min-width: $tablet-breakpoint) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         .partner {
           max-width: 250px;
           min-width: 150px;
-          margin: auto;
         }
       }
       @media screen and (max-width: $tablet-breakpoint) {
         grid-template-columns: repeat(2, 1fr);
-        .partner {
+        .sponsor {
           max-width: 200px;
           min-width: 100px;
           margin: auto;

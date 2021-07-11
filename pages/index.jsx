@@ -6,7 +6,6 @@ import Introduction from '../components/introduction';
 import AboutMe from '../components/about-me';
 import Route from '../components/route';
 import News from '../components/news';
-import Sponsors from '../components/sponsors';
 import Partners from '../components/partners';
 import Photos from '../components/photos';
 import Newsletter from '../components/newsletter';
@@ -52,9 +51,6 @@ export default function Home() {
       </section>
       <section className={styles.news}>
         <News />
-      </section>
-      <section className={styles.sponsors}>
-        <Sponsors />
       </section>
       <section className={styles.partners}>
         <Partners />
