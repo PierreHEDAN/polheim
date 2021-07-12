@@ -90,27 +90,35 @@
     }
     .mobileContent {
       img {
-        width: 30%;
+        width: 25%;
       }
       .map {
         width: 80%;
-        margin: 100px auto;
+        margin: 50px auto;
+      }
+      .trip {
+        top: 35%;
+        right: 20px;
       }
       .expedition {
-        top: 30%;
+        top: 60%;
         right: 5px;
       }
+      .clock {
+        top: 80%;
+        right: 30px;
+      }
       .hygiene {
-        top: 30%;
+        top: 35%;
         left: 20px;
       }
       .food {
         bottom: 25%;
-        left: 50px;
+        left: 30px;
       }
       .weather {
         bottom: 15%;
-        left: 50%;
+        left: 40%;
       }
     }
   }

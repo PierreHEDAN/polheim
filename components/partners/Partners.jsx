@@ -20,7 +20,7 @@ const Partners = () => {
                 <div className={styles.partner} key={partner.imgSrc}>
                   <RoundedContainer>
                     <a href={partner.link} target="_blank">
-                      <img style={{ width: '200px', height: '200px', objectFit: 'contain', padding: '10px' }} src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
+                      <img src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
                     </a>
                   </RoundedContainer>
                 </div>
