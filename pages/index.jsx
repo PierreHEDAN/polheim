@@ -13,15 +13,15 @@ import Footer from '../components/footer';
 
 export default function Home() {
   const [openModal, setOpenModal] = useState(false);
-  const [photo, setPhoto] = useState();
+  const [imageSrc, setImageSrc] = useState();
 
   const handleOpenModal = (photo) => {
     if (photo !== undefined) {
-      setPhoto(photo);
+      setImageSrc(photo);
       setOpenModal(true);
     } else {
       setOpenModal(false);
-      setPhoto();
+      setImageSrc();
     }
   }
 
@@ -34,7 +34,7 @@ export default function Home() {
       </Head>
       { openModal && (
         <div id="modal-root" onClick={() => handleOpenModal()}>
-          <img src={`./assets/images/photos/${photo}.png`} alt="Wide photo" />
+          <img src={imageSrc} alt="Wide photo" />
         </div>
       )}
       <section className={styles.homeScreen}>
@@ -47,7 +47,7 @@ export default function Home() {
         <AboutMe />
       </section>
       <section className={styles.route}>
-        <Route />
+        <Route onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.news}>
         <News />

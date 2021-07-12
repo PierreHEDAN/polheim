@@ -7,7 +7,7 @@ const Photos = ({ onOpenPhoto }) => (
       <div className={styles.photos}>
         {
           [...Array(8).keys()].map((key) => (
-            <div className={styles.photo} key={key} onClick={() => onOpenPhoto(key)}>
+            <div className={styles.photo} key={key} onClick={() => onOpenPhoto(`./assets/images/photos/${key}.png`)}>
               <img src={`./assets/images/photos/${key}.png`} alt="key" />
             </div>
           ))
