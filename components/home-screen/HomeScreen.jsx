@@ -21,7 +21,7 @@ const HomeScreen = () => (
         <h2 className="primary">Pierre Hedan</h2>
       </span>
     </div>
-    <img src="./assets/images/homescreen.png" alt="Beautiful photography of antartica" />
+    <img className={styles.bottomImage} src="./assets/images/homescreen.png" alt="Beautiful photography of antartica" />
   </div>
 );
 

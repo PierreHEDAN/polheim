@@ -6,7 +6,17 @@
   border-radius: 10px;
   box-shadow: 5px 5px 10px #8b8b8b3f;
   overflow: hidden;
+  &:hover {
+    .thumbnail {
+      img {
+        transition: 1s ease;
+        transform: scale(1.5);
+        filter: opacity(70%);
+      }
+    }
+  }
   .thumbnail {
+    overflow: hidden;
     width: 100%;
     height: 60%;
     img {
@@ -15,13 +25,19 @@
       object-fit: cover;
     }
   }
-  .description {
+  .details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
     height: 40%;
     margin: 15px auto;
+    .description {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: 0.8rem;
+    }
     .info {
       display: flex;
       flex-direction: row;

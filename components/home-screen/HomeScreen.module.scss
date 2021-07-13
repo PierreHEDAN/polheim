@@ -58,10 +58,14 @@
     }
     .title {
       text-align: center;
+      @media screen and (min-width: $tablet-breakpoint) {
+        animation: slidetop 3.5s;
+      }
     }
     .subTitle {
       text-align: center;
       @media screen and (min-width: $tablet-breakpoint) {
+        animation: slidetop 1.5s;
         display: inline-flex;
         :first-child {
           margin-right: 10px;
@@ -69,8 +73,33 @@
       }
     }
   }
-  img {
+  .bottomImage {
     width: 100%;
     object-fit: cover;
+    @media screen and (min-width: $tablet-breakpoint) {
+      animation: slidebottom 4.5s;
+    }
+  }
+
+  @keyframes slidetop {
+    from {
+      transform: translateY(-1000px);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slidebottom {
+    from {
+      transform: translateY(500px);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }

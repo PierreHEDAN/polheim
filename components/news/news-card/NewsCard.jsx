@@ -1,18 +1,20 @@
 import styles from './NewsCard.module.scss';
 import { Button } from '../../utils';
 
-const NewsCard = () => (
+const NewsCard = ({ news }) => (
   <div className={styles.newsCard}>
     <div className={styles.thumbnail}>
-      <img src="./assets/images/photos/1.png" alt="" />
+      <img src={news.img} alt="" />
     </div>
-    <div className={styles.description}>
-      <span className="bold">Préparation physique</span>
-      <span className="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, itaque.</span>
+    <div className={styles.details}>
+      <span className="bold">{ news.title }</span>
+      <span className={styles.description}>{ news.description }</span>
       <div className={styles.info}>
-        <span className="small">10.02.21</span>
+        <span className="small">{ news.date }</span>
         <div className={styles.button}>
-          <Button type="secondary" title="Voir plus" />
+          <a href={news.link} target="_blank">
+            <Button type="secondary" title="Voir plus" />
+          </a>
         </div>
       </div>
     </div>
