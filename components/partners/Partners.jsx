@@ -6,8 +6,9 @@ const Partners = () => {
     { link: '', imgSrc: 'amandinesauve'},
     { link: 'https://www.facebook.com/guidepolaire/', imgSrc: 'bureauguidespolaire'},
     { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: 'coralievaugeois'},
+    { link: 'https://www.irvin.fr/', imgSrc: 'irvin'},
     { link: 'https://www.passeport-armorique.com/', imgSrc: 'passeportarmorique'},
-    { link: 'https://polarctika.com/', imgSrc: 'polarctika'}
+    { link: 'https://polarctika.com/', imgSrc: 'polarctika'},
   ];
 
   return (

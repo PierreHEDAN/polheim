@@ -81,25 +81,26 @@
     }
   }
 
-  @keyframes slidetop {
-    from {
-      transform: translateY(-1000px);
-    }
-  
-    to {
-      transform: translateY(0);
-    }
+}
+
+@keyframes slidetop {
+  from {
+    transform: translateY(-1000px);
   }
 
-  @keyframes slidebottom {
-    from {
-      transform: translateY(500px);
-      opacity: 0;
-    }
-  
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slidebottom {
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

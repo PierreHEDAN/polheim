@@ -3,6 +3,12 @@
 .home {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y proximity;
+  section {
+    scroll-snap-align: start;
+  }
   .homeScreen {
     min-height: 100vh;
   }
