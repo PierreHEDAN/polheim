@@ -28,14 +28,14 @@ export async function getStaticProps() {
 
 export default function Home({ forecast }) {
   const [openModal, setOpenModal] = useState(false);
-  const [imageSrc, setImageSrc] = useState();
-  const handleOpenModal = (photo) => {
-    if (photo !== undefined) {
-      setImageSrc(photo);
+  const [modalContent, setModalContent] = useState();
+  const handleOpenModal = (content) => {
+    if (content !== undefined) {
+      setModalContent(content);
       setOpenModal(true);
     } else {
       setOpenModal(false);
-      setImageSrc();
+      setModalContent();
     }
   }
 
@@ -48,7 +48,7 @@ export default function Home({ forecast }) {
       </Head>
       { openModal && (
         <div id="modal-root" onClick={() => handleOpenModal()}>
-          <img src={imageSrc} alt="Wide photo" />
+          {modalContent}
         </div>
       )}
       <section className={styles.homeScreen}>
@@ -70,7 +70,7 @@ export default function Home({ forecast }) {
         <Partners />
       </section>
       <section className={styles.photos}>
-        <Photos onOpenPhoto={(photo) => handleOpenModal(photo)} />
+        <Photos onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.newsletter}>
         <Newsletter />

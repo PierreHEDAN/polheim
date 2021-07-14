@@ -129,7 +129,7 @@ const Weather = ({ forecast }) => forecast ? (
               transform="translate(40.978 18)"
             >
               <tspan x="0" y="0">
-                {forecast.wind_speed*3.6}km/h
+                {(forecast.wind_speed*3.6).toFixed(2)}km/h
               </tspan>
             </text>
           </g>

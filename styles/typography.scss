@@ -17,7 +17,7 @@ html {
   height: 100vh;
   z-index: 1;
   background-color: rgba($primary-color, .7);
-  img {
+  *:first-child {
     width: 90%;
     height: 90%;
     object-fit: contain;
