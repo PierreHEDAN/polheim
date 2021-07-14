@@ -11,10 +11,24 @@ import Photos from '../components/photos';
 import Newsletter from '../components/newsletter';
 import Footer from '../components/footer';
 
-export default function Home() {
+export async function getStaticProps() {
+  const res = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=-77.6554&lon=168.2227&units=metric&exclude=minutely,hourly,daily,alerts&appid=${process.env.NEXT_PUBLIC_WEATHER_API_TOKEN}`)
+  const forecast = await res.json()
+
+  if (!forecast) {
+    return {
+      notFound: true,
+    }
+  }
+
+  return {
+    props: { forecast: forecast.current },
+  }
+}
+
+export default function Home({ forecast }) {
   const [openModal, setOpenModal] = useState(false);
   const [imageSrc, setImageSrc] = useState();
-
   const handleOpenModal = (photo) => {
     if (photo !== undefined) {
       setImageSrc(photo);
@@ -47,7 +61,7 @@ export default function Home() {
         <AboutMe />
       </section>
       <section className={styles.route}>
-        <Route onOpenImage={(image) => handleOpenModal(image)} />
+        <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.news}>
         <News />

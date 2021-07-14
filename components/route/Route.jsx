@@ -1,6 +1,7 @@
 import styles from './Route.module.scss';
+import Weather from './weather/Weather';
 
-const Route = ({ onOpenImage }) => (
+const Route = ({ forecast, onOpenImage }) => (
   <div className={styles.container}>
     <h4 className="secondary">Itinéraire</h4>
     <div className={styles.desktopContent}>
@@ -11,7 +12,7 @@ const Route = ({ onOpenImage }) => (
       <img className={styles.hygiene} src="./assets/images/hygiene.svg" alt="Hygiene" />
       <img className={styles.food} src="./assets/images/food.svg" alt="Food" />
       <div className={styles.weather}>
-        <img src="./assets/images/sticker-base.svg" alt="Weather" />
+        <Weather forecast={forecast} />
       </div>
     </div>
     <div className={styles.mobileContent}>
