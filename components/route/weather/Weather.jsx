@@ -67,26 +67,26 @@ const Weather = ({ forecast }) => forecast ? (
           transform="translate(0 67.074)"
         >
           <tspan x="0" y="0">
-            77° 51
+            89 59
           </tspan>
           <tspan y="0" fontFamily="Helvetica">
             ′
           </tspan>
-          <tspan y="0"> 00</tspan>
+          <tspan y="0"> 51</tspan>
           <tspan y="0" fontFamily="Helvetica">
             ″
           </tspan>
-          <tspan y="0"> sud, 166° 40</tspan>
+          <tspan y="0"> sud, 139° 16</tspan>
           <tspan y="0" fontFamily="Helvetica">
             ′
           </tspan>
-          <tspan y="0"> 00</tspan>
+          <tspan y="0"> 22</tspan>
           <tspan y="0" fontFamily="Helvetica">
             ″
           </tspan>
-          <tspan y="0"> est</tspan>
+          <tspan y="0"> ouest</tspan>
           <tspan x="0" y="23">
-            McMurdo Station
+            Amundsen-Scott Station
           </tspan>
         </text>
         <g fill="#00374b" transform="translate(0 117.331)">
@@ -129,7 +129,7 @@ const Weather = ({ forecast }) => forecast ? (
               transform="translate(40.978 18)"
             >
               <tspan x="0" y="0">
-                {(forecast.wind_speed*3.6).toFixed(2)}km/h
+                {forecast.wind.speed}km/h
               </tspan>
             </text>
           </g>
@@ -140,7 +140,7 @@ const Weather = ({ forecast }) => forecast ? (
             transform="translate(0 38)"
           >
             <tspan x="0" y="0">
-              {Math.round(forecast.temp)}°C
+              {Math.round(forecast.tempmin)}°C
             </tspan>
           </text>
         </g>

@@ -12,7 +12,7 @@ import Newsletter from '../components/newsletter';
 import Footer from '../components/footer';
 
 export async function getStaticProps() {
-  const res = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=-77.6554&lon=168.2227&units=metric&exclude=minutely,hourly,daily,alerts&appid=${process.env.NEXT_PUBLIC_WEATHER_API_TOKEN}`)
+  const res = await fetch(`http://api.theweather.com/index.php?api_lang=eu&localidad=12325&affiliate_id=53fqqdyhvp54&v=3.0`)
   const forecast = await res.json()
 
   if (!forecast) {
@@ -22,7 +22,7 @@ export async function getStaticProps() {
   }
 
   return {
-    props: { forecast: forecast.current },
+    props: { forecast: forecast.day[1] },
   }
 }
 

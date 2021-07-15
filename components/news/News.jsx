@@ -44,8 +44,8 @@ const News = () => (
       </div>
       <div className={styles.news}>
         <NewsCard news={{
-          img: 'https://www.betton.fr/upload/espace/12/visuel/declinaison_medium/6916_15699_1_BI_Juin21.jpg',
-          title: 'La conquête du pôle',
+          img: 'https://scontent.frns1-1.fna.fbcdn.net/v/t1.6435-9/197327998_3857282197728506_3796190730856142126_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=1IZOdNJiK-UAX-AAvFo&_nc_ht=scontent.frns1-1.fna&oh=c45955a2e54fb075a390a226ae3772ee&oe=60F4EEFC',
+          title: 'Pierre HEDAN à la conquête du Pôle Sud',
           description: `Pierre Hedan à la conquête du Pôle Sud. Les jeunes s'engagent avec Défi !`,
           date: '01/06/2021',
           link: 'https://www.betton.fr/accueil/ma-ville/nos-publications/betton-infos/1381-6916/ete-2021'
