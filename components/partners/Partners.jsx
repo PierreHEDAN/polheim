@@ -20,9 +20,13 @@ const Partners = () => {
               partnerList.map((partner) => (
                 <div className={styles.partner} key={partner.imgSrc}>
                   <RoundedContainer>
-                    <a href={partner.link} target="_blank">
+                    {partner.link ? (
+                      <a href={partner.link} target="_blank">
+                        <img src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
+                      </a>
+                    ) : (
                       <img src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
-                    </a>
+                    )}
                   </RoundedContainer>
                 </div>
               ))

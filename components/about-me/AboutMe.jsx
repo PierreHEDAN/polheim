@@ -15,7 +15,7 @@ const AboutMe = () => (
           étudiants, travailleurs, la vie est trop courte pour passer à côté de nos rêves.
         </p>
         <p className="white bold">
-          « Le jour où chaque Homme vivra ses rêves, il m’importe peu d’avoir une vie ordinaire. »
+          « Le jour où chaque Homme vivra ses rêves, il m’importera peu d’avoir une vie ordinaire. »
         </p>
         <div className={styles.tags}>
           <div className={styles.tag}>
