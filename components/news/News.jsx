@@ -35,7 +35,7 @@ const News = () => (
       <div className={styles.news}>
         <NewsCard news={{
           img: 'https://www.ecam-rennes.fr/wp-content/uploads/2021/01/pierre-2.jpg',
-          title: 'Interview Pôle Sud',
+          title: 'Pierre HEDAN, apprenti-ingénieur à la conquête du pôle sud !',
           description: 'Apprenti-ingénieur en ECAM4A, Pierre HEDAN est parti début décembre en Suède pour suivre une formation de guide polaire. Il revient pour nous sur son parcours et ses envies d’ailleurs.',
           date: '15/01/2021',
           link: 'https://www.ecam-rennes.fr/pierre-hedan-apprenti-ingenieur-a-la-conquete-du-pole-sud/?fbclid=IwAR1seTBnLrNGvJ0V2_3jKwBf-iUNRKlKJSG9g7NoUQiJvXT9Gdjlzr8uP1E'
