@@ -42,7 +42,7 @@ export default function Home({ forecast }) {
   return (
     <div className={styles.home}>
       <Head>
-        <title>Antartica</title>
+        <title>Expedition Polheim</title>
         <meta name="description" content="Atartica by Pierre Hedan" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

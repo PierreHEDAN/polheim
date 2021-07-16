@@ -1,5 +1,6 @@
 const Weather = ({ forecast }) => forecast ? (
   <svg
+  style={{ width: '100%' }}
   xmlns="http://www.w3.org/2000/svg"
   width="550.446"
   height="354.87"
