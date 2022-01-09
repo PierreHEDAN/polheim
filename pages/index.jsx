@@ -3,6 +3,7 @@ import { useState } from 'react';
 import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/home-screen';
 import Introduction from '../components/introduction';
+import History from '../components/history';
 import AboutMe from '../components/about-me';
 import Route from '../components/route';
 import News from '../components/news';
@@ -57,11 +58,14 @@ export default function Home({ forecast }) {
       <section className={styles.introduction}>
         <Introduction />
       </section>
-      <section className={styles.aboutMe}>
-        <AboutMe />
+      <section className={styles.history}>
+        <History />
       </section>
       <section className={styles.route}>
         <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
+      </section>
+      <section className={styles.aboutMe}>
+        <AboutMe />
       </section>
       <section className={styles.news}>
         <News />

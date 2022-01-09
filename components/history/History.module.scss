@@ -3,6 +3,7 @@
 
 .orange {
   color: $secondary-color !important;
+  font-size: 30px;
 }
 
 .container {
@@ -11,24 +12,28 @@
   height: 100%;
   min-height: inherit;
   align-items: center;
-  background: linear-gradient(to bottom, #BDDFF4 0%, #FFFFFF 30%);
+  justify-content: center;
+  background: transparent linear-gradient(180deg, #73C3D0 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
   .content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
+    max-width: 1780px;
     height: 100%;
     margin: 20px 10px;
     .paragraph {
-      max-width: 500px;
+      max-width: 600px;
       min-width: 300px;
       .title {
-        margin-bottom: 50px;
+        margin-bottom: 75px;
+        font-size: 35rem;
       }
       p {
         text-align: justify;
       }
     }
+    /*
     @media screen and (min-width: $tablet-breakpoint) {
       flex-direction: row;
       margin: 20px;
@@ -47,5 +52,6 @@
         }
       }
     }
+    */
   }
 }
