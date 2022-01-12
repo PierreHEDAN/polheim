@@ -41,17 +41,20 @@
         margin-right: 50px;
       }
     }
+    */
     @media screen and (max-width: $tablet-breakpoint) {
       flex-direction: column;
       .badge {
-        margin-bottom: 50px;
+        position: absolute;
+        opacity: 0.2;
+        z-index: 1;
       }
       .paragraph {
+        z-index: 2;
         .title {
           text-align: center;
         }
       }
     }
-    */
   }
 }

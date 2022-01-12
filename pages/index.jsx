@@ -4,6 +4,7 @@ import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/home-screen';
 import Introduction from '../components/introduction';
 import History from '../components/history';
+import Travel from '../components/travel';
 import AboutMe from '../components/about-me';
 import Route from '../components/route';
 import News from '../components/news';
@@ -63,6 +64,9 @@ export default function Home({ forecast }) {
       </section>
       <section className={styles.route}>
         <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
+      </section>
+      <section className={styles.travel}>
+        <Travel />
       </section>
       <section className={styles.aboutMe}>
         <AboutMe />

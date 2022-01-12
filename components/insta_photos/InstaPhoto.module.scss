@@ -1,0 +1,45 @@
+@import '../../styles/display.scss';
+@import '../../styles/color.scss';
+
+$marginSize: 200px;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(210 / 1920 * 100%);
+  background-color: white;
+  min-height: inherit;
+  box-shadow: 4px 10px 20px #00000029;
+
+  .photoContainer {
+    flex: 1;
+    margin: 10%;
+    overflow: hidden;
+
+    .photo {
+      aspect-ratio: 1 / 1;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      &:hover {
+        transition: 1s ease;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  .title {
+    position: relative;
+    top: -110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: calc(1.36 * 1vw);
+    color: $primary-color;
+  }
+}
