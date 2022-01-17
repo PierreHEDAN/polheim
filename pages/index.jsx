@@ -6,6 +6,7 @@ import Introduction from '../components/introduction';
 import History from '../components/history';
 import Travel from '../components/travel';
 import AboutMe from '../components/about-me';
+import Team from '../components/team';
 import Quote from '../components/quote';
 import Route from '../components/route';
 import News from '../components/news';
@@ -74,6 +75,9 @@ export default function Home({ forecast }) {
       </section>
       <section className={styles.quote}>
         <Quote />
+      </section>
+      <section className={styles.team}>
+        <Team />
       </section>
       <section className={styles.news}>
         <News />
