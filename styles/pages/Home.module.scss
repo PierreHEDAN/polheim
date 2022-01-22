@@ -29,6 +29,12 @@
     min-height: 120vh;
     background-color: $primary-color;
   }
+
+  .bigquote {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #73C3D0;
+  }
   .route {
     @media screen and (min-width: $tablet-breakpoint) {
       min-height: 120vh;

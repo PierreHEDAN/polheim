@@ -9,6 +9,8 @@ import AboutMe from '../components/about-me';
 import Team from '../components/team';
 import Skills from '../components/skills';
 import After from '../components/after';
+import AfterPhotos from '../components/after_photos';
+import BigQuote from '../components/bigquote';
 import Quote from '../components/quote';
 import Route from '../components/route';
 import News from '../components/news';
@@ -87,11 +89,17 @@ export default function Home({ forecast }) {
       <section className={styles.after}>
         <After />
       </section>
-      <section className={styles.news}>
-        <News />
+      <section className={styles.afterPhotos}>
+        <AfterPhotos onOpenImage={(image) => handleOpenModal(image)} />
+      </section>
+      <section className={styles.bigquote}>
+        <BigQuote />
       </section>
       <section className={styles.partners}>
         <Partners />
+      </section>
+      <section className={styles.news}>
+        <News />
       </section>
       <section className={styles.photos}>
         <Photos onOpenImage={(image) => handleOpenModal(image)} />
