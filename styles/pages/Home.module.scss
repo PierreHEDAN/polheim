@@ -46,6 +46,9 @@
   .partners {
     min-height: 70vh;
   }
+  .medias {
+    background-color: $primary-color;
+  }
   .photos {
     @media screen and (min-width: $mobile-breakpoint) {
     }

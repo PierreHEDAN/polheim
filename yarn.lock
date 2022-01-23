@@ -298,6 +298,15 @@
   "resolved" "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   "version" "4.2.2"
 
+"3d-react-carousal@^4.0.2":
+  "integrity" "sha512-UDf76anUKCKw6od5Fb0PcrPxH0RsRXJKmi3wpulpDHt5a48w/bJBjYiE9bQfRJt9vwzGj1M7jFBEkKahQeuDrQ=="
+  "resolved" "https://registry.npmjs.org/3d-react-carousal/-/3d-react-carousal-4.0.2.tgz"
+  "version" "4.0.2"
+  dependencies:
+    "prop-types" "^15.7.2"
+    "react-fast-compare" "^3.2.0"
+    "react-swipeable" "^6.1.2"
+
 "acorn-import-assertions@^1.7.6":
   "integrity" "sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw=="
   "resolved" "https://registry.npmjs.org/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz"
@@ -2580,7 +2589,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^16.6.0 || ^17", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.9.0 || ^17", "react-dom@17.0.2":
+"react-dom@^16.6.0 || ^17", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.9.0 || ^17", "react-dom@>=17.0.2", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -2589,17 +2598,32 @@
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.2"
 
+"react-fast-compare@^3.2.0":
+  "integrity" "sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA=="
+  "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
+  "version" "3.2.0"
+
 "react-is@^16.8.1", "react-is@16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
+
+"react-multi-carousel@^2.6.5":
+  "integrity" "sha512-i5iuAm5XRT/h7uBL9/pGWeRsQXzqvjBrPVP1sobKgDKEvfZuKFpYp/alaQhTRM56Jtkb8jZpSqLn52Ku6jJbDg=="
+  "resolved" "https://registry.npmjs.org/react-multi-carousel/-/react-multi-carousel-2.6.5.tgz"
+  "version" "2.6.5"
 
 "react-refresh@0.8.3":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg=="
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
+"react-swipeable@^6.1.2":
+  "integrity" "sha512-nWQ8dEM8e/uswZLSIkXUsAnQmnX4MTcryOHBQIQYRMJFDpgDBSiVbKsz/BZVCIScF4NtJh16oyxwaNOepR6xSw=="
+  "resolved" "https://registry.npmjs.org/react-swipeable/-/react-swipeable-6.2.0.tgz"
+  "version" "6.2.0"
+
+"react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.9.0 || ^17", "react@^17.0.2", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

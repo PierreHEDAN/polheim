@@ -11,6 +11,7 @@ import Skills from '../components/skills';
 import After from '../components/after';
 import AfterPhotos from '../components/after_photos';
 import BigQuote from '../components/bigquote';
+// import Medias from '../components/medias';
 import Quote from '../components/quote';
 import Route from '../components/route';
 import News from '../components/news';
@@ -55,7 +56,7 @@ export default function Home({ forecast }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       { openModal && (
-        <div id="modal-root" onClick={() => handleOpenModal()}>
+        <div style={{ zIndex: 20000000 }} id="modal-root" onClick={() => handleOpenModal()}>
           {modalContent}
         </div>
       )}
@@ -72,7 +73,7 @@ export default function Home({ forecast }) {
         <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.travel}>
-        <Travel />
+        <Travel onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.aboutMe}>
         <AboutMe />
@@ -98,6 +99,10 @@ export default function Home({ forecast }) {
       <section className={styles.partners}>
         <Partners />
       </section>
+      {/*<section className={styles.medias}>
+        <Medias />
+      </section>
+      */}
       <section className={styles.news}>
         <News />
       </section>
