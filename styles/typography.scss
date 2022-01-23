@@ -3,10 +3,10 @@
 
 html, body {
   @media screen and (min-width: $mobile-breakpoint) {
-    font-size: 16px;
+    font-size: 22px;
   }
   @media screen and (max-width: $mobile-breakpoint) {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 

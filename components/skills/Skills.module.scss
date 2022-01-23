@@ -43,9 +43,7 @@
   position: relative;
   top: -120px;
   display: flex;
-  margin-right: 140px;
-  margin-left: 140px;
-  max-width: calc(4*350px);
+  max-width: 1600px;
   width: 100%;
   flex-direction: column;
 
@@ -62,7 +60,7 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
 
   p {
@@ -84,11 +82,13 @@
 .card {
   display: flex;
   position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 455px;
-  height: 659px;
+  max-width: 510px;
+  flex-wrap: nowrap;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 4px 10px 20px #00000029;
   border-radius: 10px;
@@ -134,4 +134,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 36px;
+  padding-right: 36px;
+  margin-top: 150px;
 }

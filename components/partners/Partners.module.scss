@@ -1,6 +1,10 @@
 @import '../../styles/color.scss';
 @import '../../styles/display.scss';
 
+.title {
+  margin: 0 auto;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -9,6 +13,7 @@
   min-height: inherit;
   background-color: $secondary-color;
   .content {
+    max-width: 1400px;
     width: 100%;
     margin: auto;
     h4 {

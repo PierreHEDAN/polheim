@@ -4,17 +4,39 @@
 .quoteContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
+  @media screen and (max-width: $tablet-breakpoint) {
+    width: 100%;
+    margin: 0 36px;
+  }
 }
+
 .quoteContent {
   display: flex;
+  @media screen and (max-width: $tablet-breakpoint) {
+    flex-direction: column;
+  }
   
   p {
     margin: 0 16px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      margin: unset;
+    }
   }
 }
 
 .quoteEnd {
   align-self: flex-end;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: translateX(20px) scale(0.6);
+  }
+}
+
+.quote {
+  align-self: flex-start;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: translateX(-20px) scale(0.6);
+  }
 }
 
 .container {
@@ -71,6 +93,7 @@
   position: relative;
   display: flex;
   position: relative;
+  margin: 0 36px;
   justify-content: space-between;
 }
 
@@ -80,6 +103,11 @@
   position: relative;
   justify-content: space-between;
   margin-bottom: 70px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    justify-content: center;
+  }
 
   .pictos {
     display: flex;
@@ -87,6 +115,11 @@
     max-width: 400px;
     align-content: center;
     flex-direction: column;
+
+    @media screen and (max-width: $tablet-breakpoint) {
+      transform: scale(0.8);
+      justify-content: center;
+    }
 
     .pictosOne {
       display: flex;
@@ -106,7 +139,7 @@
   p {
     max-width: 600px;
     text-align: center;
-    font-size: 20px;
+    flex: 1;
   }
 }
 
@@ -143,4 +176,10 @@
   animation-iteration-count: infinite;
   // animation-timing-function: linear;
   animation-direction: alternate;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+  }
 }

@@ -1,16 +1,88 @@
 @import '../../styles/color.scss';
 @import '../../styles/display.scss';
 
+// LOGO
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoDesc {
+  text-align: center;
+  color: $secondary-color;
+}
+// ----------- TOOLTIP
+
+.tooltip {
+  width: 400px;
+  background-color: $white-color;
+  padding: 27px;
+  border-radius: 15px;
+  opacity: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: $primary-color;
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  font-family: poppins, sans-serif;
+
+  [data-enter] & {
+    opacity: 0.9;
+  }
+
+  .title {
+    color: $secondary-color;
+    font-size: 25px;
+  }
+
+  .age {
+    color: $secondary-color;
+    font-size: 22px;
+  }
+
+  .desc {
+    margin-top: 13px;
+    font-size: 18px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .icons {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .quoteContainer {
+    display: flex;
+  }
+}
+
+//-----------------------
+
 .photoTeam {
   width: 292px;
   height: 292px;
   margin-bottom: 30px;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 .photoName {
   position: relative;
   top: -10px;
   width: 292px;
+  @media screen and (max-width: $tablet-breakpoint) {
+    width: 120px;
+  }
   text-align: center;
   color: $white-color;
   font-family: poppins, sans-serif;
@@ -33,6 +105,10 @@
   margin-left: 36px;
   margin-bottom: 85px;
 
+  @media screen and (max-width: $tablet-breakpoint) {
+    flex-direction: column;
+  }
+
   .paragraph {
     max-width: 800px;
     p {
@@ -42,6 +118,7 @@
 
   .title {
     flex: 1;
+    margin-bottom: 38px;
 
     h3 {
       text-align: left;
@@ -61,4 +138,6 @@
   height: 100%;
   min-height: inherit;
   background: transparent linear-gradient(180deg, #FFFFFF 0%, #DD5239 100%) 0% 0% no-repeat padding-box;
+  padding: 0 36px;
+  padding-bottom: 80px;
 }

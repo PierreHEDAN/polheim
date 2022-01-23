@@ -16,7 +16,9 @@ const AboutMe = () => (
         </p>
       </div>
       <div className={styles.right}>
-      <img className={styles.me} src="./assets/images/pierre_photo.png" alt="Photo of Pierre Hedan" />
+        <div className={styles.meContainer}>
+          <img className={styles.me} src="./assets/images/pierre_photo.png" alt="Photo of Pierre Hedan" />
+        </div>
         <div className={styles.tags}>
           <div className={styles.tag}>
             <img src="./assets/images/curious.svg" alt="Curious" />
