@@ -42,7 +42,7 @@ const Partners = () => {
             {
               partnerList.map((partner) => (
                 <PartnerLink
-                  key={partner.link}
+                  key={partner.name}
                   link={partner.link}
                   imgSrc={partner.imgSrc}
                   name={partner.name || "name"}

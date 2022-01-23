@@ -16,18 +16,18 @@
     min-height: 80vh;
   }
   .quote { }
-  .team {
-  }
-  .skills {
-    min-height: 120vh;
-  }
+  .team { }
+  .skills { }
   .after {
     background-color: $primary-color;
   }
 
   .bigquote {
-    height: 80vh;
+    height: 100vh;
     background-color: #73C3D0;
+    @media screen and (max-width: $tablet-breakpoint) {
+      min-height: 50vh;
+    }
   }
   .route {
     @media screen and (min-width: $tablet-breakpoint) {
@@ -37,26 +37,16 @@
       min-height: 0;
     }
   }
-  .news {
-    @media screen and (min-width: $mobile-breakpoint) {
-    }
-    @media screen and (max-width: $mobile-breakpoint) {
-    }
-  }
+  .news { }
   .partners {
     min-height: 70vh;
   }
   .medias {
     background-color: $primary-color;
+    overflow: hidden;
   }
-  .photos {
-    @media screen and (min-width: $mobile-breakpoint) {
-    }
-    @media screen and (max-width: $mobile-breakpoint) {
-    }
-  }
-  .newsletter {
-  }
+  .photos { }
+  .newsletter { }
   .footer {
     overflow: hidden;
     min-height: 70vh;

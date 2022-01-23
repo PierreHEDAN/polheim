@@ -88,28 +88,30 @@ const Team = () => {
 
   return (
   <div className={styles.container}>
-    <div className={styles.header}>
-      <div className={styles.title}>
-        <h3>LA <b>TEAM POLHEIM</b></h3>
+    <div className={styles.content}>
+      <div className={styles.header}>
+        <div className={styles.title}>
+          <h3>LA <b>TEAM POLHEIM</b></h3>
+        </div>
+        <div className={styles.paragraph}>
+          <p>
+            L’association Expédition Polheim a vu le jour à l’été 2021. Une étape importante qui officialise le travail d’une équipe motivée. Une expérience personnelle et/ou professionnelle pour toute l’équipe. <br /><b>Tous différents mais tournés vers un objectif commun</b>: construire ensemble cette expédition et aller au bout de cette aventure.
+          </p>
+        </div>
       </div>
-      <div className={styles.paragraph}>
-        <p>
-          L’association Expédition Polheim a vu le jour à l’été 2021. Une étape importante qui officialise le travail d’une équipe motivée. Une expérience personnelle et/ou professionnelle pour toute l’équipe. <br /><b>Tous différents mais tournés vers un objectif commun</b>: construire ensemble cette expédition et aller au bout de cette aventure.
-        </p>
+      {process.browser && (
+      <div className={styles.team}>
+        {Bruno}
+        {Vero}
+        {Coralie}
+        <PhotoTeam key="camille" member="equip-camille" name="Camille" />
+        <PhotoTeam key="amelie" member="equip-amelie" name="Amélie" />
+        <PhotoTeam key="nathan" member="equip-nathan" name="Nathan" />
+        <PhotoTeam key="amandine" member="equip-amandine-08" name="Amandine" />
+        <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
       </div>
+      ) }
     </div>
-    {process.browser && (
-    <div className={styles.team}>
-      {Bruno}
-      {Vero}
-      {Coralie}
-      <PhotoTeam key="camille" member="equip-camille" name="Camille" />
-      <PhotoTeam key="amelie" member="equip-amelie" name="Amélie" />
-      <PhotoTeam key="nathan" member="equip-nathan" name="Nathan" />
-      <PhotoTeam key="amandine" member="equip-amandine-08" name="Amandine" />
-      <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
-    </div>
-    ) }
   </div>
 );
 }

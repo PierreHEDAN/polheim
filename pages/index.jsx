@@ -11,7 +11,7 @@ import Skills from '../components/skills';
 import After from '../components/after';
 import AfterPhotos from '../components/after_photos';
 import BigQuote from '../components/bigquote';
-// import Medias from '../components/medias';
+import Medias from '../components/medias';
 import Quote from '../components/quote';
 import Route from '../components/route';
 import News from '../components/news';
@@ -99,10 +99,9 @@ export default function Home({ forecast }) {
       <section className={styles.partners}>
         <Partners />
       </section>
-      {/*<section className={styles.medias}>
+      <section className={styles.medias}>
         <Medias />
       </section>
-      */}
       <section className={styles.news}>
         <News />
       </section>

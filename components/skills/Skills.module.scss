@@ -43,7 +43,9 @@
   position: relative;
   top: -120px;
   display: flex;
-  max-width: 1600px;
+  @media screen and (min-width: $tablet-breakpoint) {
+    max-width: 1480px;
+  }
   width: 100%;
   flex-direction: column;
 
@@ -60,7 +62,13 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+
+  @media screen and (min-width: 1450px) {
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 1450px) {
+    justify-content: space-evenly;
+  }
 
 
   p {
@@ -87,7 +95,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: 510px;
+  max-width: 460px;
   flex-wrap: nowrap;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 4px 10px 20px #00000029;

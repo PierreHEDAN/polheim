@@ -1,6 +1,6 @@
 import styles from './Medias.module.scss';
-import { Carousel } from '3d-react-carousal';
-import "react-multi-carousel/lib/styles.css";
+import { Carousel } from './Carousel';
+import Button from '../utils/button';
 
 const responsive = {
   superLargeDesktop: {
@@ -31,28 +31,30 @@ const Card = ({ name, link }) => {
       <div className={styles.title}>
         {name}
       </div>
-      <a src="">Lire l'article</a>
+      <a className={styles.seeMore} href={link} target="_blank">
+        <div className={styles.button}><p>Lire l'article</p></div>
+      </a>
     </div>
   );
 }
 
 let slides = [
-    <Card name="blblbl" link="/assets/images/pt/passeportarmorique.png" />,
-    <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
-    <img  src="https://picsum.photos/800/302/?random" alt="3" />  ,
-    <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
-    <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
+    <Card key={1} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={2} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={3} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={4} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={5} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={6} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+];
 
 const Medias = () => (
   <div className={styles.container}>
-    <div className={styles.header}>
-      <h3>ILS PARLENT <b>DE NOUS</b></h3>
-    </div>
     <div className={styles.content}>
+      <div className={styles.header}>
+        <h3>ILS PARLENT <b>DE NOUS</b></h3>
+      </div>
       <div className={styles.carrousel}>
-        {process.browser && (
-          <Carousel slides={slides} autoplay={false} />
-        )}
+        <Carousel arrows arrowBorders slides={slides} autoplay={false} />
       </div>
     </div>
   </div>

@@ -13,7 +13,7 @@
   min-height: inherit;
   background-color: $secondary-color;
   .content {
-    max-width: 1400px;
+    max-width: 1640px;
     width: 100%;
     margin: auto;
     h4 {
@@ -55,14 +55,14 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
         .partner {
-          max-width: 200px;
-          min-width: 200px;
+          max-width: 100px;
+          min-width: 100px;
           margin: auto;
         }
       }
       @media screen and (max-width: $mobile-breakpoint) {
         .partner {
-          max-width: 200px;
+          max-width: 100px;
           min-width: 100px;
           margin: auto;
         }

@@ -76,7 +76,7 @@
 .content {
   position: relative;
   display: flex;
-  max-width: calc(4*350px);
+  max-width: 1480px;
   width: 100%;
   flex-direction: column;
 
@@ -101,7 +101,6 @@
   justify-content: space-between;
   margin-bottom: 70px;
   flex-wrap: wrap;
-  margin-top: 70px;
 
   @media screen and (max-width: $tablet-breakpoint) {
     justify-content: center;
@@ -158,11 +157,11 @@
 
 @keyframes capsulemove {
   from {
-    transform: translateY(-50%) rotate(-5deg);
+    transform: translateY(-40%) rotate(-5deg);
   }
 
   to {
-    transform: translateY(-55%) rotate(0deg);
+    transform: translateY(-60%) rotate(0deg);
   }
 }
 
