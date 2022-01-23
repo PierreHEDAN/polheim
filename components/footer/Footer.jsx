@@ -17,7 +17,7 @@ const Footer = () => (
       </div>
       <div className={styles.separator} />
       <div className={styles.bottomRow}>
-        <span className="white">Expédition Polheim 2023. Tous droits réservés. Mentions légales.</span>
+        <span className="white">Expédition Polheim 2023. Tous droits réservés.</span>
         <div className={styles.socialMedias}>
           <a href="https://www.facebook.com/ExpeditionPolheim/?hc_ref=ARSexrmjy16PRoTFS65ZHrxdo-cFvOmxdbyL-GnKfynC1fgHI9j-yXibQzUdUfihep4&fref=nf&__tn__=kC-R" target="_blank">
             <img src="./assets/images/facebook-f-brands.svg" alt="Facebook" />

@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import Head from 'next/head';
 import { useState } from 'react';
 import styles from '../styles/pages/Home.module.scss';
@@ -38,26 +39,40 @@ export async function getStaticProps() {
 export default function Home({ forecast }) {
   const [openModal, setOpenModal] = useState(false);
   const [modalContent, setModalContent] = useState();
-  const handleOpenModal = (content) => {
+  const [legendContent, setLegendContent] = useState();
+
+  const handleOpenModal = (content, legend) => {
     if (content !== undefined) {
       setModalContent(content);
+      setLegendContent(legend);
       setOpenModal(true);
     } else {
       setOpenModal(false);
       setModalContent();
+      setLegendContent();
     }
   }
 
   return (
-    <div className={styles.home}>
+    <div className={classnames({
+        [styles.home]: true,
+        [styles.blur]: openModal,
+      })}>
       <Head>
         <title>Expedition Polheim</title>
         <meta name="description" content="Atartica by Pierre Hedan" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       { openModal && (
-        <div style={{ zIndex: 20000000 }} id="modal-root" onClick={() => handleOpenModal()}>
-          {modalContent}
+        <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModal()}>
+          <div className={styles.modalContainer}>
+            <div className={styles.modalImage}>
+              {modalContent}
+            </div>
+            <div className={styles.modalLegend}>
+              {legendContent}
+            </div>
+          </div>
         </div>
       )}
       <section className={styles.homeScreen}>

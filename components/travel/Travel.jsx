@@ -50,13 +50,6 @@ const Travel = ({ onOpenImage }) => {
           onOpenImage={() => handleOpenImage("./assets/images/photos/4.png")}
           title="JOUR 40"
         />
-        <InstaPhoto
-          key="image6"
-          src="./assets/images/photos/5.png"
-          className={classnames(styles.insta, styles.photo6)}
-          onOpenImage={() => handleOpenImage("./assets/images/photos/5.png")}
-          title="JOUR XX?"
-        />
       </div>
       <div className={styles.traceContainer}>
         <img className={styles.trace} src="./assets/images/trace_itineraire.svg" alt="ontains" />

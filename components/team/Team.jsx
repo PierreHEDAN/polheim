@@ -59,9 +59,9 @@ const Vero = (
     key="vero"
     member="equip-veronique"
     name="Véronique"
-    age="54 ans"
-    desc="Né dans le Morbihan d’une famille bretonne & Ingénieur territorial"
-    quote="Je suis impliqué dans ce projet Polheim parce que c’est une très belle aventure et parce que j’ai envie d’aider mon fils à accomplir son rêve."
+    age="56 ans"
+    desc="Bretonne d’adoption depuis 53 ans & Responsable de projet HLM"
+    quote="On pense tout d’abord que c’est une performance individuelle mais c’est en fait un vrai travail d’équipe où vont se mêler famille, amis mais aussi professionnels et partenaires. Une magnifique aventure humaine !"
     icon1={<Chauve />}
     icon2={<Blague />}
   />
@@ -72,9 +72,9 @@ const Coralie = (
     key="coralie"
     member="equip-coralie"
     name="Coralie"
-    age="54 ans"
-    desc="Né dans le Morbihan d’une famille bretonne & Ingénieur territorial"
-    quote="Je suis impliqué dans ce projet Polheim parce que c’est une très belle aventure et parce que j’ai envie d’aider mon fils à accomplir son rêve."
+    age="31 ans"
+    desc="Originaire de Fougères et in love du beurre salé. Diététicienne nutritionniste, spécialisée en nutrition du sport, et prochainement en nutrition froid-extrême."
+    quote="Mon père est un aventurier, je dois l’être dans l’âme également. Je souhaite que ce projet fasse progresser les connaissances dans le domaine de la nutrition du sportif et montrer / valoriser le travail des diététiciens."
     icon1={<Chauve />}
     icon2={<Blague />}
   />
