@@ -88,7 +88,7 @@ export default function Home({ forecast }) {
         <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
       </section>
       <section className={styles.travel}>
-        <Travel onOpenImage={(image) => handleOpenModal(image)} />
+        <Travel onOpenImage={(image, content) => handleOpenModal(image, content)} />
       </section>
       <section className={styles.aboutMe}>
         <AboutMe />

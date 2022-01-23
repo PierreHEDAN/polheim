@@ -2,9 +2,18 @@ import classnames from 'classnames'
 import styles from './Travel.module.scss';
 import InstaPhoto from '../insta_photos/InstaPhoto';
 
+const Description = () => (
+  <div className={styles.instaDesc}>
+    <h3>JOUR 3</h3>
+    <p>0km (côte du continent)<br />
+    85°S - Altitude 200m<br />
+      Température: -10°C</p>
+  </div>
+)
+
 const Travel = ({ onOpenImage }) => {
-  const handleOpenImage = (imageSrc) => {
-    onOpenImage(<img src={imageSrc} alt="Wide photo" />)
+  const handleOpenImage = (imageSrc, content) => {
+    onOpenImage(<img src={imageSrc} alt="Wide photo" />, content)
   }
 
   return (
@@ -19,7 +28,7 @@ const Travel = ({ onOpenImage }) => {
           key="image1"
           src="./assets/images/photos/0.png"
           className={classnames(styles.insta, styles.photo1)}
-          onOpenImage={() => handleOpenImage("./assets/images/photos/0.png")}
+          onOpenImage={() => handleOpenImage("./assets/images/photos/0.png", <Description />)}
           title="JOUR 1"
         />
         <InstaPhoto

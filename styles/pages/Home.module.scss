@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width: 80vh;
+  width: 60vh;
   max-height: 100vh;
   margin: auto;
 
@@ -31,6 +31,7 @@
   }
 
   .modalLegend {
+    overflow: hidden;
     height: 20vh;
   }
 }
