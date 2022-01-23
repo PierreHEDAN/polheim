@@ -8,19 +8,15 @@
     min-height: 100vh;
   }
   .introduction {
-    min-height: 120vh;
   }
-  .history {
-    min-height: 120vh;
-  }
+  .history { }
   .travel {
   }
   .aboutMe {
-    min-height: 120vh;
+    min-height: 80vh;
   }
   .quote { }
   .team {
-    min-height: 120vh;
   }
   .skills {
     min-height: 120vh;
@@ -43,10 +39,8 @@
   }
   .news {
     @media screen and (min-width: $mobile-breakpoint) {
-      min-height: 120vh;
     }
     @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 90vh;
     }
   }
   .partners {
@@ -54,17 +48,15 @@
   }
   .photos {
     @media screen and (min-width: $mobile-breakpoint) {
-      min-height: 120vh;
     }
     @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 60vh;
     }
   }
   .newsletter {
-    min-height: 50vh;
   }
   .footer {
     overflow: hidden;
+    min-height: 70vh;
     @media screen and (min-width: $mobile-breakpoint) {
       height: 40vh;
     }

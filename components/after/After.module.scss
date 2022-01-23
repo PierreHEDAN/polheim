@@ -7,7 +7,6 @@
   justify-content: center;
   @media screen and (max-width: $tablet-breakpoint) {
     width: 100%;
-    margin: 0 36px;
   }
 }
 
@@ -45,6 +44,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 36px;
 }
 
 .header {
@@ -76,8 +76,6 @@
 .content {
   position: relative;
   display: flex;
-  margin-right: 140px;
-  margin-left: 140px;
   max-width: calc(4*350px);
   width: 100%;
   flex-direction: column;
@@ -93,7 +91,6 @@
   position: relative;
   display: flex;
   position: relative;
-  margin: 0 36px;
   justify-content: space-between;
 }
 
@@ -104,6 +101,7 @@
   justify-content: space-between;
   margin-bottom: 70px;
   flex-wrap: wrap;
+  margin-top: 70px;
 
   @media screen and (max-width: $tablet-breakpoint) {
     justify-content: center;

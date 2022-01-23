@@ -21,8 +21,7 @@
     height: 100%;
     margin: 0 36px;
     .paragraph {
-      max-width: 600px;
-      min-width: 300px;
+      max-width: 800px;
       h3 {
         margin-bottom: 80px;
         font-weight: normal;
@@ -35,7 +34,7 @@
     .right {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
 
       @media screen and (min-width: $tablet-breakpoint) {
         margin-left: 50px;
@@ -55,19 +54,25 @@
 
       .tags {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: center;
         width: fit-content;
         margin-top: 90px;
+        @media screen and (max-width: $tablet-breakpoint) {
+            margin-top: 0px;
+        }
         .tag {
           display: flex;
           max-width: 122px;
           text-align: center;
           flex-direction: column;
           align-items: center;
-          margin: 0 5px;
+          margin: 0 10px;
           span {
-            margin-top: 5px;
+            margin: 10px 10px;
+            font-size: 16px;
           }
         }
       }
@@ -79,7 +84,10 @@
     @media screen and (max-width: $tablet-breakpoint) {
       flex-direction: column;
       .paragraph {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+      }
+      .tags {
+        margin-top: 10px;
       }
       .me {
         margin-bottom: 60px;

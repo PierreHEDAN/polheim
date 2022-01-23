@@ -17,6 +17,7 @@ const AfterPhotos = ({ onOpenImage }) => {
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une vision durable"
+            secondary
           />
         </div>
         <div className={styles.instaContainer}>
@@ -26,6 +27,7 @@ const AfterPhotos = ({ onOpenImage }) => {
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une approche scientifique"
+            secondary
           />
         </div>
         <div className={styles.instaContainer}>
@@ -35,6 +37,7 @@ const AfterPhotos = ({ onOpenImage }) => {
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une volontée de partage"
+            secondary
           />
         </div>
         <div className={styles.instaContainer}>
@@ -44,6 +47,7 @@ const AfterPhotos = ({ onOpenImage }) => {
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une démarche éducative"
+            secondary
           />
         </div>
       </div>

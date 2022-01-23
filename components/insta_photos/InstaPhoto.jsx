@@ -1,7 +1,7 @@
 import classnames from 'classnames';
 import styles from './InstaPhoto.module.scss';
 
-const InstaPhoto = ({ src, onOpenImage, title, className }) => {
+const InstaPhoto = ({ src, onOpenImage, title, className, secondary }) => {
   const handleOpenImage = (imageSrc) => {
     onOpenImage(<img src={imageSrc} alt="Wide photo" />)
   }
@@ -13,7 +13,7 @@ const InstaPhoto = ({ src, onOpenImage, title, className }) => {
     'background-image': `url('${src}')`,
     }} />
     </div>
-    <div className={styles.title}>
+    <div className={classnames(styles.title, secondary ? styles.secondary : styles.primary)}>
       {title}
     </div>
   </div>

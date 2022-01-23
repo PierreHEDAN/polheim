@@ -1,6 +1,5 @@
 import classnames from 'classnames'
 import styles from './Travel.module.scss';
-import Trace from './Trace';
 import InstaPhoto from '../insta_photos/InstaPhoto';
 
 const Travel = () => (
