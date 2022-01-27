@@ -24,6 +24,19 @@
   font-size: 30px;
 }
 
+.traceMobile {
+  @media screen and (min-width: $mobile-breakpoint) {
+    display: none;
+  }
+  transform: translateX(-9%) translateY(-2%);
+}
+
+.traceWeb {
+  @media screen and (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
+
 .container {
   position: relative;
   padding-top: 120px;
@@ -40,16 +53,28 @@
     position: absolute;
     top: 80px;
     left: 80px;
+    @media screen and (max-width: $mobile-breakpoint) {
+      left: unset;
+      right: 80px;
+    }
   }
 
   .desktopContent {
     display: flex;
+    position: relative;
+    @media screen and (max-width: $mobile-breakpoint) {
+      flex-direction: column;
+    }
     margin-top: 80px;
+    align-items: flex-end;
     width: 100%;
     z-index: 1;
 
     img {
       width: 100%;
+      @media screen and (max-width: $mobile-breakpoint) {
+        transform: scale(1.4) translateY(0%) translateX(-14%);
+      }
     }
 
     .trace {
@@ -57,43 +82,107 @@
       transform: scale(calc(1330 / 1920)) translateY(-23%);
     }
 
-    .insta {}
+    .insta {
+      @media screen and (max-width: $mobile-breakpoint) {
+        margin: 0 5px;
+        display: inline-block;
+        max-width: 224px;
+        width: 100%;
+      }
+    }
 
     .photo1 {
       position: absolute;
       transform: translate(80%,74%) rotate(12deg);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
 
     .photo2 {
       position: absolute;
       transform: translate(260%, 0%) rotate(-12deg);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
 
     .photo3 {
       position: absolute;
       transform: translate(470%, 210%) rotate(12deg);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
     
     .photo4 {
       position: absolute;
       transform: translate(470%, -60%) rotate(-12deg);;
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
 
     .photo5 {
       position: absolute;
       transform: translate(740%, 190%) rotate(-12deg);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
 
     .photo6 {
       position: absolute;
       transform: translate(740%, -70%) rotate(0);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
     }
 
-    .instaContainer {
+    .instaTopContainer {
       z-index: 2;
       position: absolute;
       width: 100%;
-      height: 100%;
+      top: 0;
+      @media screen and (max-width: $mobile-breakpoint) {
+        background-color: #00374B;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        top: inherit;
+        bottom: 0;
+      }
+    }
+
+    .instaContainer {
+      width: 100%;
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: relative;
+        align-items: flex-end;
+        display: flex;
+        overflow-x: scroll;
+      }
+      @media screen and (max-width: $mobile-breakpoint) {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+      margin-left: 20px;
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        margin: 0 auto;
+        .photo {
+          margin: 0 10px;
+          display: inline-block;
+        }
+      }
     }
 
     .traceContainer {
@@ -101,6 +190,5 @@
       width: 100%;
       height: 100%;
     }
-
   }
 }

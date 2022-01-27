@@ -36,14 +36,20 @@
   background: #FCFCFC 0% 0% no-repeat padding-box;
   box-shadow: 10px 10px 20px #0000001A;
   border-radius: 36px;
-  border: 1px solid black;
 }
 
 .media {
   width: 250px;
   height: 250px;
   margin: 42px 80px;
-  border: 1px solid red;
+  @media screen and (max-width: $mobile-breakpoint) {
+    margin: 10px 20px;
+  }
+
+  @media screen and (max-width: 370px) {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .title {
@@ -51,6 +57,7 @@
   font-weight: 600;
   font-family: poppins, sans-serif;
   color: #404040;
+  text-align: center;
 }
 
 .seeMore {

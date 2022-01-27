@@ -46,13 +46,21 @@ $marginSize: 200px;
         gap: 50px;
         grid-template-columns: repeat(2, 250px);
       }
-      @media screen and (max-width: $mobile-breakpoint + $marginSize) {
+      @media screen and (min-width: 340px) and (max-width: $mobile-breakpoint + $marginSize) {
         display: grid;
         width: fit-content;
         align-items: center;
         margin: 10px auto;
         gap: 14px;
         grid-template-columns: repeat(2, 150px);
+      }
+      @media screen and (max-width: 340px) {
+        display: grid;
+        width: fit-content;
+        align-items: center;
+        margin: 10px auto;
+        gap: 14px;
+        grid-template-columns: repeat(1, 150px);
       }
     }
   }

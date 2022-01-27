@@ -18,6 +18,9 @@ $marginSize: 200px;
     overflow: hidden;
 
     .photo {
+      @media screen and (max-width: $mobile-breakpoint) {
+        width: 170px;
+      }
       aspect-ratio: 1 / 1;
       background-position: center center;
       background-repeat: no-repeat;

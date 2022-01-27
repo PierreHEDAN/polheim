@@ -22,11 +22,11 @@ const responsive = {
   }
 };
 
-const Card = ({ name, link }) => {
+const Card = ({ name, imgSrc, link }) => {
   return (
     <div className={styles.card}>
       <div className={styles.media}>
-        <img src={link} />
+        <img src={imgSrc} />
       </div>
       <div className={styles.title}>
         {name}
@@ -39,12 +39,10 @@ const Card = ({ name, link }) => {
 }
 
 let slides = [
-    <Card key={1} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
-    <Card key={2} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
-    <Card key={3} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
-    <Card key={4} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
-    <Card key={5} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
-    <Card key={6} name="NOM PARTENAIRE" link="/assets/images/pt/passeportarmorique.png" />,
+    <Card key={1} name="Rennes Métropole" imgSrc="/assets/images/medias/rennes.jpg" link="https://fr.calameo.com/read/005416234c1c64fd8b0f9?page=40" />,
+    <Card key={2} name="Passeport Armorique" imgSrc="/assets/images/medias/passport.png" link="https://www.passeport-armorique.com/pierre-hedan-explorateur-polaire/" />,
+    <Card key={3} name="Betton Info" imgSrc="/assets/images/medias/betton.png" link="https://www.betton.fr/upload/espace/12/pj/6916_15700_BI___juin_2021_BAT___72_dpi.pdf" />,
+    <Card key={4} name="Espace Monde Polaires" imgSrc="/assets/images/medias/espace.png" link="https://www.espacedesmondespolaires.org/event/le-metier-de-guide-polaire/" />,
 ];
 
 const Medias = () => (
