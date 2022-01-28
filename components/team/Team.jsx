@@ -160,7 +160,9 @@ const Team = () => {
         {Amelie}
         {Nathan}
         {Amandine}
+        <a href="mailto:expeditionpolheim@gmail.com">
         <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
+        </a>
       </div>
       ) }
     </div>
