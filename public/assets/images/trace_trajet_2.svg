@@ -16,6 +16,7 @@
 
       .cls-4 {
         stroke: none;
+        fill: #dd5239;
       }
 
       .cls-5 {
