@@ -9,9 +9,7 @@ const Quote = () => (
       </div>
         <h3 className="secondary">Construire cette expédition et grandir ensemble</h3>
       <div className={styles.quoteEnd}>
-        <QuoteSVG style={{
-          transform: "rotate(180deg)",
-        }}/>
+        <QuoteSVG />
       </div>
     </div>
   </div>

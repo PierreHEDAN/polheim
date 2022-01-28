@@ -19,6 +19,7 @@ const Photos = ({ onOpenImage }) => {
               className={styles.insta}
               onOpenImage={() => handleOpenImage(`./assets/images/photos/${key}.png`)}
               title={<><br /><br /></>}
+              travel
             />
           ))
         }

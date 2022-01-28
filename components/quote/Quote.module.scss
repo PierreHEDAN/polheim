@@ -9,9 +9,10 @@
 }
 
 .quoteEnd {
+  transform: rotate(180deg);
   @media screen and (max-width: $tablet-breakpoint) {
     align-self: flex-end;
-    transform: translateY(-120px) scale(0.4);
+    transform: translateY(-120px) scale(0.4) rotate(180deg);
   }
 }
 

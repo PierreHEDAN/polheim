@@ -18,6 +18,10 @@
 
 .tooltip {
   width: 400px;
+  @media screen and (max-width: 400px) {
+    max-width: 320px;
+    border: 1px solid $secondary-color;
+  }
   background-color: $white-color;
   padding: 27px;
   border-radius: 15px;
@@ -31,6 +35,9 @@
 
   [data-enter] & {
     opacity: 0.9;
+    @media screen and (max-width: 400px) {
+      opacity: 0.95;
+    }
   }
 
   .title {

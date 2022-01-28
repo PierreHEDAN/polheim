@@ -3,10 +3,10 @@ import styles from './Team.module.scss';
 import QuoteSVG from './QuoteSVG';
 import PhotoTeam from './PhotoTeam';
 import { Tooltip, TooltipReference, useTooltipState } from "reakit/Tooltip";
-import { Chauve, Blague } from './Icons';
+import { Chauve, Blague, MaryPopins, Attentione, Coralie1, Coralie2, Camille1, Camille2, Amelie1, Amelie2, Nathan1, Nathan2, Amandine1, Amandine2 } from './Icons';
 
 const TooltipTeam = ({ member, name, age, desc, quote, icon1, icon2 }) => {
-  const tooltip = useTooltipState({ animated: 250, placement: "right" });
+  const tooltip = useTooltipState({ animated: 250, placement: "bottom" });
 
   return (
     <>
@@ -62,8 +62,8 @@ const Vero = (
     age="56 ans"
     desc="Bretonne d’adoption depuis 53 ans & Responsable de projet HLM"
     quote="On pense tout d’abord que c’est une performance individuelle mais c’est en fait un vrai travail d’équipe où vont se mêler famille, amis mais aussi professionnels et partenaires. Une magnifique aventure humaine !"
-    icon1={<Chauve />}
-    icon2={<Blague />}
+    icon1={<MaryPopins />}
+    icon2={<Attentione />}
   />
 )
 
@@ -75,8 +75,60 @@ const Coralie = (
     age="31 ans"
     desc="Originaire de Fougères et in love du beurre salé. Diététicienne nutritionniste, spécialisée en nutrition du sport, et prochainement en nutrition froid-extrême."
     quote="Mon père est un aventurier, je dois l’être dans l’âme également. Je souhaite que ce projet fasse progresser les connaissances dans le domaine de la nutrition du sportif et montrer / valoriser le travail des diététiciens."
-    icon1={<Chauve />}
-    icon2={<Blague />}
+    icon1={<Coralie1 />}
+    icon2={<Coralie2 />}
+  />
+)
+
+const Camille = (
+  <TooltipTeam
+    key="camille"
+    member="equip-camille"
+    name="Camille"
+    age="26 ans"
+    desc="Née à Rennes, mon écusson breton ne me quitte même pas lors de mes voyages & Psychomotricienne en Italie."
+    quote="Le défi physique et psychologique de Pierre ainsi que sa détermination m’impressionnent. Je supporte les valeurs qu’il veut transmettre et je souhaite m’investir et participer à la réalisation de ce projet fou. Son défi est devenu en quelque sorte mon défi."
+    icon1={<Camille1 />}
+    icon2={<Camille2 />}
+  />
+)
+
+const Amelie = (
+  <TooltipTeam
+    key="amelie"
+    member="equip-amelie"
+    name="Amélie"
+    age="23 ans"
+    desc="Bretonne pur beurre depuis la nuit des temps & étudiante en 5ème année de médecine."
+    quote="Je pense que ce projet peut m’apprendre à collaborer sainement en équipe, à développer mes compétences en coaching, en créativité, en synthèse et clarté d’expression de mes idées."
+    icon1={<Amelie1 />}
+    icon2={<Amelie2 />}
+  />
+)
+
+const Nathan = (
+  <TooltipTeam
+    key="nathan"
+    member="equip-nathan"
+    name="Nathan"
+    age="23 ans"
+    desc="Enfant du pays de la Bretagne & étudiant en master énergie renouvelable."
+    quote="Pierre est mon “pote d’enfance”, j’ai envie de le soutenir dans son projet le plus fou, mais c’est aussi l’occasion pour moi de me replonger dans le monde associatif comme j’ai pu le faire en école d’ingénieurs."
+    icon1={<Nathan1 />}
+    icon2={<Nathan2 />}
+  />
+)
+
+const Amandine = (
+  <TooltipTeam
+    key="amandine"
+    member="equip-amandine-08"
+    name="Amandine"
+    age="23 ans"
+    desc="Bretonne dans l’âme, malgré les kilomètres qui me séparent de ma terre natale. & étudiante en Bachelor Design graphique et digital."
+    quote="C’est pour moi un honneur de suivre Pierre dans son projet aussi fou qu’ambitieux, c’est un travail collectif qui permet de concentrer beaucoup de domaines différents en un seul projet. C’est un défi et une belle opportunité."
+    icon1={<Amandine1 />}
+    icon2={<Amandine2 />}
   />
 )
 
@@ -104,10 +156,10 @@ const Team = () => {
         {Bruno}
         {Vero}
         {Coralie}
-        <PhotoTeam key="camille" member="equip-camille" name="Camille" />
-        <PhotoTeam key="amelie" member="equip-amelie" name="Amélie" />
-        <PhotoTeam key="nathan" member="equip-nathan" name="Nathan" />
-        <PhotoTeam key="amandine" member="equip-amandine-08" name="Amandine" />
+        {Camille}
+        {Amelie}
+        {Nathan}
+        {Amandine}
         <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
       </div>
       ) }

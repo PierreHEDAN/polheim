@@ -3,19 +3,34 @@
 
 .instaDesc {
   display: flex;
-  height: 100%;
+  height: 124px;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: $mobile-breakpoint) {
+    justify-content: flex-start;
+    align-items: unset;
+    text-align: unset;
+  }
   flex-direction: column;
   color: $primary-color;
   text-align: center;
 
   h3 {
     margin-bottom: 10px;
+    @media screen and (max-width: $mobile-breakpoint) {
+      text-align: left;
+      font-size: 20px;
+      font-weight: normal;
+    }
   }
 
   p {
     font-size: 18px;
+    @media screen and (max-width: $mobile-breakpoint) {
+      font-size: 14px;
+      text-align: left;
+    }
   }
 }
 
@@ -54,7 +69,7 @@
     top: 80px;
     left: 80px;
     @media screen and (max-width: $mobile-breakpoint) {
-      left: unset;
+      left: 30px;
       right: 80px;
     }
   }
@@ -86,8 +101,13 @@
       @media screen and (max-width: $mobile-breakpoint) {
         margin: 0 5px;
         display: inline-block;
-        max-width: 224px;
         width: 100%;
+        &:first-child {
+          margin-left: 36px;
+        }
+        &:last-child {
+          margin-right: 36px;
+        }
       }
     }
 

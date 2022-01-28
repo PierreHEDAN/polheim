@@ -13,7 +13,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image1"
-            src="./assets/images/photos/0.png"
+            src="./assets/images/after_photos/1.jpg"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une vision durable"
@@ -23,7 +23,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image2"
-            src="./assets/images/photos/0.png"
+            src="./assets/images/after_photos/2.jpg"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une approche scientifique"
@@ -33,7 +33,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image3"
-            src="./assets/images/photos/0.png"
+            src="./assets/images/after_photos/coming_soon.png"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une volontée de partage"
@@ -43,7 +43,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image4"
-            src="./assets/images/photos/0.png"
+            src="./assets/images/after_photos/coming_soon.png"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une démarche éducative"

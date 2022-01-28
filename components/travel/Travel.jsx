@@ -71,6 +71,8 @@ const Travel = ({ onOpenImage }) => {
             className={classnames(styles.insta, styles.photo1)}
             onOpenImage={() => handleOpenImage("./assets/images/travel/0.jpg", j1desc)}
             title="JOUR 1"
+            titleMobile={j1desc}
+            travel
           />
           <InstaPhoto
             key="image2"
@@ -78,6 +80,8 @@ const Travel = ({ onOpenImage }) => {
             className={classnames(styles.insta, styles.photo2)}
             onOpenImage={() => handleOpenImage("./assets/images/travel/1.jpg", j2desc)}
             title="JOUR 6"
+            titleMobile={j2desc}
+            travel
           />
           <InstaPhoto
             key="image3"
@@ -85,6 +89,8 @@ const Travel = ({ onOpenImage }) => {
             className={classnames(styles.insta, styles.photo3)}
             onOpenImage={() => handleOpenImage("./assets/images/travel/2.jpeg", j3desc)}
             title="JOUR 12"
+            titleMobile={j3desc}
+            travel
           />
           <InstaPhoto
             key="image4"
@@ -92,6 +98,8 @@ const Travel = ({ onOpenImage }) => {
             className={classnames(styles.insta, styles.photo4)}
             onOpenImage={() => handleOpenImage("./assets/images/travel/3.jpg", j4desc)}
             title="JOUR 30"
+            titleMobile={j4desc}
+            travel
           />
           <InstaPhoto
             key="image5"
@@ -99,6 +107,8 @@ const Travel = ({ onOpenImage }) => {
             className={classnames(styles.insta, styles.photo5)}
             onOpenImage={() => handleOpenImage("./assets/images/travel/4.jpg", j5desc)}
             title="JOUR 40"
+            titleMobile={j5desc}
+            travel
           />
         </div>
       </div>
