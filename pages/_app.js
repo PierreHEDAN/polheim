@@ -4,6 +4,7 @@ import '../styles/typography.scss';
 import '../components/medias/Carousel.scss';
 import { Provider } from "reakit";
 import TagManager from 'react-gtm-module';
+import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
