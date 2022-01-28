@@ -73,6 +73,7 @@ const Travel = ({ onOpenImage }) => {
             title="JOUR 1"
             titleMobile={j1desc}
             travel
+            copyright="@ALE"
           />
           <InstaPhoto
             key="image2"
@@ -82,6 +83,7 @@ const Travel = ({ onOpenImage }) => {
             title="JOUR 6"
             titleMobile={j2desc}
             travel
+            copyright="@ALE"
           />
           <InstaPhoto
             key="image3"
@@ -91,6 +93,7 @@ const Travel = ({ onOpenImage }) => {
             title="JOUR 12"
             titleMobile={j3desc}
             travel
+            copyright="@Jérôme BRISEBOURG"
           />
           <InstaPhoto
             key="image4"
@@ -100,6 +103,7 @@ const Travel = ({ onOpenImage }) => {
             title="JOUR 30"
             titleMobile={j4desc}
             travel
+            copyright="@ALE"
           />
           <InstaPhoto
             key="image5"
@@ -109,6 +113,7 @@ const Travel = ({ onOpenImage }) => {
             title="JOUR 40"
             titleMobile={j5desc}
             travel
+            copyright="@ALE"
           />
         </div>
       </div>

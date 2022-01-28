@@ -41,6 +41,9 @@ export default function Home({ forecast }) {
   const [modalContent, setModalContent] = useState();
   const [legendContent, setLegendContent] = useState();
 
+  const [openModalTravel, setOpenModalTravel] = useState(false);
+  const [modalContentTravel, setModalContentTravel] = useState();
+
   const handleOpenModal = (content, legend) => {
     if (content !== undefined) {
       setModalContent(content);
@@ -50,6 +53,16 @@ export default function Home({ forecast }) {
       setOpenModal(false);
       setModalContent();
       setLegendContent();
+    }
+  }
+
+  const handleOpenModalTravel = (content) => {
+    if (content !== undefined) {
+      setModalContentTravel(content);
+      setOpenModalTravel(true);
+    } else {
+      setOpenModalTravel(false);
+      setModalContentTravel();
     }
   }
 
@@ -75,6 +88,11 @@ export default function Home({ forecast }) {
           </div>
         </div>
       )}
+      { openModalTravel && (
+        <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModalTravel()}>
+          {modalContentTravel}
+        </div>
+      )}
       <section className={styles.homeScreen}>
         <HomeScreen />
       </section>
@@ -85,7 +103,7 @@ export default function Home({ forecast }) {
         <History />
       </section>
       <section className={styles.route}>
-        <Route forecast={forecast} onOpenImage={(image) => handleOpenModal(image)} />
+        <Route forecast={forecast} onOpenImage={(image) => handleOpenModalTravel(image)} />
       </section>
       <section className={styles.travel}>
         <Travel onOpenImage={(image, content) => handleOpenModal(image, content)} />

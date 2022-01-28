@@ -13,7 +13,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image1"
-            src="./assets/images/after_photos/1.jpg"
+            src="./assets/images/after_photos/coming_soon.png"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une vision durable"
@@ -33,7 +33,7 @@ const AfterPhotos = ({ onOpenImage }) => {
         <div className={styles.instaContainer}>
           <InstaPhoto
             key="image3"
-            src="./assets/images/after_photos/coming_soon.png"
+            src="./assets/images/after_photos/1.jpg"
             className={styles.insta}
             onOpenImage={onOpenImage}
             title="Une volontée de partage"
