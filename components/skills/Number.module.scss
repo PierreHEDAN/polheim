@@ -1,0 +1,25 @@
+@import '../../styles/color.scss';
+@import '../../styles/display.scss';
+
+.numberBack {
+  width: 60px;
+  height: 60px;
+  background-color: $secondary-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberWhite {
+  width: 40px;
+  height: 40px;
+  background-color: $white-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $secondary-color;
+  font-size: 33px;
+  font-family: poppins, sans-serif;
+}

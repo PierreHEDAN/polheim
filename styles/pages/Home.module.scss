@@ -1,16 +1,83 @@
 @import '../display.scss';
+@import '../color.scss';
+
+#modal-root {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba($primary-color, .7);
+}
+
+.modalContainer {
+  display: flex;
+  z-index: 200000000000;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 60vh;
+  max-height: 100vh;
+  margin: auto;
+
+  .modalImage {
+    margin: 10%;
+    margin-bottom: 0;
+
+    *:first-child {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+  }
+
+  .modalLegend {
+    overflow: hidden;
+    height: 20vh;
+  }
+}
+
+.blur {
+  section {
+    filter: blur(3px);
+  }
+}
 
 .home {
   display: flex;
   flex-direction: column;
+
+  section {
+    transition: filter 250ms ease-in-out, transform 250ms ease-in-out;
+  }
+
   .homeScreen {
     min-height: 100vh;
   }
   .introduction {
-    min-height: 120vh;
+  }
+  .history { }
+  .travel {
+    overflow: hidden;
   }
   .aboutMe {
-    min-height: 120vh;
+    min-height: 80vh;
+  }
+  .quote { }
+  .team {
+    overflow: hidden;
+  }
+
+  .skills { }
+  .after {
+    background-color: $primary-color;
+  }
+
+  .bigquote {
+    height: 100vh;
+    background-color: #73C3D0;
+    @media screen and (max-width: $tablet-breakpoint) {
+      min-height: 50vh;
+    }
   }
   .route {
     @media screen and (min-width: $tablet-breakpoint) {
@@ -20,29 +87,19 @@
       min-height: 0;
     }
   }
-  .news {
-    @media screen and (min-width: $mobile-breakpoint) {
-      min-height: 120vh;
-    }
-    @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 90vh;
-    }
-  }
+  .news { }
   .partners {
     min-height: 70vh;
   }
-  .photos {
-    @media screen and (min-width: $mobile-breakpoint) {
-      min-height: 120vh;
-    }
-    @media screen and (max-width: $mobile-breakpoint) {
-      min-height: 60vh;
-    }
+  .medias {
+    background-color: $primary-color;
+    overflow: hidden;
   }
-  .newsletter {
-    min-height: 50vh;
-  }
+  .photos { }
+  .newsletter { }
   .footer {
+    overflow: hidden;
+    min-height: 70vh;
     @media screen and (min-width: $mobile-breakpoint) {
       height: 40vh;
     }

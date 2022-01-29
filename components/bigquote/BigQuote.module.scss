@@ -1,0 +1,141 @@
+@import '../../styles/color.scss';
+@import '../../styles/display.scss';
+
+.splash {
+  width: 100%;
+  height: 100%;
+  padding: 0 37px;
+  background-image: url("/assets/images/forme.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quoteContainer {
+  display: flex;
+  align-items: center;
+}
+.quoteContent {
+  display: flex;
+  max-width: 1000px;
+  @media screen and (max-width: $tablet-breakpoint) {
+    flex-direction: column;
+  }
+  
+  p {
+    margin: 0 16px;
+  }
+}
+
+.quote {
+  align-self: flex-start;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: scale(0.6);
+  }
+}
+.quoteEnd {
+  align-self: flex-end;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: scale(0.6);
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  max-width: calc(4*350px);
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: $primary-color;
+  }
+}
+
+.firstLine {
+  position: relative;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.secondLine {
+  display: flex;
+  align-content: center;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 70px;
+
+  .pictos {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    align-content: center;
+    flex-direction: column;
+
+    .pictosOne {
+      display: flex;
+      flex: 1;
+      align-content: center;
+      justify-content: space-between;
+    }
+
+    .pictosCenter {
+      display: flex;
+      flex: 1;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+
+  p {
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+.picto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+.leftParagraph {
+  max-width: 1000px;
+}
+
+@keyframes capsulemove {
+  from {
+    transform: translateY(-50%) rotate(-5deg);
+  }
+
+  to {
+    transform: translateY(-55%) rotate(0deg);
+  }
+}
+
+.capsule {
+  position: relative;
+  width: 300px;
+  animation-duration: 5s;
+  animation-name: capsulemove;
+  animation-iteration-count: infinite;
+  // animation-timing-function: linear;
+  animation-direction: alternate;
+}

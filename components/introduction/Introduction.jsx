@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import styles from './Introduction.module.scss';
 
 const Introduction = () => (
@@ -6,14 +7,13 @@ const Introduction = () => (
       <img className={styles.badge} src="./assets/images/polheimbadge.png" alt="Expedition Badge" />
       <div className={styles.paragraph}>
         <div className={styles.title}>
-          <h4 className="primary">Qu’est-ce que <b>l’expédition POLHEIM ?</b></h4>
-          <span className="secondary uppercase"><b>De Pierre Hedan</b></span>
+          <h4 className={classnames("primary", styles.orange)}>NOTRE EXPÉDITION <b>POLHEIM</b></h4>
         </div>
         <p className="primary">
-          « L’entreprise d’une aventure folle, l’atteinte du Pôle Sud, seul, sans assistance et en totale autonomie depuis les côtes de l’Antarctique. »
-          Une expédition retraçant le parcours de Roald Amundsen, le premier Homme à avoir atteint le pôle en 1911. Un périple en solitaire de quarante jours mis à disposition de la science et de l’éducation.
+          Inspirée par les valeurs de la conquête du Pôle Sud, l’expédition Polheim est l’entreprise d’une aventure folle. Atteindre le 90° Sud en autonomie, seul et sans moyen de traction depuis les côtes de l’Antarctique, une expédition de 650 kilomètres sur plus de 40 jours dans des conditions extrêmes. 
           <br />
-          Le but : promouvoir et informer sur ce continent méconnu qu’est l’Antarctique en le rendant accessible aux yeux de tous.
+          <br />
+          Sortie initialement de la tête d’un petit breton ambitieux, sans réelle expérience et sans doute un peu fou, cette idée a su grandir avec lui et devenir aujourd’hui un vrai projet sérieux et structuré.
         </p>
       </div>
     </div>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="191.782" viewBox="0 0 260 191.782">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dd5239;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_297" data-name="Rectangle 297" class="cls-1" width="260" height="191.782"/>
+    </clipPath>
+  </defs>
+  <g id="citation_guill_g" class="cls-2">
+    <g id="Groupe_1890" data-name="Groupe 1890" class="cls-3">
+      <path id="Tracé_2126" data-name="Tracé 2126" class="cls-1" d="M283.776,104.4v87.379H399.8V104.4H335.38c-.225-57.732,22.884-53,37.208-54.433V.253C355.041-.881,282.7-2.672,283.776,104.4" transform="translate(-139.804 0)"/>
+      <path id="Tracé_2127" data-name="Tracé 2127" class="cls-1" d="M.011,104.4v87.379H116.039V104.4H51.615C51.39,46.671,74.5,51.4,88.823,49.971V.253C71.276-.881-1.063-2.672.011,104.4" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

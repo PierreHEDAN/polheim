@@ -1,34 +1,52 @@
 import styles from './Partners.module.scss';
 import { RoundedContainer } from '../utils';
 
+const PartnerLink = ({ link, imgSrc, name }) => {
+  const image = link ? (
+    <a href={link} target="_blank">
+      <img src={imgSrc} alt="Badge" />
+    </a>
+  ) : (
+    <img src={imgSrc} alt="Badge" />
+  );
+
+  return (
+    <div className={styles.partner}>
+      <RoundedContainer>
+        {image}
+      </RoundedContainer>
+      <h4>{name}</h4>
+    </div>
+  )
+}
+
 const Partners = () => {
   const partnerList = [
-    { link: '', imgSrc: 'amandinesauve'},
-    { link: 'https://www.facebook.com/guidepolaire/', imgSrc: 'bureauguidespolaire'},
-    { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: 'coralievaugeois'},
-    { link: 'https://www.irvin.fr/', imgSrc: 'irvin'},
-    { link: 'https://www.passeport-armorique.com/', imgSrc: 'passeportarmorique'},
-    { link: 'https://polarctika.com/', imgSrc: 'polarctika'},
+    { link: '', imgSrc: '/assets/images/pt/ale.png', name: 'Antartic Logistics & Expeditions' },
+    { link: 'https://www.facebook.com/guidepolaire/', imgSrc: '/assets/images/pt/bureauguidespolaire.png', name: 'Guide Polaire' },
+    { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: '/assets/images/pt/coralievaugeois.png', name: 'Coralie Vaugeois'},
+    { link: '', imgSrc: '/assets/images/pt/ferme_de_jeanne.jpg', name: 'La Ferme de Jeanne'},
+    { link: '', imgSrc: '/assets/images/pt/as.png', name: 'AS' },
+    { link: 'https://www.irvin.fr/', imgSrc: '/assets/images/pt/irvin.png', name: 'Irvin' },
+    { link: '', imgSrc: '/assets/images/pt/polartika.png', name: 'Polarctika' },
+    { link: 'https://www.passeport-armorique.com/', imgSrc: '/assets/images/pt/passeportarmorique.png', name: 'Passeport Armorique' },
   ];
 
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h4 className="white">Partenaires</h4>
+        <div className={styles.title}>
+          <h4 className="white">NOS PARTENAIRES</h4>
+        </div>
         <div className={styles.partners}>
             {
               partnerList.map((partner) => (
-                <div className={styles.partner} key={partner.imgSrc}>
-                  <RoundedContainer>
-                    {partner.link ? (
-                      <a href={partner.link} target="_blank">
-                        <img src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
-                      </a>
-                    ) : (
-                      <img src={`./assets/images/pt/${partner.imgSrc}.png`} alt="Badge" />
-                    )}
-                  </RoundedContainer>
-                </div>
+                <PartnerLink
+                  key={partner.name}
+                  link={partner.link}
+                  imgSrc={partner.imgSrc}
+                  name={partner.name || "name"}
+                />
               ))
             }
         </div>

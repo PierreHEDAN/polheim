@@ -8,7 +8,7 @@ const Route = ({ forecast, onOpenImage }) => {
 
   return (
   <div className={styles.container}>
-    <h4 className="secondary">Itinéraire</h4>
+    <h4 className="secondary">DONNÉES <b>GÉNÉRALES</b></h4>
     <div className={styles.desktopContent}>
       <img className={styles.map} src="./assets/images/map.svg" alt="Map" />
       <img className={styles.trip} src="./assets/images/trip.svg" alt="Trip" />

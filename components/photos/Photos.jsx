@@ -1,4 +1,5 @@
 import styles from './Photos.module.scss';
+import InstaPhoto from '../insta_photos/InstaPhoto';
 
 const Photos = ({ onOpenImage }) => {
   const handleOpenImage = (imageSrc) => {
@@ -12,9 +13,14 @@ const Photos = ({ onOpenImage }) => {
       <div className={styles.photos}>
         {
           [...Array(8).keys()].map((key) => (
-            <div className={styles.photo} key={key} onClick={() => handleOpenImage(`./assets/images/photos/${key}.png`)}>
-              <img src={`./assets/images/photos/${key}.png`} alt="key" />
-            </div>
+            <InstaPhoto
+              key={key}
+              src={`./assets/images/photos/${key}.png`}
+              className={styles.insta}
+              onOpenImage={() => handleOpenImage(`./assets/images/photos/${key}.png`)}
+              title={<><br /><br /></>}
+              travel
+            />
           ))
         }
       </div>

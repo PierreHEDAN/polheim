@@ -1,0 +1,182 @@
+@import '../../styles/color.scss';
+@import '../../styles/display.scss';
+
+.quoteContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: $tablet-breakpoint) {
+    width: 100%;
+  }
+}
+
+.quoteContent {
+  display: flex;
+  @media screen and (max-width: $tablet-breakpoint) {
+    flex-direction: column;
+  }
+  
+  p {
+    margin: 0 16px;
+    @media screen and (max-width: $tablet-breakpoint) {
+      margin: unset;
+    }
+  }
+}
+
+.quoteEnd {
+  align-self: flex-end;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: translateX(20px) scale(0.6);
+  }
+}
+
+.quote {
+  align-self: flex-start;
+  @media screen and (max-width: $tablet-breakpoint) {
+    transform: translateX(-20px) scale(0.6);
+  }
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 36px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 70px;
+
+  .paragraph {
+    max-width: 800px;
+  }
+
+  h3 {
+    text-align: left;
+    margin-right: auto;
+    font-weight: normal;
+    color: $white-color;
+  }
+}
+
+.headerContainer {
+  img {
+    width: 100%;
+    position: relative;
+    top: -1px;
+  }
+}
+
+
+.content {
+  position: relative;
+  display: flex;
+  max-width: 1480px;
+  width: 100%;
+  flex-direction: column;
+
+  p {
+    color: $white-color;
+    max-width: 1000px;
+    margin-bottom: 14px;
+  }
+}
+
+.firstLine {
+  position: relative;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.secondLine {
+  display: flex;
+  align-content: center;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    justify-content: center;
+  }
+
+  .pictos {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    align-content: center;
+    flex-direction: column;
+
+    @media screen and (max-width: $tablet-breakpoint) {
+      transform: scale(0.8);
+      justify-content: center;
+    }
+
+    .pictosOne {
+      display: flex;
+      flex: 1;
+      align-content: center;
+      justify-content: space-between;
+    }
+
+    .pictosCenter {
+      display: flex;
+      flex: 1;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+
+  p {
+    max-width: 600px;
+    text-align: center;
+    flex: 1;
+  }
+}
+
+.picto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+.leftParagraph {
+  max-width: 1000px;
+}
+
+@keyframes capsulemove {
+  from {
+    transform: translateY(-50%) rotate(-5deg);
+  }
+
+  to {
+    transform: translateY(-60%) rotate(0deg);
+  }
+}
+
+.capsule {
+  position: relative;
+  width: 300px;
+  animation-duration: 5s;
+  animation-name: capsulemove;
+  animation-iteration-count: infinite;
+  // animation-timing-function: linear;
+  animation-direction: alternate;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+  }
+}
