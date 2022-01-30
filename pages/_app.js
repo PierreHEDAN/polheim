@@ -3,12 +3,13 @@ import 'modern-css-reset/dist/reset.min.css';
 import '../styles/typography.scss';
 import '../components/medias/Carousel.scss';
 import { Provider } from "reakit";
-import TagManager from 'react-gtm-module';
+import ReactGA from 'react-ga;
 import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({ gtmId: 'GTM-TJ742C2' });
+    ReactGA.initialize({ gtmId: 'G-R3SM517DC5' });
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   return <Provider><Component {...pageProps} /></Provider>;
 }
