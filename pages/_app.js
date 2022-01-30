@@ -3,7 +3,7 @@ import 'modern-css-reset/dist/reset.min.css';
 import '../styles/typography.scss';
 import '../components/medias/Carousel.scss';
 import { Provider } from "reakit";
-import ReactGA from 'react-ga;
+import ReactGA from 'react-ga';
 import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
