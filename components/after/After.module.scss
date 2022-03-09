@@ -5,8 +5,9 @@
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   @media screen and (max-width: $tablet-breakpoint) {
+    justify-content: center;
     flex: unset;
     width: 100%;
   }
