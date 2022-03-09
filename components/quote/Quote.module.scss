@@ -3,13 +3,14 @@
 
 .quote {
   align-self: baseline;
+  transform: scale(0.8);
   @media screen and (max-width: $tablet-breakpoint) {
     transform: translateY(50px) scale(0.4);
   }
 }
 
 .quoteEnd {
-  transform: rotate(180deg);
+  transform: rotate(180deg) scale(0.8);
   @media screen and (max-width: $tablet-breakpoint) {
     align-self: flex-end;
     transform: translateY(-120px) scale(0.4) rotate(180deg);

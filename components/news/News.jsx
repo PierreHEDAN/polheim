@@ -7,6 +7,24 @@ const News = () => (
     <div className={styles.newsList}>
       <div className={styles.news}>
         <NewsCard news={{
+          img: './assets/images/news/actu10022022.jpg',
+          title: `Que le programme médical commence !`,
+          description: `La préparation d'une expédition polaire ce n'est pas seulement tirer des pneus et dormir dans son frigo. 🤒🤧☃️`,
+          date: '10/02/2022',
+          link: 'https://www.instagram.com/p/CZzc23LKPFX/'
+        }}  />
+      </div>
+      <div className={styles.news}>
+        <NewsCard news={{
+          img: './assets/images/news/actu31012022.jpeg',
+          title: `Un 10km plutôt original !`,
+          description: `Hier, nous avons réalisé une grande première (mondiale peut être 😂), un joli 10km accroché à mon pneu.`,
+          date: '31/01/2022',
+          link: 'https://www.instagram.com/p/CZZuKuzLeen/'
+        }}  />
+      </div>
+      <div className={styles.news}>
+        <NewsCard news={{
           img: './assets/images/news/actu1.jpg',
           title: `Une petite remise en jambe`,
           description: `De quoi prendre de belles gamelles en famille. 😂☃️🌨`,
@@ -41,25 +59,6 @@ En été, ces énormes fissures sont à l'air libre.`,
           date: '05/10/2021',
           link: 'https://www.instagram.com/p/CUoxD7Igh41/'
         }}  />
-      </div>
-      <div className={styles.news}>
-        <NewsCard news={{
-          img: './assets/images/news/actu5.jpg',
-          title: 'Préparation physique',
-          description: `Même si le départ de l'expédition n'est prévu que pour 2023, il vaut mieux prendre de l'avance pour s'entraîner.`,
-          date: '13/09/2021',
-          link: 'https://www.instagram.com/p/CTxHbs9sl01/'
-        }}/>
-      </div>
-      <div className={styles.news}>
-        <NewsCard news={{
-          img: './assets/images/news/actu6.jpg',
-          title: 'Guide Polaire, un métier hors du commun',
-          description: `Ca y est ! Je peux enfin vous partager cette grande nouvelle. Lundi 19 Juillet 2021, l'Espace des Mondes Polaires de PREMANON (39) ouvrira ses portes au bureau des Guides Polaires et à moi-même pour deux conférences inédites.`,
-          date: '17/06/2021',
-          link: 'https://www.instagram.com/p/CQO_x8DsqmG/'
-        }}
-        />
       </div>
     </div>
   </div>

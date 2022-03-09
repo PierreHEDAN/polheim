@@ -4,20 +4,23 @@ import Fusee from './Fusee';
 import Fiole from './Fiole';
 import People from './People';
 import Immeuble from './Immeuble';
-import QuoteSVG from './QuoteSVG';
 
 const Quote = () => (
   <div className={styles.quoteContainer}>
     <div className={styles.quoteContent}>
       <div className={styles.quote}>
-        <QuoteSVG />
+        <img src="./assets/images/quote_after.svg" style={{
+            opacity: 0.5
+          }}
+        />
       </div>
         <p>
           Avant de rentrer dans le monde du travail, il est important pour moi de partager cette expérience atypique. Parti d’un objectif personnel, qu’un jour j’atteindrai le Pôle Sud, j’ai monté un projet et notre équipe pour atteindre ce rêve. Nous n’avons aucun lien hiérarchique entre nous, nos compétences et domaines d’activités sont divers et pourtant nous allons réussir. Tout cela est possible car nous avons su construire une vision commune du projet. Chacun sait ce qu’il doit faire, pourquoi il le fait et ce qu’il peut en retirer. Ces relations transversales nous permettent d’appréhender notre objectif de manière plus performante et plus durable. Tout prend un autre sens quand il y a du partage.
         </p>
       <div className={styles.quoteEnd}>
-        <QuoteSVG style={{
+        <img src="./assets/images/quote_after.svg" style={{
           transform: "rotate(180deg)",
+          opacity: 0.5
         }}/>
       </div>
     </div>

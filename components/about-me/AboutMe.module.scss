@@ -51,6 +51,13 @@
       .me {
         object-fit: cover;
       }
+      .tagsLine {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+      }
 
       .tags {
         display: flex;
