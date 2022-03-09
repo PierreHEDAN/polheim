@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import styles from './Newsletter.module.scss';
 import { Button, Input } from '../utils';
+import { toast } from 'react-toastify';
 
 const Newsletter = () => {
+  const notify = () => toast("Wow so easy!");
   return (
     <div className={styles.container}>
       <h4 className="secondary">Newsletter</h4>

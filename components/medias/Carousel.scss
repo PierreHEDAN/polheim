@@ -118,11 +118,14 @@ $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
     .slider-left {
       position: absolute;
       display: none;
-      @media screen and (max-width: $mobile-breakpoint) {
+      @media screen and (max-width: 320px) {
         display: none !important;
       }
       z-index: 3;
       right: 101%;
+      @media screen and (max-width: 565px) {
+        right: 130%;
+      }
       margin-right: 5px;
       padding: 20px 15px;
       height: 100%;
@@ -145,12 +148,15 @@ $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
     }
     .slider-right {
       display: none;
-      @media screen and (max-width: $mobile-breakpoint) {
+      @media screen and (max-width: 320px) {
         display: none !important;
       }
       position: absolute;
       z-index: 3;
       left: 101%;
+      @media screen and (max-width: 565px) {
+        left: 124%;
+      }
       padding: 20px 15px;
       height: 101%;
       cursor: pointer;

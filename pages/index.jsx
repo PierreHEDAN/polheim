@@ -7,10 +7,10 @@ import Introduction from '../components/introduction';
 import History from '../components/history';
 import Travel from '../components/travel';
 import AboutMe from '../components/about-me';
+import Values from '../components/values';
 import Team from '../components/team';
 import Skills from '../components/skills';
 import After from '../components/after';
-import AfterPhotos from '../components/after_photos';
 import BigQuote from '../components/bigquote';
 import Medias from '../components/medias';
 import Quote from '../components/quote';
@@ -99,8 +99,8 @@ export default function Home({ forecast }) {
       <section className={styles.introduction}>
         <Introduction />
       </section>
-      <section className={styles.history}>
-        <History />
+      <section className={styles.values}>
+        <Values />
       </section>
       <section className={styles.route}>
         <Route forecast={forecast} onOpenImage={(image) => handleOpenModalTravel(image)} />
@@ -123,8 +123,8 @@ export default function Home({ forecast }) {
       <section className={styles.after}>
         <After />
       </section>
-      <section className={styles.afterPhotos}>
-        <AfterPhotos onOpenImage={(image) => handleOpenModal(image)} />
+      <section className={styles.history}>
+        <History />
       </section>
       <section className={styles.bigquote}>
         <BigQuote />

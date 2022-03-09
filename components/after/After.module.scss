@@ -3,9 +3,11 @@
 
 .quoteContainer {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   @media screen and (max-width: $tablet-breakpoint) {
+    flex: unset;
     width: 100%;
   }
 }

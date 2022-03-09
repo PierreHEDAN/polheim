@@ -39,10 +39,11 @@ const Card = ({ name, imgSrc, link }) => {
 }
 
 let slides = [
-    <Card key={1} name="Rennes Métropole" imgSrc="/assets/images/medias/rennes.jpg" link="https://fr.calameo.com/read/005416234c1c64fd8b0f9?page=40" />,
-    <Card key={2} name="Passeport Armorique" imgSrc="/assets/images/medias/passport.png" link="https://www.passeport-armorique.com/pierre-hedan-explorateur-polaire/" />,
-    <Card key={3} name="Betton Info" imgSrc="/assets/images/medias/betton.png" link="https://www.betton.fr/upload/espace/12/pj/6916_15700_BI___juin_2021_BAT___72_dpi.pdf" />,
-    <Card key={4} name="Espace Monde Polaires" imgSrc="/assets/images/medias/espace.png" link="https://www.espacedesmondespolaires.org/event/le-metier-de-guide-polaire/" />,
+    <Card key={1} name="Ouest France" imgSrc="/assets/images/medias/ouest_france.png" link="https://www.ouest-france.fr/bretagne/betton-35830/betton-pierre-hedan-tractera-des-pneus-sur-tout-betton-court-95d2a062-7d06-11ec-9f2d-d3903e493249" />,
+    <Card key={2} name="Rennes Métropole" imgSrc="/assets/images/medias/rennes.jpg" link="https://fr.calameo.com/read/005416234c1c64fd8b0f9?page=40" />,
+    <Card key={3} name="Passeport Armorique" imgSrc="/assets/images/medias/passport.png" link="https://www.passeport-armorique.com/pierre-hedan-explorateur-polaire/" />,
+    <Card key={4} name="Betton Info" imgSrc="/assets/images/medias/betton.png" link="https://www.betton.fr/upload/espace/12/pj/6916_15700_BI___juin_2021_BAT___72_dpi.pdf" />,
+    <Card key={5} name="Espace Monde Polaires" imgSrc="/assets/images/medias/espace.png" link="https://www.espacedesmondespolaires.org/event/le-metier-de-guide-polaire/" />,
 ];
 
 const Medias = () => (
