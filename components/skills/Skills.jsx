@@ -16,9 +16,11 @@ const Skills = () => (
           La vocation de l’Expédition POLHEIM est la montée en compétence d’un groupe à travers une aventure commune que nous pourrions comparer à un voyage dans l’espace.
         </p>
         <div className={styles.cards}>
-          <Card1 />
-          <Card2 />
-          <Card3 />
+          <div className={styles.cardsContainer}>
+            <Card1 />
+            <Card2 />
+            <Card3 />
+          </div>
         </div>
       </div>
     </div>
