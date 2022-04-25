@@ -59,16 +59,32 @@
 
 .cards {
   position: relative;
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
+  @media screen and (max-width: $mobile-breakpoint) {
+    width: calc(100% + 72px);
+    z-index: 2;
+    margin-right: -36px;
+    margin-left: -36px;
+  }
+}
 
+.cardsContainer {
   @media screen and (min-width: 1450px) {
     justify-content: space-between;
   }
   @media screen and (max-width: 1450px) {
     justify-content: space-evenly;
   }
+  @media screen and (min-width: $mobile-breakpoint) {
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: $mobile-breakpoint) {
+    overflow-x: scroll;
+    justify-content: unset;
+  }
+
+  position: relative;
+  flex: 1;
+  display: flex;
 
 
   p {
@@ -96,7 +112,6 @@
   justify-content: space-between;
   align-items: center;
   max-width: 460px;
-  flex-wrap: nowrap;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 4px 10px 20px #00000029;
   border-radius: 10px;
@@ -104,6 +119,25 @@
   padding-right: 23px;
   padding-bottom: 33px;
   padding-top: 33px;
+  @media screen and (max-width: $mobile-breakpoint) {
+    max-width: 300px;
+    min-width: 300px;
+    width: 300px;
+    margin-bottom: 36px;
+    margin-left: 18px;
+    margin-right: 18px;
+    &:first-child {
+      margin-left: 36px;
+    }
+    &:last-child {
+      margin-right: 36px;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
 .card2 {
