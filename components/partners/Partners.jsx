@@ -27,9 +27,10 @@ const Partners = () => {
     { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: '/assets/images/pt/coralievaugeois.png', name: 'Coralie Vaugeois'},
     { link: '', imgSrc: '/assets/images/pt/ferme_de_jeanne.jpg', name: 'La Ferme de Jeanne'},
     { link: '', imgSrc: '/assets/images/pt/as.png', name: 'Amandine Sauvée Graphiste' },
-    { link: 'https://www.irvin.fr/', imgSrc: '/assets/images/pt/irvin.png', name: 'Irvin' },
+    { link: 'https://www.irvin.fr/', imgSrc: '/assets/images/pt/irvin.png', name: 'IRVIN' },
     { link: 'https://www.chu-rennes.fr/', imgSrc: '/assets/images/pt/chu.png', name: 'CHU Rennes' },
     { link: 'https://www.passeport-armorique.com/', imgSrc: '/assets/images/pt/passeportarmorique.png', name: 'Passeport Armorique' },
+    { link: 'https://www.lessard.fr/', imgSrc: '/assets/images/pt/lessard.png', name: 'LESSARD' },
   ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
