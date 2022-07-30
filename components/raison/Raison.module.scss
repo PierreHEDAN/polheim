@@ -1,0 +1,110 @@
+@import '../../styles/color.scss';
+@import '../../styles/display.scss';
+
+.orange {
+  color: $secondary-color !important;
+}
+
+.firstTitle {
+  @media screen and (min-width: $tablet-breakpoint) {
+    position: relative;
+    right: 80px;
+  }
+}
+
+.quoted {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  @media screen and (min-width: $tablet-breakpoint) {
+    margin-bottom: 60px;
+  }
+
+  .quotedTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #73C3D0;
+    margin-bottom: 0;
+  }
+
+  .label {
+    align-self: flex-end;
+    font-family: poppins, sans-serif;
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+}
+
+.subtitle {
+  font-family: poppins, sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  align-items: center;
+  justify-content: center;
+  padding-top: 190px;
+  padding-bottom: 190px;
+  @media screen and (max-width: $tablet-breakpoint) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  h4 {
+    text-align: center;
+  }
+  background: linear-gradient(to top, #BDDFF4 0%, #FFFFFF 30%);
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    @media screen and (min-width: $tablet-breakpoint) {
+      max-width: 1080px;
+    }
+    margin: 20px 36px;
+    .paragraph {
+      @media screen and (min-width: $tablet-breakpoint) {
+        max-width: 600px;
+      }
+      @media screen and (max-width: $tablet-breakpoint) {
+        max-width: 100%;
+      }
+      .title {
+        margin-bottom: 50px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    @media screen and (min-width: $tablet-breakpoint) {
+      flex-direction: row;
+      margin: 20px;
+      .badge {
+        margin-right: 50px;
+      }
+    }
+    @media screen and (max-width: $tablet-breakpoint) {
+      flex-direction: column;
+      .badge {
+        margin-bottom: 50px;
+      }
+      .paragraph {
+        .title {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

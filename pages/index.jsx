@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/home-screen';
 import Introduction from '../components/introduction';
+import Raison from '../components/raison';
 import History from '../components/history';
 import Travel from '../components/travel';
 import AboutMe from '../components/about-me';
@@ -68,15 +69,15 @@ export default function Home({ forecast }) {
 
   return (
     <div className={classnames({
-        [styles.home]: true,
-        [styles.blur]: openModal,
-      })}>
+      [styles.home]: true,
+      [styles.blur]: openModal,
+    })}>
       <Head>
         <title>Expedition Polheim</title>
         <meta name="description" content="Atartica by Pierre Hedan" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      { openModal && (
+      {openModal && (
         <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModal()}>
           <div className={styles.modalContainer}>
             <div className={styles.modalImage}>
@@ -88,7 +89,7 @@ export default function Home({ forecast }) {
           </div>
         </div>
       )}
-      { openModalTravel && (
+      {openModalTravel && (
         <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModalTravel()}>
           {modalContentTravel}
         </div>
@@ -98,6 +99,9 @@ export default function Home({ forecast }) {
       </section>
       <section className={styles.introduction}>
         <Introduction />
+      </section>
+      <section className={styles.introduction}>
+        <Raison />
       </section>
       <section className={styles.values}>
         <Values />

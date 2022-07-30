@@ -28,6 +28,19 @@ $marginSize: 200px;
   }
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.point {
+  transition: all 100ms ease;
+  width: 2.6%;
+  height: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  background-color: purple;
+}
+
 .container {
   display: flex;
   flex-direction: column;

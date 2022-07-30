@@ -111,9 +111,59 @@
       }
     }
 
+    .point {
+      display: flex;
+      width: 100%;
+    }
+
     .photo1 {
       position: absolute;
       transform: translate(80%,74%) rotate(12deg);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
+    }
+
+    .point1 {
+      position: absolute;
+      transform: translate(36.7%,1020%);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
+    }
+
+    .point2 {
+      position: absolute;
+      transform: translate(53%,767%);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
+    }
+
+    .point3 {
+      position: absolute;
+      transform: translate(65.5%,366%);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
+    }
+
+    .point4 {
+      position: absolute;
+      transform: translate(70%,288%);
+      @media screen and (max-width: $mobile-breakpoint) {
+        position: inherit;
+        transform: inherit;
+      }
+    }
+
+    .point5 {
+      position: absolute;
+      transform: translate(76.5%,218%);
       @media screen and (max-width: $mobile-breakpoint) {
         position: inherit;
         transform: inherit;
