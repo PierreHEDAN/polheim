@@ -49,7 +49,13 @@ const HomeScreen = () => {
   const popover = usePopoverState({ placement: 'left-start' });
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{
+        background: `no-repeat center url(${require('../../public/assets/images/homescreenbg.png?resize&size=2400')})`,
+
+      }}
+    >
       <div className={styles.content}>
         <div className={styles.socialMedias}>
           <PopoverDisclosure
@@ -79,7 +85,7 @@ const HomeScreen = () => {
           <h2 className="primary">Pierre Hedan</h2>
         </span>
       </div>
-      <img className={styles.bottomImage} src={require('../../public/assets/images/homescreen.png')} alt="Beautiful photography of antartica" />
+      <img className={styles.bottomImage} src={require('../../public/assets/images/homescreen.png?resize&size=2400')} alt="Beautiful photography of antartica" />
     </div>
   );
 };

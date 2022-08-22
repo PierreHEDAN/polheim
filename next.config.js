@@ -1,20 +1,58 @@
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 
+const optimizedImagesCSSFix = (nextConfig = {}) => ({
+  ...nextConfig,
+  webpack(config, options) {
+    if (config.module.rules) {
+      config.module.rules.forEach((rule) => {
+        if (rule.oneOf) {
+          rule.oneOf.forEach((subRule) => {
+            if (subRule.type && subRule.type === 'asset/resource' && subRule.exclude) {
+              subRule.exclude.push(/\.(jpg|jpeg|png|svg|webp|gif|ico)$/);
+            } else if (
+              subRule.issuer
+              && !subRule.test
+              && !subRule.include
+              && subRule.exclude
+              && subRule.use
+              && subRule.use.options
+              && subRule.use?.options?.name
+            ) {
+              if (
+                String(subRule.issuer).includes('/\\.(css|scss|sass)(\\.webpack\\[javascript\\/auto\\])?$/')
+                && subRule.use.options.name.startsWith('static/media/')
+              ) {
+                subRule.exclude.push(/\.(jpg|jpeg|png|svg|webp|gif|ico)$/);
+              }
+            }
+          });
+        }
+      });
+    }
+    if (typeof nextConfig.webpack === 'function') return nextConfig.webpack(config, options);
+    return config;
+  },
+});
+
 module.exports = withPlugins(
-  [optimizedImages, {
+  [[optimizedImages, {
     inlineImageLimit: 1,
-    handleImages: ['jpeg', 'png', 'webp', 'gif'],
+    handleImages: ['jpeg', 'png', 'jpg'],
     optimizeImagesInDev: true,
     optimizeImages: true,
     imagesName: '[name].[hash].[ext]',
     optipng: {
-      optimizationLevel: 7,
+      optimizationLevel: 2,
     },
     images: {
       disableStaticImages: true,
     },
-  }],
+    responsive: {
+      adapter: require('responsive-loader/jimp'),
+    },
+    defaultImageLoader: 'img-loader',
+  }], [optimizedImagesCSSFix, {}]],
   {
     pageExtensions: ['mdx', 'jsx', 'js'],
     images: {

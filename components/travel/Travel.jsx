@@ -88,7 +88,7 @@ const Travel = ({ onOpenImage }) => {
           <div className={styles.instaContainer}>
             <InstaPhoto
               key="image1"
-              src="./assets/images/travel/0.jpg"
+              src={require('../../public/assets/images/travel/0.jpg?resize&size=1200')}
               className={classnames(styles.insta, styles.photo1)}
               onOpenImage={() => handleOpenImage('./assets/images/travel/0.jpg', j1desc)}
               setPoint={() => setPointHovered(1)}
@@ -106,7 +106,7 @@ const Travel = ({ onOpenImage }) => {
             <InstaPoint hidden={pointHovered !== 5} key="point5" className={classnames(styles.point, styles.point5)} />
             <InstaPhoto
               key="image2"
-              src="./assets/images/travel/1.jpg"
+              src={require('../../public/assets/images/travel/1.jpg?resize&size=1200')}
               className={classnames(styles.insta, styles.photo2)}
               onOpenImage={() => handleOpenImage('./assets/images/travel/1.jpg', j2desc)}
               title="JOUR 6"
@@ -118,7 +118,7 @@ const Travel = ({ onOpenImage }) => {
             />
             <InstaPhoto
               key="image3"
-              src="./assets/images/travel/2.jpeg"
+              src={require('../../public/assets/images/travel/2.jpeg?resize&size=1200')}
               className={classnames(styles.insta, styles.photo3)}
               onOpenImage={() => handleOpenImage('./assets/images/travel/2.jpeg', j3desc)}
               title="JOUR 12"
@@ -130,7 +130,7 @@ const Travel = ({ onOpenImage }) => {
             />
             <InstaPhoto
               key="image4"
-              src="./assets/images/travel/3.jpg"
+              src={require('../../public/assets/images/travel/3.jpg?resize&size=1200')}
               className={classnames(styles.insta, styles.photo4)}
               onOpenImage={() => handleOpenImage('./assets/images/travel/3.jpg', j4desc)}
               title="JOUR 30"
@@ -142,7 +142,7 @@ const Travel = ({ onOpenImage }) => {
             />
             <InstaPhoto
               key="image5"
-              src="./assets/images/travel/4.jpg"
+              src={require('../../public/assets/images/travel/4.jpg?resize&size=1200')}
               className={classnames(styles.insta, styles.photo5)}
               onOpenImage={() => handleOpenImage('./assets/images/travel/4.jpg', j5desc)}
               title="JOUR 40"

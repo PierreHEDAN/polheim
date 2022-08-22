@@ -15,7 +15,7 @@ const Photos = ({ onOpenImage }) => {
             [...Array(8).keys()].map((key) => (
               <InstaPhoto
                 key={key}
-                src={`./assets/images/photos/${key}.png`}
+                src={require(`../../public/assets/images/photos/${key}.png?resize&size=1200`)}
                 className={styles.insta}
                 onOpenImage={() => handleOpenImage(`./assets/images/photos/${key}.png`)}
                 title={(
