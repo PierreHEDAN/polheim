@@ -5,6 +5,21 @@
   color: $secondary-color !important;
 }
 
+.flexWrapper {
+  width: 100%;
+  flex: 1;
+}
+.playerWrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .firstTitle {
   @media screen and (min-width: $tablet-breakpoint) {
     position: relative;
@@ -77,6 +92,7 @@
     .paragraph {
       @media screen and (min-width: $tablet-breakpoint) {
         max-width: 600px;
+        margin-left: 20px;
       }
       @media screen and (max-width: $tablet-breakpoint) {
         max-width: 100%;

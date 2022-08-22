@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import ReactPlayer from 'react-player';
 import styles from './Raison.module.scss';
 
 const Quoted = () => (
@@ -21,6 +22,23 @@ const Quoted = () => (
 const Raison = () => (
   <div className={styles.container} id="purpose">
     <div className={styles.content}>
+      <div className={styles.flexWrapper}>
+        <div className={styles.playerWrapper}>
+          <ReactPlayer
+            className={styles.reactPlayer}
+            url="https://www.youtube.com/watch?v=RFBCE8vd1jY"
+            playing
+            controls
+            volume={1}
+            muted
+            width="100%"
+            height="100%"
+            youtube={{
+              autoplay: true,
+            }}
+          />
+        </div>
+      </div>
       <div className={styles.paragraph}>
         <div className={styles.title}>
           <h4 className={classnames('primary', styles.orange, styles.firstTitle)}>

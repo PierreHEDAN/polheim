@@ -18,7 +18,7 @@ const InstaPhoto = ({
           onMouseEnter={setPoint ? () => setPoint() : () => { }}
           onMouseLeave={leavePoint ? () => leavePoint() : () => { }}
           style={{
-            'background-image': `url('${src}')`,
+            backgroundImage: `url('${src}')`,
           }}
         >
           {copyright && (<p>{copyright}</p>)}
