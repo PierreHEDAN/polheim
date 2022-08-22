@@ -1,12 +1,18 @@
-import { useEffect, useState, memo, Fragment } from "react";
+import {
+  useEffect, useState, memo, Fragment,
+} from 'react';
+import { Tooltip, TooltipReference, useTooltipState } from 'reakit/Tooltip';
 import styles from './Team.module.scss';
 import QuoteSVG from './QuoteSVG';
 import PhotoTeam from './PhotoTeam';
-import { Tooltip, TooltipReference, useTooltipState } from "reakit/Tooltip";
-import { Chauve, Blague, MaryPopins, Attentione, Coralie1, Coralie2, Camille1, Camille2, Amelie1, Amelie2, Nathan1, Nathan2, Amandine1, Amandine2 } from './Icons';
+import {
+  Chauve, Blague, MaryPopins, Attentione, Coralie1, Coralie2, Camille1, Camille2, Amelie1, Amelie2, Nathan1, Nathan2, Amandine1, Amandine2,
+} from './Icons';
 
-const TooltipTeam = ({ member, name, age, desc, quote, icon1, icon2 }) => {
-  const tooltip = useTooltipState({ animated: 250, placement: "bottom" });
+const TooltipTeam = ({
+  member, name, age, desc, quote, icon1, icon2,
+}) => {
+  const tooltip = useTooltipState({ animated: 250, placement: 'bottom' });
 
   return (
     <>
@@ -28,17 +34,19 @@ const TooltipTeam = ({ member, name, age, desc, quote, icon1, icon2 }) => {
             </div>
             <div className={styles.quote}>{quote}</div>
             <div style={{
-              alignSelf: "flex-end",
-            }}>
+              alignSelf: 'flex-end',
+            }}
+            >
               <QuoteSVG style={{
-                transform: "rotate(180deg)",
-              }}/>
+                transform: 'rotate(180deg)',
+              }}
+              />
             </div>
           </div>
         </div>
       </Tooltip>
     </>
-  )
+  );
 };
 
 const Bruno = (
@@ -52,7 +60,7 @@ const Bruno = (
     icon1={<Chauve />}
     icon2={<Blague />}
   />
-)
+);
 
 const Vero = (
   <TooltipTeam
@@ -65,7 +73,7 @@ const Vero = (
     icon1={<MaryPopins />}
     icon2={<Attentione />}
   />
-)
+);
 
 const Coralie = (
   <TooltipTeam
@@ -78,7 +86,7 @@ const Coralie = (
     icon1={<Coralie1 />}
     icon2={<Coralie2 />}
   />
-)
+);
 
 const Camille = (
   <TooltipTeam
@@ -91,7 +99,7 @@ const Camille = (
     icon1={<Camille1 />}
     icon2={<Camille2 />}
   />
-)
+);
 
 const Amelie = (
   <TooltipTeam
@@ -104,7 +112,7 @@ const Amelie = (
     icon1={<Amelie1 />}
     icon2={<Amelie2 />}
   />
-)
+);
 
 const Nathan = (
   <TooltipTeam
@@ -117,7 +125,7 @@ const Nathan = (
     icon1={<Nathan1 />}
     icon2={<Nathan2 />}
   />
-)
+);
 
 const Amandine = (
   <TooltipTeam
@@ -130,44 +138,52 @@ const Amandine = (
     icon1={<Amandine1 />}
     icon2={<Amandine2 />}
   />
-)
+);
 
 const Team = () => {
-  let [useless_, setRerender] = useState(false);
+  const [useless_, setRerender] = useState(false);
   useEffect(() => {
     setRerender(true);
   });
 
   return (
-  <div className={styles.container}>
-    <div className={styles.content}>
-      <div className={styles.header}>
-        <div className={styles.title}>
-          <h3>LA <b>TEAM POLHEIM</b></h3>
+    <div className={styles.container} id="team">
+      <div className={styles.content}>
+        <div className={styles.header}>
+          <div className={styles.title}>
+            <h3>
+              LA
+              {' '}
+              <b>TEAM POLHEIM</b>
+            </h3>
+          </div>
+          <div className={styles.paragraph}>
+            <p>
+              L’association Expédition Polheim a vu le jour à l’été 2021. Une étape importante qui officialise le travail d’une équipe motivée. Une expérience personnelle et/ou professionnelle pour toute l’équipe.
+              {' '}
+              <br />
+              <b>Tous différents mais tournés vers un objectif commun</b>
+              : construire ensemble cette expédition et aller au bout de cette aventure.
+            </p>
+          </div>
         </div>
-        <div className={styles.paragraph}>
-          <p>
-            L’association Expédition Polheim a vu le jour à l’été 2021. Une étape importante qui officialise le travail d’une équipe motivée. Une expérience personnelle et/ou professionnelle pour toute l’équipe. <br /><b>Tous différents mais tournés vers un objectif commun</b>: construire ensemble cette expédition et aller au bout de cette aventure.
-          </p>
-        </div>
+        {process.browser && (
+          <div className={styles.team}>
+            {Bruno}
+            {Vero}
+            {Coralie}
+            {Camille}
+            {Amelie}
+            {Nathan}
+            {Amandine}
+            <a href="mailto:expeditionpolheim@gmail.com">
+              <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
+            </a>
+          </div>
+        )}
       </div>
-      {process.browser && (
-      <div className={styles.team}>
-        {Bruno}
-        {Vero}
-        {Coralie}
-        {Camille}
-        {Amelie}
-        {Nathan}
-        {Amandine}
-        <a href="mailto:expeditionpolheim@gmail.com">
-        <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
-        </a>
-      </div>
-      ) }
     </div>
-  </div>
-);
-}
+  );
+};
 
 export default Team;

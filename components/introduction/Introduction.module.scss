@@ -12,11 +12,11 @@
   min-height: inherit;
   align-items: center;
   justify-content: center;
-  padding-top: 190px;
-  padding-bottom: 190px;
+  padding-top: 80px;
+  // padding-bottom: 190px;
   @media screen and (max-width: $tablet-breakpoint) {
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 10px;
   }
   background: linear-gradient(to bottom, #BDDFF4 0%, #FFFFFF 30%);
   .content {

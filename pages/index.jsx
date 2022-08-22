@@ -4,6 +4,7 @@ import { useState } from 'react';
 import styles from '../styles/pages/Home.module.scss';
 import HomeScreen from '../components/home-screen';
 import Introduction from '../components/introduction';
+import Raison from '../components/raison';
 import History from '../components/history';
 import Travel from '../components/travel';
 import AboutMe from '../components/about-me';
@@ -20,6 +21,7 @@ import Partners from '../components/partners';
 import Photos from '../components/photos';
 import Newsletter from '../components/newsletter';
 import Footer from '../components/footer';
+import Donate from '../components/donate/donate';
 
 export async function getStaticProps() {
   const res = await fetch(`http://api.theweather.com/index.php?api_lang=eu&localidad=12325&affiliate_id=53fqqdyhvp54&v=3.0`)
@@ -66,18 +68,20 @@ export default function Home({ forecast }) {
     }
   }
 
+  let test = styles['modal-root'];
+
   return (
     <div className={classnames({
-        [styles.home]: true,
-        [styles.blur]: openModal,
-      })}>
+      [styles.home]: true,
+      [styles.blur]: openModal,
+    })}>
       <Head>
         <title>Expedition Polheim</title>
         <meta name="description" content="Atartica by Pierre Hedan" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      { openModal && (
-        <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModal()}>
+      {openModal && (
+        <div style={{ zIndex: 20000000 }} id={test} onClick={() => handleOpenModal()}>
           <div className={styles.modalContainer}>
             <div className={styles.modalImage}>
               {modalContent}
@@ -88,16 +92,20 @@ export default function Home({ forecast }) {
           </div>
         </div>
       )}
-      { openModalTravel && (
+      {openModalTravel && (
         <div style={{ zIndex: 20000000 }} id={styles.['modal-root']} onClick={() => handleOpenModalTravel()}>
           {modalContentTravel}
         </div>
       )}
+      <Donate />
       <section className={styles.homeScreen}>
         <HomeScreen />
       </section>
       <section className={styles.introduction}>
         <Introduction />
+      </section>
+      <section className={styles.introduction}>
+        <Raison />
       </section>
       <section className={styles.values}>
         <Values />
