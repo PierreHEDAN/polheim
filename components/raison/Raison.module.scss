@@ -25,6 +25,9 @@
     position: relative;
     right: 80px;
   }
+  @media screen and (max-width: $tablet-breakpoint) {
+    margin-top: 20px;
+  }
 }
 
 .quoted {
@@ -72,7 +75,7 @@
   padding-top: 190px;
   padding-bottom: 190px;
   @media screen and (max-width: $tablet-breakpoint) {
-    padding-top: 90px;
+    padding-top: 0px;
     padding-bottom: 90px;
   }
   h4 {
