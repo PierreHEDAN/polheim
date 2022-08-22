@@ -79,7 +79,7 @@ const HomeScreen = () => {
           <h2 className="primary">Pierre Hedan</h2>
         </span>
       </div>
-      <img className={styles.bottomImage} src="./assets/images/homescreen.png" alt="Beautiful photography of antartica" />
+      <img className={styles.bottomImage} src={require('../../public/assets/images/homescreen.png')} alt="Beautiful photography of antartica" />
     </div>
   );
 };

@@ -3,11 +3,27 @@ const optimizedImages = require('next-optimized-images');
 
 module.exports = withPlugins(
   [optimizedImages, {
-    inlineImageLimit: -1,
+    inlineImageLimit: 1,
+    handleImages: ['jpeg', 'png', 'webp', 'gif'],
     optimizeImagesInDev: true,
+    optimizeImages: true,
+    imagesName: '[name].[hash].[ext]',
+    optipng: {
+      optimizationLevel: 7,
+    },
+    images: {
+      disableStaticImages: true,
+    },
   }],
   {
     pageExtensions: ['mdx', 'jsx', 'js'],
+    images: {
+      disableStaticImages: true,
+    },
+    devIndicators: {
+      autoPrerender: false,
+    },
+    compress: false, // NOTE: enable this when doing SSR
     webpack: (config, { dev }) => {
       if (dev) {
         config.module.rules.push({
