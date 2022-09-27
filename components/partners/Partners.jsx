@@ -32,7 +32,7 @@ const Partners = () => {
     { link: 'https://www.passeport-armorique.com/', imgSrc: '/assets/images/pt/passeportarmorique.png', name: 'Passeport Armorique' },
     { link: 'https://www.lessard.fr/', imgSrc: '/assets/images/pt/lessard.png', name: 'LESSARD' },
     { link: 'https://www.mooodagency.com/', imgSrc: '/assets/images/pt/mood.png', name: 'Moood Agency' },
-    { link: 'https://www.prepasport-performance.fr/', imgSrc: '/assets/images/pt/prepa_sport.png', name: 'Prépa Sport Performance' },
+    { link: 'https://www.prepasport-performance.fr/', imgSrc: '/assets/images/pt/prepa_sport.jpeg', name: 'Prépa Sport Performance' },
   ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
