@@ -7,9 +7,9 @@ import {
 } from 'reakit/Popover';
 import styles from './HomeScreen.module.scss';
 
-const Button = ({ name, link }) => (
+const Button = ({ name, link, onClick }) => (
   <div className={styles.navbtn}>
-    <a href={link}>{name}</a>
+    <a href={link} onClick={onClick}>{name}</a>
   </div>
 );
 
@@ -69,12 +69,12 @@ const HomeScreen = () => {
           </PopoverDisclosure>
           <Popover {...popover} aria-label="Welcome">
             <div className={styles.menu}>
-              <Button name="L'expedition" link="#expedition" />
-              <Button name="L'équipe" link="#team" />
-              <Button name="Notre but" link="#purpose" />
-              <Button name="Les partenaires" link="#partner" />
-              <Button name="Actualités" link="#news" />
-              <Button name="Galerie" link="#galerie" />
+              <Button name="L'expedition" link="#expedition" onClick={popover.hide} />
+              <Button name="L'équipe" link="#team" onClick={popover.hide} />
+              <Button name="Notre but" link="#purpose" onClick={popover.hide} />
+              <Button name="Les partenaires" link="#partner" onClick={popover.hide} />
+              <Button name="Actualités" link="#news" onClick={popover.hide} />
+              <Button name="Galerie" link="#galerie" onClick={popover.hide} />
               <MediaBrands />
             </div>
           </Popover>
