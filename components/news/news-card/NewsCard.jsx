@@ -7,12 +7,12 @@ const NewsCard = ({ news }) => (
       <img src={news.img} alt="" />
     </div>
     <div className={styles.details}>
-      <span className="bold">{ news.title }</span>
-      <span className={styles.description}>{ news.description }</span>
+      {/* <span className="bold">{news.title}</span> */}
+      <span className={styles.description}>{news.description}</span>
       <div className={styles.info}>
-        <span className="small">{ news.date }</span>
+        <span className="small">{news.date}</span>
         <div className={styles.button}>
-          <a href={news.link} target="_blank">
+          <a href={news.link} target="_blank" rel="noreferrer">
             <Button type="secondary" title="Voir plus" />
           </a>
         </div>
