@@ -6,18 +6,18 @@ import styles from './Team.module.scss';
 import QuoteSVG from './QuoteSVG';
 import PhotoTeam from './PhotoTeam';
 import {
-  Chauve, Blague, MaryPopins, Attentione, Coralie1, Coralie2, Camille1, Camille2, Amelie1, Amelie2, Nathan1, Nathan2, Amandine1, Amandine2,
+  Chauve, Blague, MaryPopins, Attentione, Coralie1, Coralie2, Camille1, Camille2, Amelie1, Amelie2, Nathan1, Nathan2, Amandine1, Amandine2, Adrien1, Adrien2, Clea1, Clea2, Emma1, Emma2, William1, William2, AnneLaure1, AnneLaure2,
 } from './Icons';
 
 const TooltipTeam = ({
-  member, name, age, desc, quote, icon1, icon2,
+  member, name, age, desc, quote, icon1, icon2, background,
 }) => {
   const tooltip = useTooltipState({ animated: 250, placement: 'bottom' });
 
   return (
     <>
       <TooltipReference {...tooltip}>
-        <PhotoTeam member={member} name={name} />
+        <PhotoTeam member={member} name={name} background={background} />
       </TooltipReference>
       <Tooltip {...tooltip}>
         <div className={styles.tooltip}>
@@ -140,6 +140,76 @@ const Amandine = (
   />
 );
 
+const Adrien = (
+  <TooltipTeam
+    key="adrien"
+    member="ADRIEN"
+    name="Adrien"
+    age="25 ans"
+    desc="Originaire de Rennes, préparateur physique multisports."
+    quote="Ce projet est la progression de chacun. Je m'occupe de celle physique pour Pierre, mais tout le monde va en ressortir grandi. Hâte de te voir planter le drapeau breton au pôle sud !"
+    icon1={<Adrien1 />}
+    icon2={<Adrien2 />}
+    background="#DD5239"
+  />
+);
+
+const AnneLaure = (
+  <TooltipTeam
+    key="annelaure"
+    member="Anne Laure"
+    name="Anne-Laure"
+    age="38 ans"
+    desc="Malouine immigrée au Pays Basque. Journaliste et co-gérante d'une agence de communication."
+    quote="Participer au rêve de quelqu'un c'est vraiment une chance et surtout de faire partie d'une équipe aussi vivante et dynamique que celle du projet Polheim"
+    icon1={<AnneLaure1 />}
+    icon2={<AnneLaure2 />}
+    background="#A9CE74"
+  />
+);
+
+const Clea = (
+  <TooltipTeam
+    key="clea"
+    member="Clea"
+    name="Clea"
+    age="25 ans"
+    desc="Landaise dans l'âme. Chef de projet Social Media et co-fondatrice d'une agence de communication."
+    quote="Faire partie de cette aventure pour aider Pierre à relever son défi et à réaliser son rêve est motivant, car nous collaborons tous dans le même but."
+    icon1={<Clea1 />}
+    icon2={<Clea2 />}
+    background="#FFDC7B"
+  />
+);
+
+const Emma = (
+  <TooltipTeam
+    key="emma"
+    member="Emma"
+    name="Emma"
+    age="27 ans"
+    desc="Graphiste et illustratrice naviguant entre le pays basque et Bordeaux."
+    quote="Amoureuse des grands espaces et de la nature, je suis ravie de faire partie du projet de Pierre et de suivre cette belle aventure de loin."
+    icon1={<Emma1 />}
+    icon2={<Emma2 />}
+    background="#DD5239"
+  />
+);
+
+const William = (
+  <TooltipTeam
+    key="william"
+    member="WILLIAM"
+    name="William"
+    age="29 ans"
+    desc="100% breton venant directement de la pointe finistérienne et passé par la Belgique. Masseur-Kinésithérapeute du sport installé à Rennes depuis 5 ans et jamais rassasié de nouveaux projets"
+    quote="Avide de découvertes et voyages ainsi que de projets sportifs en tout genre, l’aventure de Pierre m’a tout de suite convaincu afin de l’aider à se préparer au mieux. La prise en charge terrain de sportifs en conditions extrêmes est une nouveauté pour moi et cela en devient excitant et riche en apprentissages autant sur le plan humain que professionnel !"
+    icon1={<William1 />}
+    icon2={<William2 />}
+    background="#73C3D0"
+  />
+);
+
 const Team = () => {
   const [useless_, setRerender] = useState(false);
   useEffect(() => {
@@ -176,6 +246,11 @@ const Team = () => {
             {Amelie}
             {Nathan}
             {Amandine}
+            {Adrien}
+            {AnneLaure}
+            {Emma}
+            {Clea}
+            {William}
             <a href="mailto:expeditionpolheim@gmail.com">
               <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
             </a>

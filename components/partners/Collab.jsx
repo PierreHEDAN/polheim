@@ -1,7 +1,7 @@
 import styles from './Partners.module.scss';
 import { RoundedContainer } from '../utils';
 
-const PartnerLink = ({ link, imgSrc, name }) => {
+const CollabLink = ({ link, imgSrc, name }) => {
   const image = link ? (
     <a href={link} target="_blank" rel="noreferrer">
       <img src={imgSrc} alt="Badge" />
@@ -20,19 +20,20 @@ const PartnerLink = ({ link, imgSrc, name }) => {
   );
 };
 
-const Partners = () => {
+const Collabs = () => {
   const partnerList = [
+    { link: '', imgSrc: '/assets/images/pt/ale.png', name: 'Antartic Logistics & Expeditions' },
+    { link: 'https://www.facebook.com/guidepolaire/', imgSrc: '/assets/images/pt/bureauguidespolaire.png', name: 'Guide Polaire' },
     { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: '/assets/images/pt/coralievaugeois.jpeg', name: 'Coralie Vaugeois' },
     { link: '', imgSrc: '/assets/images/pt/ferme_de_jeanne.jpg', name: 'La Ferme de Jeanne' },
     { link: '', imgSrc: '/assets/images/pt/as.png', name: 'Amandine Sauvée Graphiste' },
     { link: 'https://www.irvin.fr/', imgSrc: '/assets/images/pt/irvin.png', name: 'IRVIN' },
     { link: 'https://www.chu-rennes.fr/', imgSrc: '/assets/images/pt/chu.png', name: 'CHU Rennes' },
+    { link: 'https://www.passeport-armorique.com/', imgSrc: '/assets/images/pt/passeportarmorique.png', name: 'Passeport Armorique' },
     { link: 'https://www.lessard.fr/', imgSrc: '/assets/images/pt/lessard.png', name: 'LESSARD' },
     { link: 'https://www.mooodagency.com/', imgSrc: '/assets/images/pt/mood.png', name: 'Moood Agency' },
     { link: 'https://www.prepasport-performance.fr/', imgSrc: '/assets/images/pt/prepa_sport.jpeg', name: 'Prépa Sport Performance' },
     { link: 'https://www.flex-bat.fr/', imgSrc: '/assets/images/pt/flex_bat.jpeg', name: 'Flex Bat' },
-    { link: 'https://yema.com/', imgSrc: '/assets/images/pt/yema.jpeg', name: 'Yema' },
-    { link: 'https://www.m-extend.com/', imgSrc: '/assets/images/pt/mextrend.jpeg', name: 'M-Extend' },
   ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
@@ -44,7 +45,7 @@ const Partners = () => {
         <div className={styles.partners}>
           {
             partnerList.map((partner) => (
-              <PartnerLink
+              <CollabLink
                 key={partner.name}
                 link={partner.link}
                 imgSrc={partner.imgSrc}
@@ -58,4 +59,4 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default Collabs;

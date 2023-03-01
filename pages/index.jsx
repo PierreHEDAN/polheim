@@ -18,6 +18,7 @@ import Quote from '../components/quote';
 import Route from '../components/route';
 import News from '../components/news';
 import Partners from '../components/partners';
+import Collabs from '../components/collabs';
 import Photos from '../components/photos';
 import Newsletter from '../components/newsletter';
 import Footer from '../components/footer';
@@ -139,6 +140,9 @@ export default function Home({ forecast }) {
       </section>
       <section className={styles.partners}>
         <Partners />
+      </section>
+      <section className={styles.collabs}>
+        <Collabs />
       </section>
       <section className={styles.medias}>
         <Medias />
