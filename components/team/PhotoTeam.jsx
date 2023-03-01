@@ -1,14 +1,13 @@
-import * as React from "react"
+import * as React from 'react';
 import styles from './Team.module.scss';
 
-const PhotoTeam = ({ member, name }) => {
-  return (
-    <div className={styles.photoTeam} >
-      <img src={`./assets/images/team/${member}.png`} alt={member} />
-      <div className={styles.photoName}>
-        {name}
-      </div>
+const PhotoTeam = ({ member, name, background }) => (
+  <div className={styles.photoTeam}>
+    <img className={background ? styles.background : undefined} src={`./assets/images/team/${member}.png`} alt={member} style={background ? { backgroundColor: background } : undefined} />
+    <div className={styles.photoName}>
+      {name}
     </div>
-)};
+  </div>
+);
 
-export default PhotoTeam
+export default PhotoTeam;

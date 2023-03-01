@@ -1,6 +1,12 @@
 @import '../../styles/color.scss';
 @import '../../styles/display.scss';
 
+
+.background {
+  border-radius: 50%;
+  transform: scale(0.85);
+}
+
 // LOGO
 
 .logoContainer {
