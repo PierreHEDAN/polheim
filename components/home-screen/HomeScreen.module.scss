@@ -149,6 +149,7 @@
   .bottomImage {
     width: 100%;
     object-fit: cover;
+    transform: rotateY(180deg);
     @media screen and (min-width: $tablet-breakpoint) {
       animation: slidebottom 4.5s;
     }
@@ -168,12 +169,12 @@
 
 @keyframes slidebottom {
   from {
-    transform: translateY(500px);
+    transform: rotateY(180deg) translateY(500px);
     opacity: 0;
   }
 
   to {
-    transform: translateY(0);
+    transform: rotateY(180deg) translateY(0);
     opacity: 1;
   }
 }

@@ -16,7 +16,7 @@ const useFetch = (url) => {
 };
 
 const News = () => {
-  const a = useFetch('https://insta.polexpedition.fr/list') || [];
+  const a = useFetch('https://insta.dev.swarmd.net/list') || [];
 
   const result = a.map((node) => (
     <div key={node.shortcode} className={styles.news}>
