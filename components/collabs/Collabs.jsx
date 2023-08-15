@@ -23,8 +23,8 @@ const CollabLink = ({ link, imgSrc, name }) => {
 const Collabs = () => {
   const partnerList = [
     { link: '', imgSrc: '/assets/images/pt/ale.png', name: 'Antartic Logistics & Expeditions' },
+    { link: '', imgSrc: '/assets/images/pt/ferme_de_jeanne.jpg', name: 'La Ferme de Jeanne' },
     { link: 'https://www.facebook.com/guidepolaire/', imgSrc: '/assets/images/pt/bureauguidespolaire.png', name: 'Guide Polaire' },
-    { link: 'https://www.passeport-armorique.com/', imgSrc: '/assets/images/pt/passeportarmorique.png', name: 'Passeport Armorique' },
     { link: 'https://www.lyophilise.fr/', imgSrc: '/assets/images/pt/lyo.jpeg', name: 'Lyophilisé & Co' },
   ].sort((a, b) => a.name.localeCompare(b.name));
 

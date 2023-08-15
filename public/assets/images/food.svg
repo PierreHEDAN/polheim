@@ -1,121 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="435.934" height="445.392" viewBox="0 0 435.934 445.392">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="406.67" height="412.685" viewBox="0 0 406.67 412.685">
   <defs>
-    <filter id="Rectangle_128" x="0" y="7.658" width="435.934" height="435.098" filterUnits="userSpaceOnUse">
-      <feOffset dx="12.84" dy="14.35" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="5.67" result="blur"/>
+    <filter id="Rectangle_128" x="0" y="6.79" width="406.67" height="405.895" filterUnits="userSpaceOnUse">
+      <feOffset dx="12.871" dy="14.385" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.684" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Groupe_1769" data-name="Groupe 1769" transform="translate(-80.514 -3431.504)">
-    <g id="Groupe_1742" data-name="Groupe 1742" transform="translate(-11.16 -27.991)">
-      <g transform="matrix(1, 0, 0, 1, 91.67, 3459.5)" filter="url(#Rectangle_128)">
-        <rect id="Rectangle_128-2" data-name="Rectangle 128" width="376.623" height="375.721" transform="matrix(1, -0.07, 0.07, 1, 4.17, 36.59)" fill="#ededed"/>
+  <g id="postit_2" data-name="postit 2" transform="translate(-80.5 -3431.433)">
+    <g id="Groupe_1742" data-name="Groupe 1742" transform="translate(84.68 3430.503)">
+      <g transform="matrix(1, 0, 0, 1, -4.18, 0.93)" filter="url(#Rectangle_128)">
+        <rect id="Rectangle_128-2" data-name="Rectangle 128" width="349.1" height="348.264" transform="translate(4.18 33.83) rotate(-4)" fill="#ededed"/>
       </g>
-      <text id="Ce_que_je_mange" data-name="Ce que je mange" transform="translate(120.518 3505.256) rotate(-4)" fill="#00374b" font-size="34" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="36">Ce que je </tspan><tspan x="0" y="87">mange</tspan></text>
-      <g id="Groupe_1741" data-name="Groupe 1741" transform="translate(679.092 3731.905) rotate(-8)">
-        <path id="Tracé_1882" data-name="Tracé 1882" d="M453.884,178.273a14.516,14.516,0,0,1,14.5,14.5v1.867h-3.251v-1.867a11.248,11.248,0,1,0-22.5,0v46.735a5.879,5.879,0,0,0,5.872,5.874h1.438a5.879,5.879,0,0,0,5.872-5.874V199.3a1.626,1.626,0,0,1,3.251,0v40.2a9.135,9.135,0,0,1-9.123,9.125h-1.438a9.136,9.136,0,0,1-9.125-9.125V192.774A14.517,14.517,0,0,1,453.884,178.273Z" transform="matrix(0.999, 0.035, -0.035, 0.999, -713.657, -504.983)" fill="#00374b"/>
+      <text id="Ce_que_je_mange" data-name="Ce que je mange" transform="translate(24.842 72.168) rotate(-4)" fill="#00374b" font-size="28" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Ce que je </tspan><tspan x="0" y="44">mange</tspan></text>
+      <g id="Groupe_1741" data-name="Groupe 1741" transform="translate(239.707 4.046) rotate(-8)">
+        <path id="Tracé_1882" data-name="Tracé 1882" d="M13.411,0A13.422,13.422,0,0,1,26.819,13.408v1.726H23.813V13.408a10.4,10.4,0,0,0-20.8,0V56.621a5.436,5.436,0,0,0,5.43,5.431h1.33a5.436,5.436,0,0,0,5.43-5.431V19.443a1.5,1.5,0,0,1,3.006,0V56.614a8.447,8.447,0,0,1-8.436,8.437H8.438A8.448,8.448,0,0,1,0,56.614V13.408A13.423,13.423,0,0,1,13.411,0Z" transform="matrix(0.999, 0.035, -0.035, 0.999, 2.277, 0)" fill="#00374b"/>
       </g>
-      <path id="Icon_map-food" data-name="Icon map-food" d="M44.654,13.127l-3.61,28.3H28.852L25.257,12.986H40.142L43.083,2.825l1.668.5-2.823,9.779,2.725.021ZM23.534,29.5s.456-3.669-5.866-3.669H7.6c-6.313,0-5.866,3.669-5.866,3.669Zm-21.8,8.256S1.286,41.422,7.6,41.422H17.668c6.322,0,5.866-3.669,5.866-3.669H1.733Zm20.855-1.835a2.11,2.11,0,0,0,1.87-2.292,2.107,2.107,0,0,0-1.87-2.294h-20A2.111,2.111,0,0,0,.72,33.626a2.114,2.114,0,0,0,1.871,2.292Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 258.748, 3541.545)" fill="#dd5239"/>
-      <g id="Groupe_1782" data-name="Groupe 1782">
-        <text id="_et_beaucoup_de_beurre_salé_" data-name="… et beaucoup de beurre salé ! " transform="translate(172.52 3802.294) rotate(-4)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">… et beaucoup de </tspan><tspan x="0" y="64">beurre salé ! </tspan></text>
-        <g id="Groupe_1779" data-name="Groupe 1779" transform="translate(692.113 8.829) rotate(9)">
-          <g id="Groupe_1778" data-name="Groupe 1778" transform="matrix(0.998, -0.07, 0.07, 0.998, 251.154, 3829.184)">
-            <rect id="rect595" width="16.038" height="1.956" transform="translate(13.3 0)" fill="#040506"/>
-            <rect id="rect596" width="16.038" height="1.956" transform="translate(13.3 4.401)" fill="#040506"/>
-            <rect id="rect597" width="29.338" height="1.956" transform="translate(0 8.801)" fill="#040506"/>
-            <rect id="rect598" width="29.338" height="1.956" transform="translate(0 13.202)" fill="#040506"/>
-            <rect id="rect599" width="29.338" height="1.956" transform="translate(0 17.603)" fill="#040506"/>
+      <path id="Icon_map-food" data-name="Icon map-food" d="M40.632,9.526,37.294,35.694H26.021L22.7,9.4H36.46L39.18,0l1.542.462L38.112,9.5l2.52.019ZM21.1,24.665s.422-3.393-5.424-3.393H6.37c-5.837,0-5.424,3.393-5.424,3.393ZM.946,32.3s-.414,3.39,5.424,3.39h9.309c5.846,0,5.424-3.393,5.424-3.393H.945ZM20.23,30.6a1.951,1.951,0,0,0,1.729-2.119,1.948,1.948,0,0,0-1.729-2.121H1.736A1.952,1.952,0,0,0,.008,28.48,1.955,1.955,0,0,0,1.738,30.6Z" transform="translate(151.473 79.354) rotate(-4.012)" fill="#dd5239"/>
+      <g id="Groupe_1782" data-name="Groupe 1782" transform="translate(70.903 305.757)">
+        <text id="_et_beaucoup_de_beurre_salé_" data-name="… et beaucoup de beurre salé ! " transform="translate(1.395 32.091) rotate(-4)" fill="#00374b" font-size="19" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">… et beaucoup de </tspan><tspan x="0" y="29">beurre salé !</tspan></text>
+        <g id="Groupe_1779" data-name="Groupe 1779" transform="translate(156.246 36.035) rotate(9)">
+          <g id="Groupe_1778" data-name="Groupe 1778" transform="translate(0 1.899) rotate(-4.012)">
+            <rect id="rect595" width="14.83" height="1.809" transform="translate(12.298 0)" fill="#040506"/>
+            <rect id="rect596" width="14.83" height="1.809" transform="translate(12.298 4.069)" fill="#040506"/>
+            <rect id="rect597" width="27.128" height="1.809" transform="translate(0 8.138)" fill="#040506"/>
+            <rect id="rect598" width="27.128" height="1.809" transform="translate(0 12.207)" fill="#040506"/>
+            <rect id="rect599" width="27.128" height="1.809" transform="translate(0 16.277)" fill="#040506"/>
             <g id="Groupe_1777" data-name="Groupe 1777" transform="translate(0 0)">
-              <rect id="Rectangle_144" data-name="Rectangle 144" width="29.338" height="2.445" transform="translate(0 10.757)" fill="#fff"/>
-              <rect id="Rectangle_145" data-name="Rectangle 145" width="29.338" height="2.445" transform="translate(0 15.158)" fill="#fff"/>
-              <path id="Tracé_1936" data-name="Tracé 1936" d="M13.3,8.8H29.338V6.356H13.3V4.4H29.338V1.956H13.3V0H0V8.8H13.3Z" fill="#fff" fill-rule="evenodd"/>
+              <rect id="Rectangle_144" data-name="Rectangle 144" width="27.128" height="2.261" transform="translate(0 9.947)" fill="#fff"/>
+              <rect id="Rectangle_145" data-name="Rectangle 145" width="27.128" height="2.261" transform="translate(0 14.016)" fill="#fff"/>
+              <path id="Tracé_1936" data-name="Tracé 1936" d="M12.3,8.137h14.83V5.877H12.3V4.068h14.83V1.809H12.3V0H0V8.137Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
             </g>
-            <g id="g684" transform="translate(0.782 0.098)">
-              <g id="g616" transform="translate(8.312 2.836)">
-                <path id="path610" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path611" d="M.783.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path612" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path613" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+            <g id="g684" transform="translate(0.723 0.091)">
+              <g id="g616" transform="translate(7.686 2.622)">
+                <path id="path610" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path611" d="M.724.185.453.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path612" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path613" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g621" transform="translate(9.975 5.476)">
-                <path id="path622" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path623" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path624" d="M.2.782,0,.489.2,0l.2.489Z" transform="translate(0.685)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path625" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.782)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g621" transform="translate(9.223 5.063)">
+                <path id="path622" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path623" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path624" d="M.185.723,0,.452.185,0,.37.452Z" transform="translate(0.633 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path625" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.723)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g626" transform="translate(6.65 5.476)">
-                <path id="path627" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path628" d="M.783.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path629" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path630" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g626" transform="translate(6.149 5.063)">
+                <path id="path627" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path628" d="M.724.185.453.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path629" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path630" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g631" transform="translate(9.975 0)">
-                <path id="path632" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path633" d="M.782.2l-.294.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path634" d="M.2.782,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path635" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.782)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g631" transform="translate(9.223 0)">
+                <path id="path632" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path633" d="M.723.185.451.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path634" d="M.185.723,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path635" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.723)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g636" transform="translate(6.748 0.052)">
-                <path id="path637" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path638" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path639" d="M.2.782,0,.489.2,0l.2.489Z" transform="translate(0.685)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path640" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.782)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g636" transform="translate(6.24 0.048)">
+                <path id="path637" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path638" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path639" d="M.185.723,0,.452.185,0,.37.452Z" transform="translate(0.633 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path640" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.723)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g641" transform="translate(4.987 2.836)">
-                <path id="path642" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path643" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path644" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path645" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g641" transform="translate(4.611 2.622)">
+                <path id="path642" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path643" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path644" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path645" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g646" transform="translate(3.325 0)">
-                <path id="path647" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path648" d="M.783.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path649" d="M.2.782,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path650" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.782)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g646" transform="translate(3.074 0)">
+                <path id="path647" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path648" d="M.724.185.453.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path649" d="M.185.723,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path650" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.723)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g651" transform="translate(3.325 5.476)">
-                <path id="path652" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path653" d="M.783.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path654" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path655" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g651" transform="translate(3.074 5.063)">
+                <path id="path652" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path653" d="M.724.185.453.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path654" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path655" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g656" transform="translate(1.663 2.836)">
-                <path id="path657" d="M0,.2.294,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path658" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path659" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684 0)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path660" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g656" transform="translate(1.538 2.622)">
+                <path id="path657" d="M0,.185.272,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path658" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path659" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path660" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
               <g id="g661" transform="translate(0 0)">
-                <path id="path662" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path663" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path664" d="M.2.782,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path665" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.782)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path662" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path663" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path664" d="M.185.723,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path665" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.723)" fill="#040506" fill-rule="evenodd"/>
               </g>
-              <g id="g666" transform="translate(0 5.476)">
-                <path id="path667" d="M0,.2.293,0,.782.2l-.489.2Z" transform="translate(0.88 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path668" d="M.782.2l-.293.2L0,.2.489,0Z" transform="translate(0.098 0.587)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path669" d="M.2.783,0,.489.2,0l.2.489Z" transform="translate(0.684)" fill="#040506" fill-rule="evenodd"/>
-                <path id="path670" d="M.88,2.249l-.2-.391L0,2.151.88,0l.88,2.151-.685-.293-.2.391Z" transform="translate(0 0.783)" fill="#040506" fill-rule="evenodd"/>
+              <g id="g666" transform="translate(0 5.063)">
+                <path id="path667" d="M0,.185.271,0,.723.185.271.37Z" transform="translate(0.814 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path668" d="M.723.185.452.37,0,.185.452,0Z" transform="translate(0.091 0.543)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path669" d="M.185.724,0,.452.185,0,.37.452Z" transform="translate(0.632 0)" fill="#040506" fill-rule="evenodd"/>
+                <path id="path670" d="M.814,2.08.629,1.718,0,1.989.814,0l.814,1.989L.994,1.718.809,2.08Z" transform="translate(0 0.724)" fill="#040506" fill-rule="evenodd"/>
               </g>
             </g>
           </g>
-          <path id="Tracé_1937" data-name="Tracé 1937" d="M247.828,3829.864l1.567,25.03" transform="translate(3.377 -0.454)" fill="none" stroke="#040506" stroke-width="1"/>
+          <path id="Tracé_1937" data-name="Tracé 1937" d="M0,0,1.449,23.144" transform="translate(0.047 2.104)" fill="none" stroke="#040506" stroke-width="1"/>
         </g>
       </g>
-      <g id="Groupe_1781" data-name="Groupe 1781">
-        <text id="_6.000_kcal_jour_X_2_5_apport_journalier_masculin" data-name="6.000 kcal/jour
-X 2,5 apport journalier 
-masculin" transform="translate(162.332 3641.192) rotate(-4)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">6.000 kcal/jour</tspan><tspan font-size="18"><tspan x="0" y="25.5">X 2,5 apport journalier </tspan><tspan x="0" y="51">masculin</tspan></tspan></text>
-        <path id="Icon_awesome-weight" data-name="Icon awesome-weight" d="M19.547,2.792H18.413A8.373,8.373,0,1,1,2.792,6.981,8.314,8.314,0,0,1,3.926,2.792H2.792A2.8,2.8,0,0,0,0,5.585V19.547a2.8,2.8,0,0,0,2.792,2.792H19.547a2.8,2.8,0,0,0,2.792-2.792V5.585A2.8,2.8,0,0,0,19.547,2.792ZM11.17,13.962A6.981,6.981,0,1,0,4.189,6.981,6.981,6.981,0,0,0,11.17,13.962Zm-.013-6.629,1.465-3.419a.7.7,0,0,1,1.285.549L12.437,7.89a1.737,1.737,0,1,1-1.281-.558Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 129.908, 3621.813)" fill="#00374b"/>
+      <g id="Groupe_1781" data-name="Groupe 1781" transform="translate(31.501 134.466)">
+        <text id="_6.000_kcal_jour_X_2_5_apport_journalier_masculin" data-name="6.000 kcal/jour X 2,5 apport journalier  masculin" transform="translate(29.699 30.436) rotate(-4)" fill="#00374b" font-size="19" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">6.500 kcal/jour</tspan><tspan font-size="13"><tspan x="0" y="19">Soit l’équivalent de 8 pizzas !</tspan></tspan></text>
+        <path id="Icon_awesome-weight" data-name="Icon awesome-weight" d="M18.074,2.582H17.026a7.746,7.746,0,1,1-13.4,0H2.582A2.589,2.589,0,0,0,0,5.164v12.91a2.589,2.589,0,0,0,2.582,2.582H18.074a2.589,2.589,0,0,0,2.582-2.582V5.164A2.589,2.589,0,0,0,18.074,2.582ZM10.328,12.91A6.455,6.455,0,1,0,3.873,6.455,6.455,6.455,0,0,0,10.328,12.91Zm-.012-6.13,1.355-3.161a.647.647,0,0,1,1.188.508L11.5,7.3a1.606,1.606,0,1,1-1.184-.516Z" transform="translate(0 16.548) rotate(-4.012)" fill="#00374b"/>
       </g>
-      <g id="Groupe_1780" data-name="Groupe 1780">
-        <text id="_6_litres_d_eau_par_jour_Soit_125_litres_de_neige_à_faire_fondre" data-name="6 litres d’eau par jour
-Soit 125 litres de neige à faire fondre" transform="translate(163.516 3714.394) rotate(-4)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">6 litres d’eau par jour</tspan><tspan font-size="18"><tspan x="0" y="51.5">Soit 125 litres de neige à faire </tspan><tspan x="0" y="77">fondre</tspan></tspan></text>
-        <path id="Icon_ionic-ios-water" data-name="Icon ionic-ios-water" d="M20.81,8.779a24.56,24.56,0,0,0-4.987-5.306.47.47,0,0,0-.571-.005,24.259,24.259,0,0,0-4.97,5.3,16.661,16.661,0,0,0-3.526,9.386c0,.066-.005.137-.005.2a7.178,7.178,0,0,0,.6,2.861,7.717,7.717,0,0,0,.835,1.444,9.066,9.066,0,0,0,7.349,3.559c4.855,0,8.793-3.521,8.793-7.865A16.725,16.725,0,0,0,20.81,8.779ZM16.087,23.3h-.027a.482.482,0,0,1-.143-.939,6.838,6.838,0,0,0,4.745-4.438.478.478,0,0,1,.923.17v.077A5.329,5.329,0,0,1,16.087,23.3Z" transform="translate(131.977 3719.537) rotate(-4)" fill="#00374b"/>
+      <g id="Groupe_1780" data-name="Groupe 1780" transform="translate(39.859 222.667)">
+        <text id="_6_litres_d_eau_par_jour_Soit_125_litres_de_neige_à_faire_fondre" data-name="6 litres d’eau par jour Soit 125 litres de neige à faire fondre" transform="translate(24.113 33.905) rotate(-4)" fill="#00374b" font-size="19" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">5 litres d’eau par jour</tspan><tspan font-size="13"><tspan x="0" y="19">Soit 100 litres de neige fraîche à faire </tspan><tspan x="0" y="38">fondre</tspan></tspan></text>
+        <path id="Icon_ionic-ios-water" data-name="Icon ionic-ios-water" d="M13,5A22.71,22.71,0,0,0,8.389.092a.435.435,0,0,0-.528,0,22.431,22.431,0,0,0-4.6,4.9A15.406,15.406,0,0,0,0,13.667c0,.061,0,.127,0,.185A6.637,6.637,0,0,0,.555,16.5a7.136,7.136,0,0,0,.772,1.335,8.383,8.383,0,0,0,6.8,3.291c4.489,0,8.131-3.256,8.131-7.272A15.465,15.465,0,0,0,13,5ZM8.633,18.425H8.608a.446.446,0,0,1-.132-.868,6.323,6.323,0,0,0,4.388-4.1.442.442,0,0,1,.853.157v.071a4.928,4.928,0,0,1-5.084,4.744Z" transform="translate(0 21.386) rotate(-4)" fill="#00374b"/>
       </g>
     </g>
-    <path id="Tracé_1887" data-name="Tracé 1887" d="M257.394,110.97l5.126,1.566,9.071,1.738,9.064-2.265,9.057-7.12,9.062,5.364,9.059-4.483,9.059,2.69,9.059-2.5,9.055,1.63,9.051,5.558,9.056,1.588,9.048-4.2,9.057,3.682,9.058-1.124,9.057,2.128,9.054-11.438,9.056,5.721,9.054-1.472,9.054-1.645,9.052.559,9.055,4.1,9.05-5.128,9.055-.736,9.051,8.782,9.049-5.157,9.054,6.626,9.051-5.092,9.047,1.686,9.048-4.543,9.055,6.647,9.048-8.782,9.044,4.939,9.045,4.916,9.05-5.512,9.051,3.453,9.045-6.232,9.042-3.022,9.042,3.069,9.044,6.742,9.052-1.913,9.051-6.477,10.562,6.778-1.166-31.748-376.635.6Z" transform="matrix(0.998, -0.07, 0.07, 0.998, -151.41, 3779.703)" fill="#ededed"/>
+    <path id="Tracé_1887" data-name="Tracé 1887" d="M0,28.32l4.74,1.448,8.388,1.607L21.51,29.28,29.884,22.7l8.379,4.96,8.376-4.145L55.016,26l8.376-2.312,8.373,1.507,8.369,5.139L88.508,31.8l8.366-3.884,8.375,3.4,8.376-1.039L122,32.251l8.372-10.576,8.374,5.29,8.372-1.361,8.372-1.521,8.37.517,8.373,3.791,8.368-4.742,8.373-.681,8.369,8.12,8.367-4.768,8.372,6.127,8.369-4.708,8.365,1.559,8.366-4.2,8.373,6.146,8.366-8.12,8.363,4.567,8.363,4.546,8.368-5.1,8.369,3.193,8.363-5.762,8.361-2.794,8.361,2.838,8.363,6.234,8.37-1.769,8.369-5.989,9.766,6.267L348.259,0,0,.555Z" transform="translate(109.102 3810.875) rotate(-4.012)" fill="#ededed"/>
   </g>
 </svg>

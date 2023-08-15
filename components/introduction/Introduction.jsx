@@ -19,7 +19,7 @@ const Introduction = () => (
           {' '}
           <b>POLHEIM</b>
           {' '}
-          est l’entreprise d’une aventure folle. Atteindre le Pôle Sud en autonomie et sans moyen de traction depuis les côtes de l’Antarctique, une expédition de 650 kilomètres sur plus de 40 jours dans des conditions extrêmes.
+          est l’entreprise d’une aventure folle. Atteindre le Pôle Sud en autonomie et sans moyen de traction depuis les côtes de l’Antarctique, une expédition de 1130 kilomètres sur plus de 50 jours dans des conditions extrêmes.
         </p>
       </div>
     </div>

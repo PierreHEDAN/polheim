@@ -251,6 +251,12 @@ const Team = () => {
             {Emma}
             {Clea}
             {William}
+            <PhotoTeam
+              key="Daniele"
+              member="equip-picto"
+              name="Daniele"
+            />
+            <PhotoTeam key="Gerard" member="equip-picto" name="Gérard" />
             <a href="mailto:expeditionpolheim@gmail.com">
               <PhotoTeam key="vous" member="equip-picto" name="Et pourquoi pas vous ?" />
             </a>

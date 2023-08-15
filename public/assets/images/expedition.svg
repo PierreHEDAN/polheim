@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="621.876" height="443.106" viewBox="0 0 621.876 443.106">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="554.001" height="401.717" viewBox="0 0 554.001 401.717">
   <defs>
-    <filter id="Rectangle_138" x="39.917" y="40.483" width="557.816" height="378.984" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_138" x="37.952" y="36.864" width="505.652" height="343.31" filterUnits="userSpaceOnUse">
       <feOffset dx="12.84" dy="14.35" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5.67" result="blur"/>
       <feFlood flood-opacity="0.102"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_140" x="0" y="0" width="170.106" height="170.106" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_140" x="0" y="0" width="155.297" height="155.297" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_141" x="441.703" y="273" width="170.106" height="170.106" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_141" x="398.704" y="246.42" width="155.297" height="155.297" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
@@ -22,50 +22,49 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Groupe_1743" data-name="Groupe 1743" transform="translate(-1182.786 -3786.334)">
+  <g id="postit_4" data-name="postit 4" transform="translate(-1182.788 -3786.33)">
     <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_138)">
-      <rect id="Rectangle_138-2" data-name="Rectangle 138" width="512.686" height="327.271" transform="matrix(1, 0.03, -0.03, 1, 55.51, 43.14)" fill="#ededed"/>
+      <rect id="Rectangle_138-2" data-name="Rectangle 138" width="462.77" height="295.407" transform="translate(50.98 39.52) rotate(1.72)" fill="#ededed"/>
     </g>
-    <text id="Mon_expédition" data-name="Mon expédition" transform="translate(1372.042 3880.714) rotate(2)" fill="#00374b" font-size="34" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mon expédition</tspan></text>
-    <g id="Groupe_1738" data-name="Groupe 1738" transform="translate(-2.598 58.504)">
-      <text id="_650_Km_à_parcourir_distance_Paris-Marseille_" data-name="650 Km à parcourir (=distance 
-Paris-Marseille)" transform="translate(1310.896 3969.609) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">650 Km à parcourir </tspan><tspan y="26" font-size="18">(=distance </tspan><tspan font-size="18"><tspan x="0" y="57">Paris-Marseille)</tspan></tspan></text>
-      <path id="Icon_awesome-walking" data-name="Icon awesome-walking" d="M13.691,6.319a3.159,3.159,0,1,0-3.159-3.159A3.16,3.16,0,0,0,13.691,6.319Zm6.22,9.814-1.534-.777-.638-1.935a7.177,7.177,0,0,0-6.727-5c-2.37-.007-3.679.665-6.141,1.659A6.279,6.279,0,0,0,1.6,13.125l-.441.9a2.113,2.113,0,0,0,.935,2.824,2.078,2.078,0,0,0,2.8-.941l.441-.9a2.092,2.092,0,0,1,1.086-1.014l1.764-.711-1,4a4.227,4.227,0,0,0,.981,3.87l3.943,4.3a4.248,4.248,0,0,1,.981,1.823l1.2,4.825a2.106,2.106,0,1,0,4.088-1.02l-1.461-5.858a4.211,4.211,0,0,0-.981-1.823l-2.995-3.271,1.132-4.522.362,1.086a4.2,4.2,0,0,0,2.087,2.435l1.534.777a2.078,2.078,0,0,0,2.8-.941,2.131,2.131,0,0,0-.941-2.83ZM4.845,25.394a4.084,4.084,0,0,1-.935,1.415l-3.291,3.3a2.106,2.106,0,0,0,2.975,2.982l3.91-3.91a4.278,4.278,0,0,0,.935-1.415l.889-2.225C5.687,21.57,6.78,22.788,6.207,22l-1.363,3.39Z" transform="matrix(1, -0.017, 0.017, 1, 1269.484, 3969.978)" fill="#00374b"/>
+    <text id="Mon_expédition" data-name="Mon expédition" transform="translate(1354.579 3869.615) rotate(2)" fill="#00374b" font-size="29" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mon expédition</tspan></text>
+    <g id="Groupe_1738" data-name="Groupe 1738" transform="translate(1259.575 4005.156)">
+      <text id="_650_Km_à_parcourir_distance_Paris-Marseille_" data-name="650 Km à parcourir (=distance  Paris-Marseille)" transform="translate(36.612 21.987) rotate(2)" fill="#00374b" font-size="21" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">1130 Km à parcourir </tspan><tspan y="0" font-size="15">(=distance </tspan><tspan font-size="15"><tspan x="0" y="25">Paris-Rome)</tspan></tspan></text>
+      <path id="Icon_awesome-walking" data-name="Icon awesome-walking" d="M12.358,5.7A2.851,2.851,0,1,0,9.506,2.851,2.851,2.851,0,0,0,12.358,5.7Zm5.614,8.858-1.385-.7-.576-1.747A6.478,6.478,0,0,0,9.94,7.6C7.8,7.594,6.619,8.2,4.4,9.1a5.668,5.668,0,0,0-2.953,2.749l-.4.812a1.907,1.907,0,0,0,.844,2.549,1.876,1.876,0,0,0,2.527-.849l.4-.812a1.888,1.888,0,0,1,.98-.915l1.592-.642-.9,3.611a3.815,3.815,0,0,0,.885,3.493l3.559,3.881a3.834,3.834,0,0,1,.885,1.646L12.9,28.975a1.9,1.9,0,1,0,3.69-.921L15.27,22.766a3.8,3.8,0,0,0-.885-1.646l-2.7-2.953L12.7,14.087l.327.98a3.791,3.791,0,0,0,1.884,2.2l1.385.7a1.876,1.876,0,0,0,2.527-.849,1.924,1.924,0,0,0-.849-2.554Zm-13.6,8.359A3.686,3.686,0,0,1,3.529,24.2L.558,27.177a1.9,1.9,0,0,0,2.685,2.692l3.529-3.529a3.862,3.862,0,0,0,.844-1.277l.8-2.008c-3.287-3.584-2.3-2.485-2.817-3.2l-1.23,3.06Z" transform="translate(0 0.334) rotate(-0.974)" fill="#00374b"/>
     </g>
-    <g id="Groupe_1739" data-name="Groupe 1739" transform="translate(2.473 54.017)">
-      <text id="_100_Kg_de_matériel_à_tirer" data-name="100 Kg de matériel à tirer" transform="translate(1310.896 3913.311) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">100 Kg de matériel à tirer</tspan></text>
-      <path id="Tracé_1920" data-name="Tracé 1920" d="M216.572,704.926a17.639,17.639,0,0,0-3.222-.31s-8.793-.384-11.037-.247a2.144,2.144,0,0,1-2.388-2.843c.169-.754.3-1.516.419-2.28.025-.156.057-.451.119-.724.108-.479.2-.96.288-1.443a3.954,3.954,0,0,0,.115-.474,5.256,5.256,0,0,1,.35-1.8c.182-.413,1.377-1.452,1.619-1.82a10.744,10.744,0,0,1,2.521-2.549c.351-.3,1.391-1.353-.747-1.5a4.549,4.549,0,0,1-1.9-.514c-.717-.4-.733-1.078-1.042-2.251-.166-.629.269-.94.367-1.927a1.3,1.3,0,0,0,.035-.5l0-.01a6.91,6.91,0,0,0,.9-1.413c.935-.815.624-2.663.2-4.1s-2.681-1.819-3.193-1.349a1.652,1.652,0,0,0-.357.511,2.064,2.064,0,0,0-1.009.856,3.266,3.266,0,0,0-.34.567,4.493,4.493,0,0,0-.4,1.3,3.625,3.625,0,0,0-.058,1.419.593.593,0,0,1,.022.107.475.475,0,0,1-.057.286c-.185.245-.767.278-1.024.265a1.745,1.745,0,0,0-1.478,1.054c-.261,1.174-2.733,3.907-1.128,5.191.869.694,1.583.245,1.528.551a2.141,2.141,0,0,1-1.2,1.332c-1.09.635-11.467,9.973-11.734,9.739h0c0-.017.025-1.1-.562-1.5s-1.132-.039-2.556-.6a5.885,5.885,0,0,0-4.3-.305c-1.1.3-2.424.656-3.292.884a1.815,1.815,0,0,0-1.329,1.425,16.36,16.36,0,0,0-.208,1.87c-.174,2.749.519,2.521,1.419,2.637l.821-.014c.345.12.729.231,1.071.332,1.12.331,11.949-.447,14.232-.454s-.269-.978-1.074-1.112a27.216,27.216,0,0,0-3.148-.035,35.933,35.933,0,0,1,2.842-2.406l8.033-6.06.167.141s-1.518,2.482-2.2,3.72a39.339,39.339,0,0,0-2.713,5.668s-.771,1.464.934,1.36c1.491-.09,8.954.674,15.379.523,2.154-.051,4.309-.065,6.463-.078,1.761-.011,3.5-.087,3.637-.338C216.634,705.18,216.741,704.969,216.572,704.926Zm-14.849-14.6s.827-.082,1.149.249.437.439.437.439-.489.661-.577.807a10.626,10.626,0,0,1-.771.906c-.292.237-.908,1.1-1.1.443,0,0,.055-1.441,0-1.582A1.166,1.166,0,0,1,201.723,690.331Zm-12.652,7.8c-.252.075-4.172,3.07-4.177,3.074h0c-.468.6-1.279,1.008-1.718.565s.212-1.055.212-1.055c.292-.337,2.882-2.584,2.882-2.584C187.438,696.739,189.323,698.055,189.071,698.129Zm5.039-3.791c-.943.7-1.86,1.426-2.75,2.191l-.321.276a2.762,2.762,0,0,1-2.341.374l-1.067-.294,7.584-6.134a.806.806,0,0,1,.89-.2s-.074.159-.481,1.757A3.876,3.876,0,0,1,194.11,694.339Zm-3.672,10.113a.025.025,0,0,1-.022-.038l5.453-9.205.4.056a21.164,21.164,0,0,1-.091,4.172,29.6,29.6,0,0,1-1.969,2.943c-.337.377-.954,1.346-1.535,2.073Zm5.043,0h-2.021c.573-.6,1.151-1.392,1.332-1.56a5.934,5.934,0,0,0,1.171-1.664,19.305,19.305,0,0,1-.462,3.217Z" transform="translate(1088.9 3236.635)" fill="#00374b"/>
+    <g id="Groupe_1739" data-name="Groupe 1739" transform="translate(1255.02 3950.29)">
+      <text id="_100_Kg_de_matériel_à_tirer" data-name="100 Kg de matériel à tirer" transform="translate(45.709 22.986) rotate(2)" fill="#00374b" font-size="22" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">130 Kg de matériel à tirer</tspan></text>
+      <path id="Tracé_1920" data-name="Tracé 1920" d="M212.083,702.176a15.915,15.915,0,0,0-2.908-.28s-7.937-.347-9.962-.223a1.935,1.935,0,0,1-2.155-2.566c.153-.681.271-1.368.378-2.058.023-.141.051-.407.107-.654.1-.432.181-.867.26-1.3a3.566,3.566,0,0,0,.1-.428,4.743,4.743,0,0,1,.316-1.625c.164-.373,1.243-1.311,1.461-1.643a9.7,9.7,0,0,1,2.276-2.3c.317-.271,1.256-1.221-.674-1.354a4.106,4.106,0,0,1-1.715-.464c-.647-.361-.662-.973-.941-2.032-.15-.568.243-.849.331-1.739a1.173,1.173,0,0,0,.032-.451v-.009a6.235,6.235,0,0,0,.812-1.276c.844-.736.563-2.4.181-3.7a2.291,2.291,0,0,0-2.882-1.218,1.491,1.491,0,0,0-.322.461,1.863,1.863,0,0,0-.911.773,2.95,2.95,0,0,0-.307.512,4.054,4.054,0,0,0-.361,1.173,3.272,3.272,0,0,0-.052,1.281.535.535,0,0,1,.02.1.429.429,0,0,1-.051.258c-.167.221-.692.251-.924.239a1.575,1.575,0,0,0-1.334.951c-.236,1.06-2.467,3.527-1.018,4.686.784.626,1.429.221,1.379.5a1.933,1.933,0,0,1-1.083,1.2c-.984.573-10.351,9-10.592,8.791h0c0-.015.023-.993-.507-1.354s-1.022-.035-2.307-.542a5.312,5.312,0,0,0-3.881-.275c-.993.271-2.188.592-2.972.8a1.638,1.638,0,0,0-1.2,1.286,14.768,14.768,0,0,0-.188,1.688c-.157,2.481.468,2.276,1.281,2.38l.741-.013c.311.108.658.208.967.3,1.011.3,10.786-.4,12.846-.41s-.243-.883-.969-1a24.588,24.588,0,0,0-2.841-.032,32.444,32.444,0,0,1,2.565-2.172l7.251-5.47.151.127s-1.37,2.24-1.986,3.358a35.509,35.509,0,0,0-2.449,5.116s-.7,1.321.843,1.228c1.346-.081,8.082.608,13.882.472,1.944-.046,3.889-.059,5.834-.07,1.59-.01,3.159-.078,3.283-.305C212.139,702.405,212.236,702.215,212.083,702.176ZM198.68,689s.746-.074,1.037.225.394.4.394.4-.441.6-.521.728a9.589,9.589,0,0,1-.7.818c-.264.214-.82.993-.993.4a13.641,13.641,0,0,0,0-1.428A1.053,1.053,0,0,1,198.68,689Zm-11.42,7.041c-.227.068-3.766,2.771-3.77,2.775h0c-.422.542-1.154.91-1.551.51s.191-.952.191-.952c.264-.3,2.6-2.332,2.6-2.332a1.7,1.7,0,0,1,2.528,0Zm4.548-3.422c-.851.632-1.679,1.287-2.482,1.978l-.29.249a2.494,2.494,0,0,1-2.113.338l-.963-.265,6.846-5.537a.727.727,0,0,1,.8-.181s-.067.143-.434,1.586a3.5,3.5,0,0,1-1.367,1.836Zm-3.314,9.128a.023.023,0,0,1-.02-.034L193.4,693.4l.361.051a19.1,19.1,0,0,1-.082,3.766,26.713,26.713,0,0,1-1.777,2.656c-.3.34-.861,1.215-1.386,1.871Zm4.552,0h-1.824c.517-.542,1.039-1.257,1.2-1.408a5.358,5.358,0,0,0,1.057-1.5,17.428,17.428,0,0,1-.417,2.9Z" transform="translate(-170.467 -676.677)" fill="#00374b"/>
     </g>
-    <g id="Groupe_1770" data-name="Groupe 1770" transform="translate(6.471 -6.718)">
-      <text id="_40_jours_d_expédition" data-name="40 jours d’expédition" transform="translate(1310.896 3913.311) rotate(2)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">40 jours d’expédition</tspan></text>
-      <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(1266.438 3912.448) rotate(2)">
-        <path id="Tracé_1883" data-name="Tracé 1883" d="M6.872,6h16.6a2.372,2.372,0,0,1,2.372,2.372v16.6a2.372,2.372,0,0,1-2.372,2.372H6.872A2.372,2.372,0,0,1,4.5,24.976V8.372A2.372,2.372,0,0,1,6.872,6Z" transform="translate(0 -0.628)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        <path id="Tracé_1884" data-name="Tracé 1884" d="M24,3V7.744" transform="translate(-4.082)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        <path id="Tracé_1885" data-name="Tracé 1885" d="M12,3V7.744" transform="translate(-1.57)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        <path id="Tracé_1886" data-name="Tracé 1886" d="M4.5,15H25.848" transform="translate(0 -2.512)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <g id="Groupe_1770" data-name="Groupe 1770" transform="translate(1268.229 3895.468)">
+      <text id="_40_jours_d_expédition" data-name="40 jours d’expédition" transform="translate(36.144 21.987) rotate(2)" fill="#00374b" font-size="21" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">53 jours de nourriture</tspan></text>
+      <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(0.747 2.069) rotate(2)">
+        <path id="Tracé_1883" data-name="Tracé 1883" d="M2.141,0H17.125a2.141,2.141,0,0,1,2.141,2.141V17.125a2.141,2.141,0,0,1-2.141,2.141H2.141A2.141,2.141,0,0,1,0,17.128V2.141A2.141,2.141,0,0,1,2.141,0Z" transform="translate(0 2.141)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1884" data-name="Tracé 1884" d="M0,0V4.282" transform="translate(13.917 0)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1885" data-name="Tracé 1885" d="M0,0V4.282" transform="translate(5.353 0)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Tracé_1886" data-name="Tracé 1886" d="M0,0H19.27" transform="translate(0 8.564)" fill="none" stroke="#00374b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
       </g>
     </g>
-    <g id="Groupe_1740" data-name="Groupe 1740" transform="translate(-9.346 81.239)">
-      <text id="Du_soleil_24h_24" data-name="Du soleil 24h/24" transform="matrix(0.999, 0.035, -0.035, 0.999, 1308.316, 4024.493)" fill="#00374b" font-size="25" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="26">Du soleil 24h/24</tspan></text>
+    <g id="Groupe_1740" data-name="Groupe 1740" transform="translate(1287.447 4075.219)">
+      <text id="Du_soleil_24h_24" data-name="Du soleil 24h/24" transform="matrix(0.999, 0.035, -0.035, 0.999, 0.318, 21.978)" fill="#00374b" font-size="21" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Du soleil 24h/24</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_140)">
-      <rect id="Rectangle_140-2" data-name="Rectangle 140" width="47" height="168.11" transform="translate(127.87 6) rotate(45)" fill="#fff"/>
+      <rect id="Rectangle_140-2" data-name="Rectangle 140" width="42.424" height="151.742" transform="translate(116.3 6) rotate(45)" fill="#fff"/>
     </g>
     <g transform="matrix(1, 0, 0, 1, 1182.79, 3786.33)" filter="url(#Rectangle_141)">
-      <rect id="Rectangle_141-2" data-name="Rectangle 141" width="47" height="168.11" transform="translate(569.58 279) rotate(45)" fill="#fff"/>
+      <rect id="Rectangle_141-2" data-name="Rectangle 141" width="42.424" height="151.742" transform="translate(515 252.42) rotate(45)" fill="#fff"/>
     </g>
-    <g id="Icon_ionic-ios-sunny" data-name="Icon ionic-ios-sunny" transform="translate(1253.588 4102.357)">
-      <g id="Groupe_1771" data-name="Groupe 1771" transform="translate(3.375 3.375)">
-        <path id="Tracé_1921" data-name="Tracé 1921" d="M18.243,27.211a1.327,1.327,0,0,0-1.326,1.326v3.979a1.326,1.326,0,0,0,2.653,0V28.537A1.327,1.327,0,0,0,18.243,27.211Z" transform="translate(-0.33 1.984)" fill="#00374b"/>
-        <path id="Tracé_1922" data-name="Tracé 1922" d="M18.243,3.375A1.327,1.327,0,0,0,16.917,4.7V8.68a1.326,1.326,0,0,0,2.653,0V4.7A1.327,1.327,0,0,0,18.243,3.375Z" transform="translate(-0.33 -3.375)" fill="#00374b"/>
-        <path id="Tracé_1923" data-name="Tracé 1923" d="M10.006,18.243A1.327,1.327,0,0,0,8.68,16.917H4.7a1.326,1.326,0,0,0,0,2.653H8.68A1.327,1.327,0,0,0,10.006,18.243Z" transform="translate(-3.375 -0.33)" fill="#00374b"/>
-        <path id="Tracé_1924" data-name="Tracé 1924" d="M32.516,16.917H28.537a1.326,1.326,0,0,0,0,2.653h3.979a1.326,1.326,0,0,0,0-2.653Z" transform="translate(1.984 -0.33)" fill="#00374b"/>
-        <path id="Tracé_1925" data-name="Tracé 1925" d="M11.483,24.195a1.323,1.323,0,0,0-.939.388L7.728,27.4a1.328,1.328,0,0,0,1.877,1.877l2.816-2.816a1.326,1.326,0,0,0-.939-2.265Z" transform="translate(-2.483 1.306)" fill="#00374b"/>
-        <path id="Tracé_1926" data-name="Tracé 1926" d="M25.521,12.809a1.323,1.323,0,0,0,.939-.388l2.816-2.816A1.328,1.328,0,0,0,27.4,7.728l-2.816,2.816a1.326,1.326,0,0,0,.939,2.265Z" transform="translate(1.306 -2.483)" fill="#00374b"/>
-        <path id="Tracé_1927" data-name="Tracé 1927" d="M9.606,7.728A1.328,1.328,0,0,0,7.728,9.606l2.816,2.816a1.328,1.328,0,0,0,1.877-1.877Z" transform="translate(-2.483 -2.483)" fill="#00374b"/>
-        <path id="Tracé_1928" data-name="Tracé 1928" d="M26.46,24.582a1.328,1.328,0,0,0-1.877,1.877L27.4,29.276A1.328,1.328,0,0,0,29.276,27.4Z" transform="translate(1.306 1.306)" fill="#00374b"/>
+    <g id="Icon_ionic-ios-sunny" data-name="Icon ionic-ios-sunny" transform="translate(1250.616 4075.219)">
+      <g id="Groupe_1771" data-name="Groupe 1771" transform="translate(0 0)">
+        <path id="Tracé_1921" data-name="Tracé 1921" d="M18.114,27.211a1.2,1.2,0,0,0-1.2,1.2V32a1.2,1.2,0,1,0,2.395,0V28.408a1.2,1.2,0,0,0-1.2-1.2Z" transform="translate(-1.944 -0.858)" fill="#00374b"/>
+        <path id="Tracé_1922" data-name="Tracé 1922" d="M18.114,3.375a1.2,1.2,0,0,0-1.2,1.2V8.163a1.2,1.2,0,0,0,2.395,0V4.571a1.2,1.2,0,0,0-1.2-1.2Z" transform="translate(-1.944 -3.375)" fill="#00374b"/>
+        <path id="Tracé_1923" data-name="Tracé 1923" d="M9.36,18.114a1.2,1.2,0,0,0-1.2-1.2H4.571a1.2,1.2,0,0,0,0,2.395H8.163A1.2,1.2,0,0,0,9.36,18.114Z" transform="translate(-3.373 -1.945)" fill="#00374b"/>
+        <path id="Tracé_1924" data-name="Tracé 1924" d="M32,16.917H28.408a1.2,1.2,0,1,0,0,2.395H32a1.2,1.2,0,1,0,0-2.395Z" transform="translate(-0.857 -1.945)" fill="#00374b"/>
+        <path id="Tracé_1925" data-name="Tracé 1925" d="M11.083,24.195a1.194,1.194,0,0,0-.848.35L7.693,27.088a1.2,1.2,0,0,0,1.694,1.694l2.542-2.542a1.2,1.2,0,0,0-.848-2.044Z" transform="translate(-2.957 -1.177)" fill="#00374b"/>
+        <path id="Tracé_1926" data-name="Tracé 1926" d="M25.392,12.28a1.194,1.194,0,0,0,.848-.35l2.542-2.542a1.2,1.2,0,0,0-1.693-1.694l-2.542,2.542a1.2,1.2,0,0,0,.848,2.044Z" transform="translate(-1.175 -2.959)" fill="#00374b"/>
+        <path id="Tracé_1927" data-name="Tracé 1927" d="M9.385,7.69a1.2,1.2,0,1,0-1.7,1.7l2.542,2.542a1.2,1.2,0,0,0,1.694-1.694Z" transform="translate(-2.954 -2.956)" fill="#00374b"/>
+        <path id="Tracé_1928" data-name="Tracé 1928" d="M26.242,24.547a1.2,1.2,0,0,0-1.694,1.694l2.543,2.543a1.2,1.2,0,0,0,1.693-1.693Z" transform="translate(-1.178 -1.18)" fill="#00374b"/>
       </g>
-      <path id="Tracé_1929" data-name="Tracé 1929" d="M19.518,11.25a8.268,8.268,0,1,0,8.268,8.268,8.281,8.281,0,0,0-8.268-8.268Z" transform="translate(1.771 1.771)" fill="#00374b"/>
+      <path id="Tracé_1929" data-name="Tracé 1929" d="M18.713,11.25a7.463,7.463,0,1,0,7.463,7.463,7.463,7.463,0,0,0-7.463-7.463Z" transform="translate(-2.542 -2.543)" fill="#00374b"/>
     </g>
   </g>
 </svg>

@@ -23,16 +23,19 @@ const PartnerLink = ({ link, imgSrc, name }) => {
 const Partners = () => {
   const partnerList = [
     { link: 'https://www.dieteticienne-nutrition.fr/', imgSrc: '/assets/images/pt/coralievaugeois.jpeg', name: 'Coralie Vaugeois' },
-    { link: '', imgSrc: '/assets/images/pt/ferme_de_jeanne.jpg', name: 'La Ferme de Jeanne' },
     { link: '', imgSrc: '/assets/images/pt/as.png', name: 'Amandine Sauvée Graphiste' },
     { link: 'https://www.irvin.fr/', imgSrc: '/assets/images/pt/irvin.png', name: 'IRVIN' },
     { link: 'https://www.chu-rennes.fr/', imgSrc: '/assets/images/pt/chu.png', name: 'CHU Rennes' },
-    { link: 'https://www.lessard.fr/', imgSrc: '/assets/images/pt/lessard.png', name: 'LESSARD' },
+    { link: 'https://www.lessard.fr/', imgSrc: '/assets/images/pt/lessard.png', name: 'Lessard' },
     { link: 'https://www.mooodagency.com/', imgSrc: '/assets/images/pt/mood.png', name: 'Moood Agency' },
     { link: 'https://www.prepasport-performance.fr/', imgSrc: '/assets/images/pt/prepa_sport.jpeg', name: 'Prépa Sport Performance' },
     { link: 'https://www.flex-bat.fr/', imgSrc: '/assets/images/pt/flex_bat.jpeg', name: 'Flex Bat' },
     { link: 'https://yema.com/', imgSrc: '/assets/images/pt/yema.jpeg', name: 'Yema' },
     { link: 'https://www.m-extend.com/', imgSrc: '/assets/images/pt/mextrend.jpeg', name: 'M-Extend' },
+    { link: 'https://www.brainmoove.com/', imgSrc: '/assets/images/pt/brainmoove.jpeg', name: 'Brainmoove' },
+    { link: 'https://www.groupe-helios.com/', imgSrc: '/assets/images/pt/helios.png', name: 'Hélios' },
+    { link: 'https://www.davidson.fr/nos-filiales/davidson-ouest', imgSrc: '/assets/images/pt/davidson.png', name: 'Davidson' },
+    { link: 'http://www.kemijoki.fr/', imgSrc: '/assets/images/pt/kemijoki.jpeg', name: 'Kemijoki' },
   ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
