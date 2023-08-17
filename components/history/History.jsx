@@ -5,7 +5,10 @@ const Introduction = () => (
     <div className={styles.content}>
       <div className={styles.paragraph}>
         <div className={styles.title}>
-          <h4 className={"primary"}>UN PEU D'<b>HISTOIRE...</b></h4>
+          <h4 className="primary">
+            UN PEU D'
+            <b>HISTOIRE...</b>
+          </h4>
         </div>
         <p className="primary">
           Le 14 Décembre 1911, l’explorateur Roald Amundsen est le premier Homme à atteindre le Pôle Sud. Arrivé, il met ainsi un terme à la course au pôle disputée contre les britanniques. Pour s’abriter, lui et son équipe installent une tente. Elle s’appelle “Polheim”, littéralement “la maison du pôle” en norvégien. Le symbole d’un exploit humain et d’un rêve pour les prochains explorateurs du grand Sud. Fatigués, n’étant pas sûr de rentrer vivants, ils laissent leurs calculs et preuves de leur réussite sur place, avant de repartir vers les côtes.
@@ -18,7 +21,7 @@ const Introduction = () => (
 
         </p>
       </div>
-      <img className={styles.badge} src="./assets/images/expedition-amundsen.png" alt="Expedition Badge" />
+      <img className={styles.badge} src={require('../../public/assets/images/expedition-amundsen.png')} alt="Expedition Badge" />
     </div>
   </div>
 );

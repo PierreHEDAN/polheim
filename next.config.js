@@ -37,13 +37,16 @@ const optimizedImagesCSSFix = (nextConfig = {}) => ({
 
 module.exports = withPlugins(
   [[optimizedImages, {
-    inlineImageLimit: 1,
-    handleImages: ['jpeg', 'png', 'jpg'],
+    inlineImageLimit: 8192,
+    handleImages: ['jpeg', 'png', 'jpg', 'svg'],
     optimizeImagesInDev: true,
     optimizeImages: true,
     imagesName: '[name].[hash].[ext]',
+    mozjpeg: {
+      quality: 100,
+    },
     optipng: {
-      optimizationLevel: 2,
+      optimizationLevel: 7,
     },
     images: {
       disableStaticImages: true,

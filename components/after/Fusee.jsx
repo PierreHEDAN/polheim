@@ -1,8 +1,7 @@
-import * as React from "react"
+import * as React from 'react';
 
 const Fusee = () => (
-  <img src="./assets/images/picto/fusee.svg" />
-)
+  <img src={require('../../public/assets/images/picto/fusee.svg')} />
+);
 
-export default Fusee
-
+export default Fusee;

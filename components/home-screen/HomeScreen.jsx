@@ -16,7 +16,7 @@ const Button = ({ name, link, onClick }) => (
 const Facebook = () => (
   <div className={styles.fb}>
     <a href="https://www.facebook.com/ExpeditionPolheim/?hc_ref=ARSexrmjy16PRoTFS65ZHrxdo-cFvOmxdbyL-GnKfynC1fgHI9j-yXibQzUdUfihep4&fref=nf&__tn__=kC-R" target="_blank" rel="noreferrer">
-      <img src="./assets/images/facebook-f-brands.svg" alt="Facebook" />
+      <img src={require('../../public/assets/images/facebook-f-brands.svg')} alt="Facebook" />
     </a>
   </div>
 );
@@ -24,7 +24,7 @@ const Facebook = () => (
 const Insta = () => (
   <div className={styles.fb}>
     <a href="https://www.instagram.com/expedition_polheim/" target="_blank" rel="noreferrer">
-      <img src="./assets/images/instagram-brands.svg" alt="Instagram" />
+      <img src={require('../../public/assets/images/instagram-brands.svg')} alt="Instagram" />
     </a>
   </div>
 );
@@ -32,7 +32,7 @@ const Insta = () => (
 const Mail = () => (
   <div className={styles.fb}>
     <a href="mailto:expeditionpolheim@gmail.com">
-      <img src="./assets/images/mail-brands.svg" alt="Google" />
+      <img src={require('../../public/assets/images/mail-brands.svg')} alt="Google" />
     </a>
   </div>
 );
@@ -52,7 +52,7 @@ const HomeScreen = () => {
     <div
       className={styles.container}
       style={{
-        background: `no-repeat center url(${require('../../public/assets/images/homescreenbg.png?resize&size=2400')})`,
+        background: `no-repeat center url(${require('../../public/assets/images/homescreenbg.png?resize&size=1200')})`,
 
       }}
     >
@@ -65,7 +65,7 @@ const HomeScreen = () => {
               [styles.bars]: true,
             })}
           >
-            {popover.visible ? <img src="./assets/images/xmark-solid.svg" alt="Close menu" /> : <img src="./assets/images/bars.svg" alt="Open Menu" />}
+            {popover.visible ? <img src={require('../../public/assets/images/xmark-solid.svg')} alt="Close menu" /> : <img src={require('../../public/assets/images/bars.svg')} alt="Open Menu" />}
           </PopoverDisclosure>
           <Popover {...popover} aria-label="Welcome">
             <div className={styles.menu}>

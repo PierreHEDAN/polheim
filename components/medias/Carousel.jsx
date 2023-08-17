@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, {
+  useState, useEffect, useRef, useCallback,
+} from 'react';
 import { useSwipeable } from 'react-swipeable';
 import FlecheG from './FlecheG';
 import FlecheD from './FlecheD';
@@ -15,11 +17,11 @@ export function Carousel(props) {
     onSwipedLeft: () => slideRight(),
     onSwipedRight: () => slideLeft(),
     preventDefaultTouchmoveEvent: true,
-    trackMouse: true
+    trackMouse: true,
   });
   useEffect(() => {
     const locSlides = [];
-    //console.log(props.slides);
+    // console.log(props.slides);
     props.slides.forEach((slide) => {
       const slideobject = {
         class: 'slider-single proactivede',
@@ -27,7 +29,7 @@ export function Carousel(props) {
       };
       locSlides.push(slideobject);
     });
-    if(props.slides.length === 2){
+    if (props.slides.length === 2) {
       props.slides.forEach((slide) => {
         const slideobject = {
           class: 'slider-single proactivede',
@@ -39,31 +41,31 @@ export function Carousel(props) {
     setSlides(locSlides);
     setSlideTotal(locSlides.length - 1);
     setSlideCurrent(-1);
-    //console.log(slideCurrent);
+    // console.log(slideCurrent);
     if (slideCurrent === -1) {
       setTimeout(() => {
         slideRight();
         if (props.autoplay) {
           intervalRef.interval = setTimeout(() => {
-          slideRight();
-        }, props.interval);}
+            slideRight();
+          }, props.interval);
+        }
       }, 500);
     }
   }, [props.slides]);
-  useEffect(()=>{
-    if(slideCurrent === -1){
+  useEffect(() => {
+    if (slideCurrent === -1) {
       setTimeout(() => {
         slideRight();
       }, 500);
     }
-  },[slides,slideCurrent]);
+  }, [slides, slideCurrent]);
 
-  
   const slideRight = () => {
     let preactiveSlide;
     let proactiveSlide;
     let slideCurrentLoc = slideCurrent;
-    
+
     const activeClass = 'slider-single active';
     const slide = [...slides];
     if (slideTotal > 1) {
@@ -103,7 +105,7 @@ export function Carousel(props) {
         setTimeout(() => {
           if (document.getElementsByClassName('slider-single active').length > 0) {
             const height = document.getElementsByClassName('slider-single active')[0].clientHeight;
-            setHeight(`${height  }px`);
+            setHeight(`${height}px`);
           }
         }, 500);
       }
@@ -136,7 +138,7 @@ export function Carousel(props) {
       } else {
         proactiveSlide = slide[0];
       }
-      let activeSlide = slide[slideCurrentLoc];
+      const activeSlide = slide[slideCurrentLoc];
       if (slideCurrentLoc > 0) {
         preactiveSlide = slide[slideCurrentLoc - 1];
       } else {
@@ -159,7 +161,7 @@ export function Carousel(props) {
         setTimeout(() => {
           if (document.getElementsByClassName('slider-single active').length > 0) {
             const height = document.getElementsByClassName('slider-single active')[0].clientHeight;
-            setHeight(`${height }px`);
+            setHeight(`${height}px`);
           }
         }, 500);
       }
@@ -178,31 +180,33 @@ export function Carousel(props) {
 
   return (
     <div className="react-3d-carousel" style={{ height }} {...handlers}>
-          {slides && slides.length > 0
-                && <div className="slider-container" >
+      {slides && slides.length > 0
+                && (
+                <div className="slider-container">
 
                   <div className="slider-content">
-                      {slides.map((slider, index) => (
-                                <div className={slider.class} key={index}>
-                                    <div className={sliderClass('left')} onClick={slideLeft}>
-                                        <div>
-                                          <FlecheG />
-                                        </div>
-                                    </div>
-                                    <div className={sliderClass('right')} onClick={slideRight}>
-                                        <div >
-                                          <FlecheD />
-                                        </div>
-                                    </div>
+                    {slides.map((slider, index) => (
+                      <div className={slider.class} key={index}>
+                        <div className={sliderClass('left')} onClick={slideLeft}>
+                          <div>
+                            <FlecheG />
+                          </div>
+                        </div>
+                        <div className={sliderClass('right')} onClick={slideRight}>
+                          <div>
+                            <FlecheD />
+                          </div>
+                        </div>
 
-                                    <div className="slider-single-content">
-                                        {slider.element}
-                                    </div>
-                                </div>
-                      ))}
-                    </div>
+                        <div className="slider-single-content">
+                          {slider.element}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
 
-                </div>}
-        </div>
+                </div>
+                )}
+    </div>
   );
 }

@@ -21,26 +21,26 @@ const AboutMe = () => (
       </div>
       <div className={styles.right}>
         <div className={styles.meContainer}>
-          <img className={styles.me} src="./assets/images/pierre_photo.png" alt="Photo of Pierre Hedan" />
+          <img className={styles.me} src="./assets/images/pierre_photo.png?resize&size=600" alt="Photo of Pierre Hedan" />
         </div>
         <div className={styles.tags}>
           <div className={styles.tagsLine}>
             <div className={styles.tag}>
-              <img src="./assets/images/curious.svg" alt="Curious" />
+              <img src={require('../../public/assets/images/curious.svg')} alt="Curious" />
               <span className="primary">Curieux</span>
             </div>
             <div className={styles.tag}>
-              <img src="./assets/images/vigorous.svg" alt="Vigorous" />
+              <img src={require('../../public/assets/images/vigorous.svg')} alt="Vigorous" />
               <span className="primary">Entreprenant</span>
             </div>
           </div>
           <div className={styles.tagsLine}>
             <div className={styles.tag}>
-              <img src="./assets/images/sport.svg" alt="Sport" />
+              <img src={require('../../public/assets/images/sport.svg')} alt="Sport" />
               <span className="primary">Sportif</span>
             </div>
             <div className={styles.tag}>
-              <img src="./assets/images/bald.svg" alt="Bald" />
+              <img src={require('../../public/assets/images/bald.svg')} alt="Bald" />
               <span className="primary">De - en - de cheveux</span>
             </div>
           </div>

@@ -10,7 +10,7 @@ const Quote = () => (
     <div className={styles.quoteContent}>
       <div className={styles.quote}>
         <img
-          src="./assets/images/quote_after.svg"
+          src={require('../../public/assets/images/quote_after.svg')}
           style={{
             opacity: 0.5,
           }}
@@ -21,7 +21,7 @@ const Quote = () => (
       </p>
       <div className={styles.quoteEnd}>
         <img
-          src="./assets/images/quote_after.svg"
+          src={require('../../public/assets/images/quote_after.svg')}
           style={{
             transform: 'rotate(180deg)',
             opacity: 0.5,
@@ -35,7 +35,7 @@ const Quote = () => (
 const After = () => (
   <>
     <div className={styles.headerContainer}>
-      <img src="./assets/images/white-trace.svg" />
+      <img src={require('../../public/assets/images/white-trace.svg')} />
     </div>
     <div className={styles.container}>
       <div className={styles.content}>
@@ -55,7 +55,7 @@ const After = () => (
             </p>
           </div>
           <div className={styles.capsule}>
-            <img src="./assets/images/capsule.svg" />
+            <img src={require('../../public/assets/images/capsule.svg')} />
           </div>
         </div>
         <div className={styles.secondLine}>

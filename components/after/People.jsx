@@ -1,7 +1,7 @@
-import * as React from "react"
+import * as React from 'react';
 
 const SvgComponent = (props) => (
-  <img src="./assets/images/picto/people.svg" />
-)
+  <img src={require('../../public/assets/images/picto/people.svg')} />
+);
 
-export default SvgComponent
+export default SvgComponent;

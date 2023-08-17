@@ -15,7 +15,13 @@ export const Card1 = () => (
       <Fusee />
     </div>
     <p>
-      Ensemble, construisons nos propulseurs, donnons le meilleur de nous-mêmes pour décoller vers nos rêves, nos objectifs. Quelque soit la taille ou l’avancement de notre projet, <span className="secondary">nous avons besoin des compétences de chacun</span> pour le rendre opérationnel. À travers l’<span className="secondary">Expédition POLHEIM</span>, chacun participe à la fabrication de la fusée en direction du Pôle Sud mais aussi prépare sa propre fusée.
+      Ensemble, construisons nos propulseurs, donnons le meilleur de nous-mêmes pour décoller vers nos rêves, nos objectifs. Quelque soit la taille ou l’avancement de notre projet,
+      {' '}
+      <span className="secondary">nous avons besoin des compétences de chacun</span>
+      {' '}
+      pour le rendre opérationnel. À travers l’
+      <span className="secondary">Expédition POLHEIM</span>
+      , chacun participe à la fabrication de la fusée en direction du Pôle Sud mais aussi prépare sa propre fusée.
     </p>
   </div>
 );
@@ -29,7 +35,7 @@ export const Card2 = () => (
       La fusée terminée, il faut l’installer sur le pas de tir. Même si dans notre cas, la capsule n’accueille qu’un astronaute, l’équipe au sol est vitale. Conditions météo, suivi médical, psychologique et autres données essentielles, les opérateurs au sol sont là pour veiller au bon déroulement de la mission.
     </p>
     <div className={styles.logo}>
-      <img src="./assets/images/persos.svg" />
+      <img src={require('../../public/assets/images/persos.svg')} />
     </div>
   </div>
 );
@@ -40,10 +46,16 @@ export const Card3 = () => (
       <Number3 number="3" />
     </div>
     <div className={styles.logo}>
-      <img src="./assets/images/fuseemoon.svg" />
+      <img src={require('../../public/assets/images/fuseemoon.svg')} />
     </div>
     <p>
-      Arrivé sur son objectif, l’astronaute n’est pas le seul vainqueur de cette aventure. Toute l’<span className="secondary">équipe</span> ayant travaillé sur cette fusée peut être <span className="secondary">fière de son travail</span>. Dès lors, il faudra célébrer cette réussite collective et préparer le retour de la capsule.
+      Arrivé sur son objectif, l’astronaute n’est pas le seul vainqueur de cette aventure. Toute l’
+      <span className="secondary">équipe</span>
+      {' '}
+      ayant travaillé sur cette fusée peut être
+      {' '}
+      <span className="secondary">fière de son travail</span>
+      . Dès lors, il faudra célébrer cette réussite collective et préparer le retour de la capsule.
     </p>
   </div>
 );

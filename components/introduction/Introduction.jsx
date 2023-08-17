@@ -5,7 +5,7 @@ import styles from './Introduction.module.scss';
 const Introduction = () => (
   <div className={styles.container} id="expedition">
     <div className={styles.content}>
-      <img className={styles.badge} src="./assets/images/polheimbadge.png" alt="Expedition Badge" />
+      <img className={styles.badge} src={require('../../public/assets/images/polheimbadge.png')} alt="Expedition Badge" />
       <div className={styles.paragraph}>
         <div className={styles.title}>
           <h4 className={classnames('primary', styles.orange)}>
