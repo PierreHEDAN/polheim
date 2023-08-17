@@ -26,21 +26,21 @@ const AboutMe = () => (
         <div className={styles.tags}>
           <div className={styles.tagsLine}>
             <div className={styles.tag}>
-              <img src={require('../../public/assets/images/curious.svg')} alt="Curious" />
+              <img src={require('../../public/assets/images/Curious.svg')} alt="Curious" />
               <span className="primary">Curieux</span>
             </div>
             <div className={styles.tag}>
-              <img src={require('../../public/assets/images/vigorous.svg')} alt="Vigorous" />
+              <img src={require('../../public/assets/images/Vigorous.svg')} alt="Vigorous" />
               <span className="primary">Entreprenant</span>
             </div>
           </div>
           <div className={styles.tagsLine}>
             <div className={styles.tag}>
-              <img src={require('../../public/assets/images/sport.svg')} alt="Sport" />
+              <img src={require('../../public/assets/images/Sport.svg')} alt="Sport" />
               <span className="primary">Sportif</span>
             </div>
             <div className={styles.tag}>
-              <img src={require('../../public/assets/images/bald.svg')} alt="Bald" />
+              <img src={require('../../public/assets/images/Bald.svg')} alt="Bald" />
               <span className="primary">De - en - de cheveux</span>
             </div>
           </div>
