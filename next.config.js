@@ -43,10 +43,10 @@ module.exports = withPlugins(
     optimizeImages: true,
     imagesName: '[name].[hash].[ext]',
     mozjpeg: {
-      quality: 100,
+      quality: 70,
     },
     optipng: {
-      optimizationLevel: 7,
+      optimizationLevel: 5,
     },
     images: {
       disableStaticImages: true,
